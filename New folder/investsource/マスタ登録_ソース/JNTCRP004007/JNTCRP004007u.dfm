@@ -1,0 +1,14420 @@
+object JNTCRP004007f: TJNTCRP004007f
+  Left = 212
+  Top = 155
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = #25903#25173#24773#22577#30331#37682
+  ClientHeight = 595
+  ClientWidth = 945
+  Color = 15921906
+  Font.Charset = SHIFTJIS_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+  Font.Style = []
+  OldCreateOrder = False
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnHide = FormHide
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 12
+  object CmnSplitter: TSplitter
+    Left = 200
+    Top = 27
+    Width = 2
+    Height = 528
+  end
+  object CmnToolBar: TMPanel
+    Left = 0
+    Top = 0
+    Width = 945
+    Height = 25
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 15921906
+    FullRepaint = False
+    Font.Charset = SHIFTJIS_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = #65325#65331' '#12468#12471#12483#12463
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 0
+    Visible = False
+    object BEnd: TSpeedButton
+      Left = 2
+      Top = 2
+      Width = 70
+      Height = 21
+      Caption = #32066#20102'(&X)'
+      Flat = True
+      Font.Charset = SHIFTJIS_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+      Font.Style = []
+      Glyph.Data = {
+        36060000424D3606000000000000360400002800000020000000100000000100
+        08000000000000020000C40E0000C40E00000001000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0DCC000F0CA
+        A600AA3F2A00FF3F2A00005F2A00555F2A00AA5F2A00FF5F2A00007F2A00557F
+        2A00AA7F2A00FF7F2A00009F2A00559F2A00AA9F2A00FF9F2A0000BF2A0055BF
+        2A00AABF2A00FFBF2A0000DF2A0055DF2A00AADF2A00FFDF2A0000FF2A0055FF
+        2A00AAFF2A00FFFF2A000000550055005500AA005500FF005500001F5500551F
+        5500AA1F5500FF1F5500003F5500553F5500AA3F5500FF3F5500005F5500555F
+        5500AA5F5500FF5F5500007F5500557F5500AA7F5500FF7F5500009F5500559F
+        5500AA9F5500FF9F550000BF550055BF5500AABF5500FFBF550000DF550055DF
+        5500AADF5500FFDF550000FF550055FF5500AAFF5500FFFF550000007F005500
+        7F00AA007F00FF007F00001F7F00551F7F00AA1F7F00FF1F7F00003F7F00553F
+        7F00AA3F7F00FF3F7F00005F7F00555F7F00AA5F7F00FF5F7F00007F7F00557F
+        7F00AA7F7F00FF7F7F00009F7F00559F7F00AA9F7F00FF9F7F0000BF7F0055BF
+        7F00AABF7F00FFBF7F0000DF7F0055DF7F00AADF7F00FFDF7F0000FF7F0055FF
+        7F00AAFF7F00FFFF7F000000AA005500AA00AA00AA00FF00AA00001FAA00551F
+        AA00AA1FAA00FF1FAA00003FAA00553FAA00AA3FAA00FF3FAA00005FAA00555F
+        AA00AA5FAA00FF5FAA00007FAA00557FAA00AA7FAA00FF7FAA00009FAA00559F
+        AA00AA9FAA00FF9FAA0000BFAA0055BFAA00AABFAA00FFBFAA0000DFAA0055DF
+        AA00AADFAA00FFDFAA0000FFAA0055FFAA00AAFFAA00FFFFAA000000D4005500
+        D400AA00D400FF00D400001FD400551FD400AA1FD400FF1FD400003FD400553F
+        D400AA3FD400FF3FD400005FD400555FD400AA5FD400FF5FD400007FD400557F
+        D400AA7FD400FF7FD400009FD400559FD400AA9FD400FF9FD40000BFD40055BF
+        D400AABFD400FFBFD40000DFD40055DFD400AADFD400FFDFD40000FFD40055FF
+        D400AAFFD400FFFFD4005500FF00AA00FF00001FFF00551FFF00AA1FFF00FF1F
+        FF00003FFF00553FFF00AA3FFF00FF3FFF00005FFF00555FFF00AA5FFF00FF5F
+        FF00007FFF00557FFF00AA7FFF00FF7FFF00009FFF00559FFF00AA9FFF00FF9F
+        FF0000BFFF0055BFFF00AABFFF00FFBFFF0000DFFF0055DFFF00AADFFF00FFDF
+        FF0055FFFF00AAFFFF00FFCCCC00FFCCFF00FFFF3300FFFF6600FFFF9900FFFF
+        CC00007F0000557F0000AA7F0000FF7F0000009F0000559F0000AA9F0000FF9F
+        000000BF000055BF0000AABF0000FFBF000000DF000055DF0000AADF0000FFDF
+        000055FF0000AAFF000000002A0055002A00AA002A00FF002A00001F2A00551F
+        2A00AA1F2A00FF1F2A00003F2A00553F2A00F0FBFF00A4A0A000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00D1D1D1D1D1A5
+        A0A078D1D1D1D1D1D1D1F6F6F6F6F6F7070755F6F6F6F6F6F6F6D1D1D1A5A09C
+        9CA078002C547878D1D1F6F6F6F7070707075500F5315555F6F6D1A5A09C9C9C
+        9CA078000C141478D1D1F6F707070707070755002D313155F6F6A59C9C9C9C9C
+        9CA0780C14616178D1D1F707070707070707552D31F7F755F6F6A59C9C9C9C9C
+        9CA0781461B2B278D1D1F7070707070707075531F7F6F655F6F6A59C9C9C9C78
+        9CA0780000F0F078D1D1F707070707550707550000F0F055F6F6A59C9CA4782C
+        78A0780000F0F078D1D1F70707F755F55507550000F0F055F6F6A59C9CFB0878
+        54A0780000F0F078D1D1F70707AF08553107550000F0F055F6F6A59C9CFFFBA4
+        9CA0780000F0F078D1D1F70707FFAFF70707550000F0F055F6F6A59C9C9C9C9C
+        9CA0780000F0F078D1D1F707070707070707550000F0F055F6F6A59C9C9C9C9C
+        9CA0780000F0F078D1D1F707070707070707550000F0F055F6F6A59C9C9C9C9C
+        9CA0780000F0F078D1D1F707070707070707550000F0F055F6F6A59C9C9C9C9C
+        9CA0780000F0F078D1D1F707070707070707550000F0F055F6F6D1A5A09C9C9C
+        9CA078002C547878D1D1F6F70707070707075500F5315555F6F6D1D1D1A5A09C
+        9CA078D1D1D1D1D1D1D1F6F6F6F70707070755F6F6F6F6F6F6F6D1D1D1D1D1A5
+        A0A078D1D1D1D1D1D1D1F6F6F6F6F6F7070755F6F6F6F6F6F6F6}
+      NumGlyphs = 2
+      ParentFont = False
+      OnClick = BEndClick
+    end
+    object BPrint: TSpeedButton
+      Left = 72
+      Top = 2
+      Width = 70
+      Height = 21
+      Caption = #21360#21047'(&P)'
+      Flat = True
+      Font.Charset = SHIFTJIS_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+      Font.Style = []
+      Glyph.Data = {
+        36060000424D3606000000000000360400002800000020000000100000000100
+        0800000000000002000000000000000000000001000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0DCC000F0CA
+        A600AA3F2A00FF3F2A00005F2A00555F2A00AA5F2A00FF5F2A00007F2A00557F
+        2A00AA7F2A00FF7F2A00009F2A00559F2A00AA9F2A00FF9F2A0000BF2A0055BF
+        2A00AABF2A00FFBF2A0000DF2A0055DF2A00AADF2A00FFDF2A0000FF2A0055FF
+        2A00AAFF2A00FFFF2A000000550055005500AA005500FF005500001F5500551F
+        5500AA1F5500FF1F5500003F5500553F5500AA3F5500FF3F5500005F5500555F
+        5500AA5F5500FF5F5500007F5500557F5500AA7F5500FF7F5500009F5500559F
+        5500AA9F5500FF9F550000BF550055BF5500AABF5500FFBF550000DF550055DF
+        5500AADF5500FFDF550000FF550055FF5500AAFF5500FFFF550000007F005500
+        7F00AA007F00FF007F00001F7F00551F7F00AA1F7F00FF1F7F00003F7F00553F
+        7F00AA3F7F00FF3F7F00005F7F00555F7F00AA5F7F00FF5F7F00007F7F00557F
+        7F00AA7F7F00FF7F7F00009F7F00559F7F00AA9F7F00FF9F7F0000BF7F0055BF
+        7F00AABF7F00FFBF7F0000DF7F0055DF7F00AADF7F00FFDF7F0000FF7F0055FF
+        7F00AAFF7F00FFFF7F000000AA005500AA00AA00AA00FF00AA00001FAA00551F
+        AA00AA1FAA00FF1FAA00003FAA00553FAA00AA3FAA00FF3FAA00005FAA00555F
+        AA00AA5FAA00FF5FAA00007FAA00557FAA00AA7FAA00FF7FAA00009FAA00559F
+        AA00AA9FAA00FF9FAA0000BFAA0055BFAA00AABFAA00FFBFAA0000DFAA0055DF
+        AA00AADFAA00FFDFAA0000FFAA0055FFAA00AAFFAA00FFFFAA000000D4005500
+        D400AA00D400FF00D400001FD400551FD400AA1FD400FF1FD400003FD400553F
+        D400AA3FD400FF3FD400005FD400555FD400AA5FD400FF5FD400007FD400557F
+        D400AA7FD400FF7FD400009FD400559FD400AA9FD400FF9FD40000BFD40055BF
+        D400AABFD400FFBFD40000DFD40055DFD400AADFD400FFDFD40000FFD40055FF
+        D400AAFFD400FFFFD4005500FF00AA00FF00001FFF00551FFF00AA1FFF00FF1F
+        FF00003FFF00553FFF00AA3FFF00FF3FFF00005FFF00555FFF00AA5FFF00FF5F
+        FF00007FFF00557FFF00AA7FFF00FF7FFF00009FFF00559FFF00AA9FFF00FF9F
+        FF0000BFFF0055BFFF00AABFFF00FFBFFF0000DFFF0055DFFF00AADFFF00FFDF
+        FF0055FFFF00AAFFFF00FFCCCC00FFCCFF00FFFF3300FFFF6600FFFF9900FFFF
+        CC00007F0000557F0000AA7F0000FF7F0000009F0000559F0000AA9F0000FF9F
+        000000BF000055BF0000AABF0000FFBF000000DF000055DF0000AADF0000FFDF
+        000055FF0000AAFF000000002A0055002A00AA002A00FF002A00001F2A00551F
+        2A00AA1F2A00FF1F2A00003F2A00553F2A00F0FBFF00A4A0A000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00D1F700000000
+        0000000000000000D1D1F6F7070707070707070707070707F6F6D1AFAAF75907
+        5907590759312D00D1D1F6AF08F707070707070707312D07F6F6D1F6AAF7F7F7
+        F7F7F7F7F7F73100D1D1F6FF08F7F7F7F7F7F7F7F7F73107F6F6F70707070707
+        070707070707072D00D1F70707070707070707070707072D07F6AFAA08AA08AA
+        08AA08AA08AA085900D1AF0808080808080808080808080707F6F6082D2D2D08
+        AA08AAFBAAE3AA0700D1FF0807070708080808AF0807080707F6F6AA08AA08AA
+        08AA08AA08AA08F700D1FF080808080808080808080808F707F6AAF6F6F6F6F6
+        F6F6F6F6F6F6AAAA00D108FFFFFFFFFFFFFFFFFFFFFF080807F6D1AAAAAAAAAA
+        AAAAAAAAAA592D00D1D1F608080808080808080808072D00F6F6D1D1D1AFFFFF
+        FFFFFFFFAF2D0059D1D1F6F6F6AFFFFFFFFFFFFFAF2D0807F6F6D1D1D1AFFFFF
+        FFFFFFFFAF2D0059D1D1F6F6F6AFFFFFFFFFFFFFAF080007F6F6D1D1D1D1AFFF
+        FFFFFFFFFFAF2DD1D1D1F6F6F6F6AFFFFFFFFFFFFFAF08F6F6F6D1D1D1D1AFFF
+        FFFFFFFFFFAF2DD1D1D1F6F6F6F6AFFFFFFFFFFFFFAF08F6F6F6D1D1D1D1D1AF
+        FFFFFFFFFFFFAF2DD1D1F6F6F6F6F6AFFFFFFFFFFFFFAF08F6F6D1D1D1D1D1AF
+        FFFFFFFFFFFFAF2DD1D1F6F6F6F6F6AFFFFFFFFFFFFFAF08F6F6D1D1D1D1D1D1
+        AFAFAFAFAFAFAFAFD1D1F6F6F6F6F6F6AFAFAFAFAFAFAFAFF6F6}
+      NumGlyphs = 2
+      ParentFont = False
+      OnClick = BPrintClick
+    end
+    object BChange: TSpeedButton
+      Left = 142
+      Top = 2
+      Width = 73
+      Height = 21
+      Caption = #20999#20986'(&G)'
+      Flat = True
+      Font.Charset = SHIFTJIS_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+      Font.Style = []
+      Glyph.Data = {
+        36060000424D3606000000000000360400002800000020000000100000000100
+        08000000000000020000C40E0000C40E00000001000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0DCC000F0CA
+        A600AA3F2A00FF3F2A00005F2A00555F2A00AA5F2A00FF5F2A00007F2A00557F
+        2A00AA7F2A00FF7F2A00009F2A00559F2A00AA9F2A00FF9F2A0000BF2A0055BF
+        2A00AABF2A00FFBF2A0000DF2A0055DF2A00AADF2A00FFDF2A0000FF2A0055FF
+        2A00AAFF2A00FFFF2A000000550055005500AA005500FF005500001F5500551F
+        5500AA1F5500FF1F5500003F5500553F5500AA3F5500FF3F5500005F5500555F
+        5500AA5F5500FF5F5500007F5500557F5500AA7F5500FF7F5500009F5500559F
+        5500AA9F5500FF9F550000BF550055BF5500AABF5500FFBF550000DF550055DF
+        5500AADF5500FFDF550000FF550055FF5500AAFF5500FFFF550000007F005500
+        7F00AA007F00FF007F00001F7F00551F7F00AA1F7F00FF1F7F00003F7F00553F
+        7F00AA3F7F00FF3F7F00005F7F00555F7F00AA5F7F00FF5F7F00007F7F00557F
+        7F00AA7F7F00FF7F7F00009F7F00559F7F00AA9F7F00FF9F7F0000BF7F0055BF
+        7F00AABF7F00FFBF7F0000DF7F0055DF7F00AADF7F00FFDF7F0000FF7F0055FF
+        7F00AAFF7F00FFFF7F000000AA005500AA00AA00AA00FF00AA00001FAA00551F
+        AA00AA1FAA00FF1FAA00003FAA00553FAA00AA3FAA00FF3FAA00005FAA00555F
+        AA00AA5FAA00FF5FAA00007FAA00557FAA00AA7FAA00FF7FAA00009FAA00559F
+        AA00AA9FAA00FF9FAA0000BFAA0055BFAA00AABFAA00FFBFAA0000DFAA0055DF
+        AA00AADFAA00FFDFAA0000FFAA0055FFAA00AAFFAA00FFFFAA000000D4005500
+        D400AA00D400FF00D400001FD400551FD400AA1FD400FF1FD400003FD400553F
+        D400AA3FD400FF3FD400005FD400555FD400AA5FD400FF5FD400007FD400557F
+        D400AA7FD400FF7FD400009FD400559FD400AA9FD400FF9FD40000BFD40055BF
+        D400AABFD400FFBFD40000DFD40055DFD400AADFD400FFDFD40000FFD40055FF
+        D400AAFFD400FFFFD4005500FF00AA00FF00001FFF00551FFF00AA1FFF00FF1F
+        FF00003FFF00553FFF00AA3FFF00FF3FFF00005FFF00555FFF00AA5FFF00FF5F
+        FF00007FFF00557FFF00AA7FFF00FF7FFF00009FFF00559FFF00AA9FFF00FF9F
+        FF0000BFFF0055BFFF00AABFFF00FFBFFF0000DFFF0055DFFF00AADFFF00FFDF
+        FF0055FFFF00AAFFFF00FFCCCC00FFCCFF00FFFF3300FFFF6600FFFF9900FFFF
+        CC00007F0000557F0000AA7F0000FF7F0000009F0000559F0000AA9F0000FF9F
+        000000BF000055BF0000AABF0000FFBF000000DF000055DF0000AADF0000FFDF
+        000055FF0000AAFF000000002A0055002A00AA002A00FF002A00001F2A00551F
+        2A00AA1F2A00FF1F2A00003F2A00553F2A00F0FBFF00A4A0A000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00D1D1D1D1D100
+        00000000000000000000F6F6F6F6F60000000000000000000000D1D1D1D10707
+        07070707070707070700F6F6F6F6070707070707070707070700D1D1D1D1FFAB
+        A7827E7B524E2A260700F6F6F6F6FF0886F70707312DF5F10700D1D1D1D1F6AF
+        AAA7827E56524E2A0700F6F6F6F6FFAF0886F70707312DF50700D1D1D1D1FFD5
+        ABAA83827B56524E0700F6F6F6F6FFAF080882F70707312D0700D1000000FFAF
+        D5ABA7837E7B56520700F6000000FFAFAF08868207070731070007070707FFF6
+        AFD5ABA7837E7B52070007070707FFFFAFAF0886820707310700F6ABA782FFFF
+        F6AFD5ABA7837E560700FF0886F7FFFFFFAFAF08868207070700FFAFAAA7FFFF
+        FFF6AFD4ABA77F7E0700FFAF0886FFFFFFFFAF080886F7070700FFD5ABAA7B7B
+        7B7B7B7B7B7B7B7BF131FFAF080807070707070707070707F031FFAFD5AB2727
+        27272727272727272ED1FFAFAF08F5F5F5F5F5F5F5F5F5F531F6FFF6AFD5ABA7
+        837E7B520700D1D1D1D1FFFFAFAF0886820707310700F6F6F6F6FFFFF6AFD5AB
+        A77E7E560700D1D1D1D1FFFFFFAFAF08860707070700F6F6F6F6FFFFFFF6AFD4
+        ABA77F7E0700D1D1D1D1FFFFFFFFAF080886F7070700F6F6F6F67B7B7B7B7B7B
+        7B7B7B7BF131D1D1D1D107070707070707070707F031F6F6F6F6272727272727
+        272727272ED1D1D1D1D1F5F5F5F5F5F5F5F5F5F531F6F6F6F6F6}
+      NumGlyphs = 2
+      ParentFont = False
+      OnClick = BChangeClick
+    end
+    object BDelete: TSpeedButton
+      Left = 215
+      Top = 2
+      Width = 70
+      Height = 21
+      Caption = #21066#38500'(&D)'
+      Flat = True
+      Font.Charset = SHIFTJIS_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+      Font.Style = []
+      Glyph.Data = {
+        36060000424D3606000000000000360400002800000020000000100000000100
+        08000000000000020000C40E0000C40E00000001000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0DCC000F0CA
+        A600AA3F2A00FF3F2A00005F2A00555F2A00AA5F2A00FF5F2A00007F2A00557F
+        2A00AA7F2A00FF7F2A00009F2A00559F2A00AA9F2A00FF9F2A0000BF2A0055BF
+        2A00AABF2A00FFBF2A0000DF2A0055DF2A00AADF2A00FFDF2A0000FF2A0055FF
+        2A00AAFF2A00FFFF2A000000550055005500AA005500FF005500001F5500551F
+        5500AA1F5500FF1F5500003F5500553F5500AA3F5500FF3F5500005F5500555F
+        5500AA5F5500FF5F5500007F5500557F5500AA7F5500FF7F5500009F5500559F
+        5500AA9F5500FF9F550000BF550055BF5500AABF5500FFBF550000DF550055DF
+        5500AADF5500FFDF550000FF550055FF5500AAFF5500FFFF550000007F005500
+        7F00AA007F00FF007F00001F7F00551F7F00AA1F7F00FF1F7F00003F7F00553F
+        7F00AA3F7F00FF3F7F00005F7F00555F7F00AA5F7F00FF5F7F00007F7F00557F
+        7F00AA7F7F00FF7F7F00009F7F00559F7F00AA9F7F00FF9F7F0000BF7F0055BF
+        7F00AABF7F00FFBF7F0000DF7F0055DF7F00AADF7F00FFDF7F0000FF7F0055FF
+        7F00AAFF7F00FFFF7F000000AA005500AA00AA00AA00FF00AA00001FAA00551F
+        AA00AA1FAA00FF1FAA00003FAA00553FAA00AA3FAA00FF3FAA00005FAA00555F
+        AA00AA5FAA00FF5FAA00007FAA00557FAA00AA7FAA00FF7FAA00009FAA00559F
+        AA00AA9FAA00FF9FAA0000BFAA0055BFAA00AABFAA00FFBFAA0000DFAA0055DF
+        AA00AADFAA00FFDFAA0000FFAA0055FFAA00AAFFAA00FFFFAA000000D4005500
+        D400AA00D400FF00D400001FD400551FD400AA1FD400FF1FD400003FD400553F
+        D400AA3FD400FF3FD400005FD400555FD400AA5FD400FF5FD400007FD400557F
+        D400AA7FD400FF7FD400009FD400559FD400AA9FD400FF9FD40000BFD40055BF
+        D400AABFD400FFBFD40000DFD40055DFD400AADFD400FFDFD40000FFD40055FF
+        D400AAFFD400FFFFD4005500FF00AA00FF00001FFF00551FFF00AA1FFF00FF1F
+        FF00003FFF00553FFF00AA3FFF00FF3FFF00005FFF00555FFF00AA5FFF00FF5F
+        FF00007FFF00557FFF00AA7FFF00FF7FFF00009FFF00559FFF00AA9FFF00FF9F
+        FF0000BFFF0055BFFF00AABFFF00FFBFFF0000DFFF0055DFFF00AADFFF00FFDF
+        FF0055FFFF00AAFFFF00FFCCCC00FFCCFF00FFFF3300FFFF6600FFFF9900FFFF
+        CC00007F0000557F0000AA7F0000FF7F0000009F0000559F0000AA9F0000FF9F
+        000000BF000055BF0000AABF0000FFBF000000DF000055DF0000AADF0000FFDF
+        000055FF0000AAFF000000002A0055002A00AA002A00FF002A00001F2A00551F
+        2A00AA1F2A00FF1F2A00003F2A00553F2A00F0FBFF00A4A0A000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00D1D1D1D1D1D1
+        D1D10000000000000000F6F6F6F6F6F6F6F60000000000000000D1D1D1D1D1D1
+        D1D12D072D310782F600F6F6F6F6F6F6F6F62D072D3107F7FF00D1D1D1D1D1D1
+        D1D12D86AFFFFFF6AF00F6F6F6F6F6F6F6F62D86AFFFFFFFAF00D1D1D1D1D1D1
+        D1D12D2D2D2D2D2D2D2DF6F6F6F6F6F6F6F62D2D2D2D2D2D2D2DD1D1D1D1D1D1
+        D1D1D1D1D1D1D1D1D1D1F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6D1D1D10000D1
+        D1D1D1D1D1D1D1D1D1D1F6F6F60000F6F6F6F6F6F6F6F6F6F6F6D1D100DC00D1
+        D1D10000000000000000F6F6003100F6F6F60000000000000000D100DCFEE900
+        0000000000486DB5C000F6003186F7000000000000F0F531F70000DCFEFEFEE9
+        E9DCF50000B5C4C4C0000031868686F7F731F50000318282F700FFFEFEFEFEFE
+        E9E5DCF1004949494949FF8686868686F70731F000F1F1F1F1F1D1FFFEFEE9E5
+        E5E5E5E5F1D1D1D1D1D1F6FF8686F70707070707F0F6F6F6F6F6D1D1FFFEE5D1
+        D1D1D1D1D1D1D1D1D1D1F6F6FF8607F6F6F6F6F6F6F6F6F6F6F6D1D1D1FFE5D1
+        D1D10000000000000000F6F6F6FF07F6F6F60000000000000000D1D1D1D1D1D1
+        D1D12D072D310782F600F6F6F6F6F6F6F6F62D072D3107F7FF00D1D1D1D1D1D1
+        D1D12D86AFFFFFF6AF00F6F6F6F6F6F6F6F62D86AFFFFFFFAF00D1D1D1D1D1D1
+        D1D12D2D2D2D2D2D2D2DF6F6F6F6F6F6F6F62D2D2D2D2D2D2D2D}
+      NumGlyphs = 2
+      ParentFont = False
+      OnClick = BDeleteClick
+    end
+    object BSearch: TSpeedButton
+      Left = 285
+      Top = 2
+      Width = 70
+      Height = 21
+      Caption = #26908#32034'(&S)'
+      Flat = True
+      Font.Charset = SHIFTJIS_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+      Font.Style = []
+      Glyph.Data = {
+        36060000424D3606000000000000360400002800000020000000100000000100
+        08000000000000020000C40E0000C40E00000001000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0DCC000F0CA
+        A600AA3F2A00FF3F2A00005F2A00555F2A00AA5F2A00FF5F2A00007F2A00557F
+        2A00AA7F2A00FF7F2A00009F2A00559F2A00AA9F2A00FF9F2A0000BF2A0055BF
+        2A00AABF2A00FFBF2A0000DF2A0055DF2A00AADF2A00FFDF2A0000FF2A0055FF
+        2A00AAFF2A00FFFF2A000000550055005500AA005500FF005500001F5500551F
+        5500AA1F5500FF1F5500003F5500553F5500AA3F5500FF3F5500005F5500555F
+        5500AA5F5500FF5F5500007F5500557F5500AA7F5500FF7F5500009F5500559F
+        5500AA9F5500FF9F550000BF550055BF5500AABF5500FFBF550000DF550055DF
+        5500AADF5500FFDF550000FF550055FF5500AAFF5500FFFF550000007F005500
+        7F00AA007F00FF007F00001F7F00551F7F00AA1F7F00FF1F7F00003F7F00553F
+        7F00AA3F7F00FF3F7F00005F7F00555F7F00AA5F7F00FF5F7F00007F7F00557F
+        7F00AA7F7F00FF7F7F00009F7F00559F7F00AA9F7F00FF9F7F0000BF7F0055BF
+        7F00AABF7F00FFBF7F0000DF7F0055DF7F00AADF7F00FFDF7F0000FF7F0055FF
+        7F00AAFF7F00FFFF7F000000AA005500AA00AA00AA00FF00AA00001FAA00551F
+        AA00AA1FAA00FF1FAA00003FAA00553FAA00AA3FAA00FF3FAA00005FAA00555F
+        AA00AA5FAA00FF5FAA00007FAA00557FAA00AA7FAA00FF7FAA00009FAA00559F
+        AA00AA9FAA00FF9FAA0000BFAA0055BFAA00AABFAA00FFBFAA0000DFAA0055DF
+        AA00AADFAA00FFDFAA0000FFAA0055FFAA00AAFFAA00FFFFAA000000D4005500
+        D400AA00D400FF00D400001FD400551FD400AA1FD400FF1FD400003FD400553F
+        D400AA3FD400FF3FD400005FD400555FD400AA5FD400FF5FD400007FD400557F
+        D400AA7FD400FF7FD400009FD400559FD400AA9FD400FF9FD40000BFD40055BF
+        D400AABFD400FFBFD40000DFD40055DFD400AADFD400FFDFD40000FFD40055FF
+        D400AAFFD400FFFFD4005500FF00AA00FF00001FFF00551FFF00AA1FFF00FF1F
+        FF00003FFF00553FFF00AA3FFF00FF3FFF00005FFF00555FFF00AA5FFF00FF5F
+        FF00007FFF00557FFF00AA7FFF00FF7FFF00009FFF00559FFF00AA9FFF00FF9F
+        FF0000BFFF0055BFFF00AABFFF00FFBFFF0000DFFF0055DFFF00AADFFF00FFDF
+        FF0055FFFF00AAFFFF00FFCCCC00FFCCFF00FFFF3300FFFF6600FFFF9900FFFF
+        CC00007F0000557F0000AA7F0000FF7F0000009F0000559F0000AA9F0000FF9F
+        000000BF000055BF0000AABF0000FFBF000000DF000055DF0000AADF0000FFDF
+        000055FF0000AAFF000000002A0055002A00AA002A00FF002A00001F2A00551F
+        2A00AA1F2A00FF1F2A00003F2A00553F2A00F0FBFF00A4A0A000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00D12D2D2D2D2D
+        D1D1D1D12D2D2D2D2DD1F62D2D2D2D2DF6F6F6F62D2D2D2D2DF62D0000EDEDED
+        2DD1D12D0000EDEDED2D2D0000F0F0F02DF6F62D0000F0F0F02D0000DDDDDDED
+        EDD1D10000DDDDDDEDED0000313131F0F0F6F60000313131F0F000DD1BB38BDD
+        EDD1D100DD1BB38BDDED0031F7F60831F0F6F60031F7F60831F0001BB38B1BDD
+        ED2D2D001BB38B1BDDED00F7F608F731F02D2D00F7F608F731F000EEDD1BDDEE
+        2D7E7E2DEEDD1BDDEE2D00F031F731F02D07072DF031F731F02D2D00EEEEEE00
+        2DD07E2D00EEEEEE002D2D00F0F0F0002DAF072D00F0F0F0002D2D7E0000002D
+        002D2D007E0000002D2D2D070000002D002D2D00070000002D2D2DED7E7E2D00
+        00EDED00ED7E7E2DED2D2DF007072D0000F0F000F007072DF02D2DEDED000000
+        00002DEDEDED0000002D2DF0F000000000002DF0F0F00000002DD17EEDED002D
+        002D7EED7EEDED002DD1F607F0F0002D002D07F007F0F0002DF6D1ED7E2D2DED
+        00ED2DEDED7E2D2D00D1F6F0072D2DF000F02DF0F0072D2D00F6D1D12DEDEDED
+        2D00ED2DEDED002DD1D1F6F62DF0F0F02D00F02DF0F0002DF6F6D1D1D1D17E2D
+        ED00007E2D00D1D1D1D1F6F6F6F6072DF00000072D00F6F6F6F6D1D1D1D1D12D
+        00D1D12D00D1D1D1D1D1F6F6F6F6F62D00F6F62D00F6F6F6F6F6D1D1D1D1D1D1
+        D1D1D1D1D1D1D1D1D1D1F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6}
+      NumGlyphs = 2
+      ParentFont = False
+    end
+    object ToolBar1: TMToolBar
+      Left = 388
+      Top = 2
+      Width = 61
+      Height = 21
+      Align = alNone
+      ButtonHeight = 21
+      ButtonWidth = 25
+      Caption = 'ToolBar1'
+      Color = 15921906
+      EdgeInner = esNone
+      EdgeOuter = esNone
+      Images = ToolbarImage
+      ParentColor = False
+      TabOrder = 0
+      SysBaseColorB = 10841658
+      SysBaseColorD = 6956042
+      object TBTag: TToolButton
+        Left = 0
+        Top = 0
+        Caption = 'TBTag'
+        DropdownMenu = PMToolbar
+        ImageIndex = 0
+        Style = tbsDropDown
+        OnClick = TBTagClick
+      end
+    end
+    object ToolBar2: TMToolBar
+      Left = 355
+      Top = 1
+      Width = 34
+      Height = 21
+      Align = alNone
+      ButtonWidth = 33
+      Color = 15921906
+      Images = CmnTreeViewImage
+      ParentColor = False
+      TabOrder = 1
+      SysBaseColorB = 10841658
+      SysBaseColorD = 6956042
+      object TBChgColSize: TToolButton
+        Left = 0
+        Top = 0
+        Hint = #38283#8660#38281
+        Caption = 'TBChgColSize'
+        Enabled = False
+        ImageIndex = 18
+        ParentShowHint = False
+        ShowHint = True
+        Style = tbsCheck
+        OnClick = TBChgColSizeClick
+      end
+    end
+  end
+  object CmnStatusBar: TStatusBar
+    Left = 0
+    Top = 576
+    Width = 945
+    Height = 19
+    Color = 15921906
+    Panels = <>
+    ParentShowHint = False
+    ShowHint = True
+    SimplePanel = True
+  end
+  object CmnTreeView: TMTreeView
+    Left = 0
+    Top = 27
+    Width = 200
+    Height = 528
+    Align = alLeft
+    BorderStyle = bsNone
+    HotTrack = True
+    Images = CmnTreeViewImage
+    Indent = 19
+    PopupMenu = PMTreeView
+    ReadOnly = True
+    RightClickSelect = True
+    ShowLines = False
+    TabOrder = 1
+    Visible = False
+    OnChange = CmnTreeViewChange
+    OnChanging = CmnTreeViewChanging
+    OnDragDrop = TreeViewDragDrop
+    OnDragOver = TreeViewDragOver
+    OnEnter = CmnTreeViewEnter
+  end
+  object MPanel13: TMPanel
+    Left = 0
+    Top = 25
+    Width = 945
+    Height = 2
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 15921906
+    ParentBackground = False
+    TabOrder = 4
+  end
+  object PanelCmn: TMPanel
+    Left = 202
+    Top = 27
+    Width = 743
+    Height = 528
+    Align = alClient
+    BevelOuter = bvNone
+    Color = 15921906
+    ParentBackground = False
+    TabOrder = 2
+    object PanelPayRatio: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 3
+      Visible = False
+      object GridPayRatio: TdxDBGrid
+        Left = 12
+        Top = 8
+        Width = 732
+        Height = 524
+        Bands = <
+          item
+            Caption = #25903#25173#20808
+            Fixed = bfLeft
+            Width = 253
+          end
+          item
+            Caption = #25903#25173#26041#27861'1'
+            Width = 70
+          end
+          item
+            Caption = #25903#25173#26041#27861'2'
+            Width = 70
+          end
+          item
+            Caption = #25903#25173#26041#27861'3'
+            Width = 70
+          end
+          item
+            Caption = #25903#25173#26041#27861'4'
+            Width = 257
+          end
+          item
+            Caption = #25903#25173#26041#27861'5'
+            Width = 70
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = False
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = GridPayWayKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSPayRatio
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelectionColor = clWindow
+        HideSelectionTextColor = clBtnText
+        HighlightColor = clWhite
+        HighlightTextColor = clBlack
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoRowSizing, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeNodeEx = CmnGridPayChangeNodeEx
+        OnBeforeChangeColumn = CmnGridPayBeforeChangeColumn
+        object Hou_H_ShiharaiCode: TdxDBGridColumn
+          Alignment = taLeftJustify
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'HojCode'
+        end
+        object Hou_H_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object Hou_H_RenChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 0
+          RowIndex = 0
+          EditAlignment = taCenter
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object Hou_H_PrjCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PrjGCode'
+        end
+        object Hou_H_PrjName: TdxDBGridColumn
+          Caption = #24037#20107#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PrjName'
+        end
+        object Hou_H_PjSubCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PjSubGCode'
+        end
+        object Hou_H_PjSubName: TdxDBGridColumn
+          Caption = #24037#31278#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PjSubName'
+        end
+        object Hou_H_PriPayWay: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Caption = ' '
+          Width = 26
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'PriPayWay'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_PriPayWayName: TdxDBGridMaskColumn
+          Caption = #20778#20808#25903#25173
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 57
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PriPayWayName'
+        end
+        object Hou_H_Houhou1_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          MinWidth = 10
+          Sizing = False
+          Width = 20
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou1No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou1_Name: TdxDBGridColumn
+          Caption = #26041#27861'1'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou1Name'
+        end
+        object Hou_H_Houhou1_StdRitu: TdxDBGridCurrencyColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 6
+          StretchChar.Auto = False
+          FieldName = 'Hou1StdRitsu'
+          MaxValue = 100.000000000000000000
+        end
+        object Hou_H_Houhou1_Minkin: TdxDBGridColumn
+          Caption = #25903#25173#26368#20302#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou1MinKin'
+        end
+        object Hou_H_Houhou1_HasuuKin: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou1HasuuKin'
+        end
+        object Hou_H_Houhou1_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou1HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou1_HasuuHouMei: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou1HasuuHouN'
+        end
+        object Hou_H_Houhou2_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou2No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou2_Name: TdxDBGridColumn
+          Caption = #26041#27861'2'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou2Name'
+        end
+        object Hou_H_Houhou2_StdRitu: TdxDBGridCurrencyColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 6
+          StretchChar.Auto = False
+          FieldName = 'Hou2StdRitsu'
+          MaxValue = 100.000000000000000000
+        end
+        object Hou_H_Houhou2_Minkin: TdxDBGridColumn
+          Caption = #25903#25173#26368#20302#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou2MinKin'
+        end
+        object Hou_H_Houhou2_HasuuKin: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou2HasuuKin'
+        end
+        object Hou_H_Houhou2_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou2HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou2_HasuuHouMei: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou2HasuuHouN'
+        end
+        object Hou_H_Houhou3_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 3
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou3No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou3_Name: TdxDBGridColumn
+          Caption = #26041#27861'3'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 3
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou3Name'
+        end
+        object Hou_H_Houhou3_StdRitu: TdxDBGridCurrencyColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 3
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 6
+          StretchChar.Auto = False
+          FieldName = 'Hou3StdRitsu'
+          MaxValue = 100.000000000000000000
+        end
+        object Hou_H_Houhou3_MinKin: TdxDBGridColumn
+          Caption = #25903#25173#26368#20302#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 3
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou3MinKin'
+        end
+        object Hou_H_Houhou3_HasuuKin: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 3
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou3HasuuKin'
+        end
+        object Hou_H_Houhou3_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 3
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou3HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou3_HasuuHouMei: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 3
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou3HasuuHouN'
+        end
+        object Hou_H_Houhou4_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 4
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou4No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou4_Name: TdxDBGridColumn
+          Caption = #26041#27861'4'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 4
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou4Name'
+        end
+        object Hou_H_Houhou4_StdRitu: TdxDBGridCurrencyColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 4
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 6
+          StretchChar.Auto = False
+          FieldName = 'Hou4StdRitsu'
+          MaxValue = 100.000000000000000000
+        end
+        object Hou_H_Houhou4_MinKin: TdxDBGridColumn
+          Caption = #25903#25173#26368#20302#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 4
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou4MinKin'
+        end
+        object Hou_H_Houhou4_HasuuKin: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 4
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou4HasuuKin'
+        end
+        object Hou_H_Houhou4_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 4
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou4HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou4_HasuuHouMei: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 4
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou4HasuuHouN'
+        end
+        object Hou_H_Houhou5_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou5No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou5_Name: TdxDBGridColumn
+          Caption = #26041#27861'5'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 5
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou5Name'
+        end
+        object Hou_H_Houhou5_StdRitu: TdxDBGridCurrencyColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 6
+          StretchChar.Auto = False
+          FieldName = 'Hou5StdRitsu'
+          MaxValue = 100.000000000000000000
+        end
+        object Hou_H_Houhou5_MinKin: TdxDBGridColumn
+          Caption = #25903#25173#26368#20302#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou5MinKin'
+        end
+        object Hou_H_Houhou5_HasuuKin: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou5HasuuKin'
+        end
+        object Hou_H_Houhou5_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 5
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou5HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_H_Houhou5_HasuuHouMei: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 5
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou5HasuuHouN'
+        end
+      end
+    end
+    object PanelShousai: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 14
+      Visible = False
+      object GridShousai: TdxDBGrid
+        Left = 12
+        Top = 8
+        Width = 732
+        Height = 524
+        Bands = <
+          item
+            Caption = #25903#25173#20808
+            Fixed = bfLeft
+            Width = 253
+          end
+          item
+            Caption = #25903#25173#26041#27861'1'
+            Width = 70
+          end
+          item
+            Caption = #25903#25173#26041#27861'2'
+            Width = 70
+          end
+          item
+            Caption = #25903#25173#26041#27861'3'
+            Width = 70
+          end
+          item
+            Caption = #25903#25173#26041#27861'4'
+            Width = 257
+          end
+          item
+            Caption = #25903#25173#26041#27861'5'
+            Width = 70
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = False
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = GridPayWayKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSShousai
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelectionColor = clWindow
+        HideSelectionTextColor = clBtnText
+        HighlightColor = clWhite
+        HighlightTextColor = clBlack
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoCanInsert, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoRowSizing, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeNodeEx = GridShousaiChangeNodeEx
+        OnCustomDrawCell = GridShousaiCustomDrawCell
+        OnBeforeChangeColumn = GridShousaiBeforeChangeColumn
+        object Shousai_GCode: TdxDBGridColumn
+          Alignment = taLeftJustify
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'HojCode'
+        end
+        object Shousai_PayName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object Shousai_Renso: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 0
+          RowIndex = 0
+          EditAlignment = taCenter
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object Shousai_PrjCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PrjGCode'
+        end
+        object Shousai_PrjName: TdxDBGridColumn
+          Caption = #24037#20107#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PrjName'
+        end
+        object Shousai_PjSubCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PjSubGCode'
+        end
+        object Shousai_PjSubName: TdxDBGridColumn
+          Caption = #24037#31278#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PjSubName'
+        end
+        object Shousai_PriPayWayName: TdxDBGridColumn
+          Caption = #20778#20808#25903#25173#26041#27861
+          ReadOnly = True
+          TabStop = False
+          Width = 80
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PriPayWayName'
+        end
+        object Shousai_Hou1_BaseKingaku: TdxDBGridColumn
+          Caption = #22522#28310#37329#38989#65297
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou1BaseKingaku'
+        end
+        object Shousai_Hou1_BaseHiritu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou1BaseHiritu'
+        end
+        object Shousai_Hou1_HasuuKingaku: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou1HasuuKingaku'
+        end
+        object Shousai_Hou1_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou1HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Shousai_Hou1_HasuuHouN: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou1HasuuHouN'
+        end
+        object Shousai_Hou1_Site: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #12469#12452#12488
+          HeaderAlignment = taCenter
+          Visible = False
+          Width = 44
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'Hou1Site'
+        end
+        object Shousai_Hou2_BaseKingaku: TdxDBGridColumn
+          Caption = #22522#28310#37329#38989#65298
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou2BaseKingaku'
+        end
+        object Shousai_Hou2_BaseHiritu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou2BaseHiritu'
+        end
+        object Shousai_Hou2_HasuuKingaku: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou2HasuuKingaku'
+        end
+        object Shousai_Hou2_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou2HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Shousai_Hou2_HasuuHouN: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou2HasuuHouN'
+        end
+        object Shousai_Hou2_Site: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #12469#12452#12488
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Visible = False
+          Width = 44
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'Hou2Site'
+        end
+        object Shousai_Hou3_BaseKingaku: TdxDBGridColumn
+          Caption = #22522#28310#37329#38989#65299
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Width = 83
+          BandIndex = 3
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou3BaseKingaku'
+        end
+        object Shousai_Hou3_BaseHiritu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Width = 83
+          BandIndex = 3
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou3BaseHiritu'
+        end
+        object Shousai_Hou3_HasuuKingaku: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 3
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou3HasuuKingaku'
+        end
+        object Shousai_Hou3_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 3
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou3HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Shousai_Hou3_HasuuHouN: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 3
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou3HasuuHouN'
+        end
+        object Shousai_Hou3_Site: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #12469#12452#12488
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Visible = False
+          Width = 44
+          BandIndex = 3
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'Hou3Site'
+        end
+        object Shousai_Hou4_BaseKingaku: TdxDBGridColumn
+          Caption = #22522#28310#37329#38989#65300
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Width = 83
+          BandIndex = 4
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou4BaseKingaku'
+        end
+        object Shousai_Hou4_BaseHiritu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Width = 83
+          BandIndex = 4
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou4BaseHiritu'
+        end
+        object Shousai_Hou4_HasuuKingaku: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 4
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou4HasuuKingaku'
+        end
+        object Shousai_Hou4_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 4
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou4HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Shousai_Hou4_HasuuHouN: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 4
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou4HasuuHouN'
+        end
+        object Shousai_Hou4_Site: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #12469#12452#12488
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Visible = False
+          Width = 44
+          BandIndex = 4
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'Hou4Site'
+        end
+        object Shousai_Hou5_BaseKingaku: TdxDBGridColumn
+          Caption = #22522#28310#37329#38989#65301
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Width = 83
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou5BaseKingaku'
+        end
+        object Shousai_Hou5_BaseHiritu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Width = 83
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 12
+          StretchChar.Auto = False
+          FieldName = 'Hou5BaseHiritu'
+        end
+        object Shousai_Hou5_HasuuKingaku: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#38989
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Visible = False
+          Width = 83
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou5HasuuKingaku'
+        end
+        object Shousai_Hou5_HasuuHou: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          Visible = False
+          Width = 20
+          BandIndex = 5
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou5HasuuHou'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Shousai_Hou5_HasuuHouN: TdxDBGridColumn
+          Caption = #31471#25968#20966#29702#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Visible = False
+          Width = 83
+          BandIndex = 5
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou5HasuuHouN'
+        end
+        object Shousai_Hou5_Site: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #12469#12452#12488
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Visible = False
+          Width = 44
+          BandIndex = 5
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'Hou5Site'
+        end
+        object Shousai_PriPayWay: TdxDBGridColumn
+          Caption = #20778#20808#25903#25173#26041#27861
+          ReadOnly = True
+          TabStop = False
+          Visible = False
+          Width = 22
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PriPayWay'
+        end
+      end
+    end
+    object PanelKihon_G: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 15
+      Visible = False
+      object GridKihonG: TdxDBGrid
+        Left = 18
+        Top = 17
+        Width = 732
+        Height = 496
+        BandMaxRowCount = 6
+        Bands = <
+          item
+            Caption = #12467#12540#12489
+            Width = 75
+          end
+          item
+            Caption = #25903#25173#20808#21517#31216
+            Width = 200
+          end
+          item
+            Caption = #36899#24819
+            Width = 88
+          end
+          item
+            Caption = #25505#29992#21306#20998
+            Width = 170
+          end
+          item
+            Caption = #27161#28310#25903#25173#26041#27861
+            Width = 170
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnKeyDown = CmnGridKeyDown
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -13
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSKihonG
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -13
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelectionColor = clWindow
+        HideSelectionTextColor = clBlack
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoEditing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoIndicator]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -13
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        ShowBands = True
+        ShowHeader = False
+        OnChangeNodeEx = GridKihonGChangeNodeEx
+        OnCustomDrawCell = GridKihonGCustomDrawCell
+        OnBeforeChangeColumn = GridKihonGBeforeChangeColumn
+        OnBeforeChangeNode = GridKihonGBeforeChangeNode
+        object GridKihonG_GCode: TdxDBGridMaskColumn
+          Alignment = taRightJustify
+          Caption = #12467#12540#12489
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = True
+          FieldName = 'strHojCode'
+        end
+        object GridKihonG_Renso: TdxDBGridColumn
+          Caption = #36899#24819
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 88
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 10
+          Hankaku = True
+          StretchChar.Auto = False
+          FieldName = 'strAssociation'
+        end
+        object GridKihonG_SimpleName: TdxDBGridColumn
+          Caption = #31777#30053#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 200
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 14
+          StretchChar.Auto = False
+          FieldName = 'strNameSimple'
+        end
+        object GridKihonG_GaiNo: TdxDBGridLookupColumn
+          Width = 30
+          BandIndex = 3
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'intGaiNo'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 130
+        end
+        object GridKihonG_GaiName: TdxDBGridMaskColumn
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          TabStop = False
+          Width = 140
+          BandIndex = 3
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strGaiKbn'
+        end
+        object GridKihonG_GaiPay: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Width = 30
+          BandIndex = 4
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'intGaiPay'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object GridKihonG_GaiPayName: TdxDBGridMaskColumn
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          TabStop = False
+          Width = 140
+          BandIndex = 4
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strGaiPay'
+        end
+      end
+    end
+    object PanelFurikomi: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 5
+      Visible = False
+      object GridFurikomi: TdxDBGrid
+        Left = 14
+        Top = 10
+        Width = 732
+        Height = 524
+        Bands = <
+          item
+            Caption = #25903#25173#20808
+            Fixed = bfLeft
+          end
+          item
+            Caption = #25391#36796#20381#38972#21475#24231
+          end
+          item
+            Caption = #25391#12288#12288#36796#12288#12288#20808#12288#12288#24773#12288#12288#22577
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = False
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = CmnGridFurikomiKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSFuri
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelection = True
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoCanInsert, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeNodeEx = CmnjGridFuriChangeNodeEx
+        OnBeforeChangeColumn = GridFurikomiBeforeChangeColumn
+        object Fri_ShiharaiCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'HojCode'
+        end
+        object Fri_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object Fri_RecChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object Fri_PrjCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PrjGCode'
+        end
+        object Fri_PrjName: TdxDBGridColumn
+          Caption = #24037#20107#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PrjName'
+        end
+        object Fri_PjSubCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PjSubGCode'
+        end
+        object Fri_PjSubName: TdxDBGridColumn
+          Caption = #24037#31278#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PjSubName'
+        end
+        object Fri_IraiAccCode: TdxDBGridButtonColumn
+          Caption = #20381#38972#21475#24231
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 57
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'IraiAccNo'
+          OnEditButtonClick = CmnIraiAccCodeEditButtonClick
+        end
+        object Fri_IraiBankName: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 230
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'AccInfo'
+        end
+        object Fri_BankCode: TdxDBGridButtonColumn
+          Alignment = taRightJustify
+          Caption = #37504#34892
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'BankCode'
+          OnEditButtonClick = Fri_BankCodeEditButtonClick
+        end
+        object Fri_BkBraCode: TdxDBGridButtonColumn
+          Alignment = taRightJustify
+          Caption = #25903#24215
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 3
+          StretchChar.Auto = False
+          FieldName = 'BkBraCode'
+          OnEditButtonClick = Fri_BankCodeEditButtonClick
+        end
+        object Fri_BankName: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 186
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 30
+          StretchChar.Auto = False
+          FieldName = 'BankName'
+        end
+        object Fri_BankKanaName: TdxDBGridColumn
+          Caption = #12459#12490#37504#34892#21517
+          DisableDragging = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 104
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 15
+          StretchChar.Auto = False
+          FieldName = 'BankKanaName'
+        end
+        object Fri_BkBraName: TdxDBGridColumn
+          Caption = #25903#24215#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 186
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 30
+          StretchChar.Auto = False
+          FieldName = 'BkBraName'
+        end
+        object Fri_BkBraKanaName: TdxDBGridColumn
+          Caption = #12459#12490#25903#24215#21517
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 104
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 15
+          StretchChar.Auto = False
+          DisableGrouping = True
+          FieldName = 'BraKanaName'
+        end
+        object Fri_TransKanaName: TdxDBGridColumn
+          Caption = #12459#12490#25391#36796#20808#21517#31216
+          HeaderAlignment = taCenter
+          Width = 110
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 30
+          StretchChar.Auto = False
+          FieldName = 'TransKanaName'
+        end
+        object Fri_AccKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'AccKbn'
+          DropDownSelectEx = False
+          DropDownRows = 4
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 60
+        end
+        object Fri_AccKbnName: TdxDBGridColumn
+          Alignment = taLeftJustify
+          Caption = #31278#30446
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'AccName'
+        end
+        object Fri_AccNo: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 66
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 8
+          StretchChar.Auto = False
+          FieldName = 'AccNo'
+        end
+        object Fri_ChargeFutanKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'ChargeFutan'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object Fri_ChargeFutanName: TdxDBGridColumn
+          Caption = #36000#25285
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ChargeName'
+        end
+        object Fri_ChargeKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'ChargeKbn'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object Fri_ChargeName: TdxDBGridColumn
+          Caption = #25163#25968#26009#35336#31639
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ChargeKbnName'
+        end
+        object Fri_TransKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'TransKbn'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 60
+        end
+        object Fri_TransName: TdxDBGridColumn
+          Caption = #25391#36796#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 57
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'TransKbnName'
+        end
+        object Fri_FBSetKbn: TdxDBGridLookupColumn
+          Caption = ' '
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'FBSet'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object Fri_FBSetName: TdxDBGridColumn
+          Caption = 'FB'#21306#20998
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 59
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'FBSetName'
+        end
+        object Fri_EDIInfo: TdxDBGridColumn
+          Caption = 'EDI'#24773#22577
+          HeaderAlignment = taCenter
+          Width = 165
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imClose
+          MaxLength = 20
+          StretchChar.Auto = False
+          FieldName = 'EDIInfo'
+        end
+        object Fri_AiteNo1: TdxDBGridColumn
+          Caption = #39015#23458#12467#12540#12489'1'
+          HeaderAlignment = taCenter
+          Width = 76
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          MaxLength = 10
+          StretchChar.Auto = False
+          FieldName = 'AiteNo1'
+        end
+        object Fri_AiteNo2: TdxDBGridColumn
+          Caption = #39015#23458#12467#12540#12489'2'
+          HeaderAlignment = taCenter
+          Width = 76
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          MaxLength = 10
+          StretchChar.Auto = False
+          FieldName = 'AiteNo2'
+        end
+        object Fri_AccAutoKbn: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Caption = ' '
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Autokbn'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 60
+        end
+        object Fri_AccAutoKbnName: TdxDBGridColumn
+          Caption = #21475#24231#33258#21205#24341#33853#21306#20998
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 109
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'AutoKbnName'
+        end
+        object Fri_AccAutoData: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #24341#33853#25903#25173#12487#12540#12479
+          HeaderAlignment = taCenter
+          Width = 96
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'AccAutoData'
+        end
+      end
+    end
+    object PanelDraft: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 7
+      Visible = False
+      object GridDraft: TdxDBGrid
+        Left = 18
+        Top = 15
+        Width = 732
+        Height = 478
+        Bands = <
+          item
+            Caption = #25903#25173#20808
+            Fixed = bfLeft
+          end
+          item
+            Caption = #25391#36796#20381#38972#21475#24231
+          end
+          item
+            Caption = #25163#24418#24773#22577
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = GridDraftKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSDraft
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelection = True
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoCanDelete, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoCanInsert, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeColumn = GridDraftChangeColumn
+        OnChangeNode = GridDraftChangeNode
+        OnBeforeChangeColumn = GridDraftBeforeChangeColumn
+        object Teg_ShiharaiCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          HeaderMaxLineCount = 2
+          StretchChar.Auto = True
+          FieldName = 'HojCode'
+        end
+        object Teg_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          HeaderMaxLineCount = 2
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object Teg_RenChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object Teg_PrjCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PrjGCode'
+        end
+        object Teg_PrjName: TdxDBGridColumn
+          Caption = #24037#20107#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PrjName'
+        end
+        object Teg_PjSubCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PjSubGCode'
+        end
+        object Teg_PjSubName: TdxDBGridColumn
+          Caption = #24037#31278#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PjSubName'
+        end
+        object Teg_IraiAccCode: TdxDBGridButtonColumn
+          Caption = #20381#38972#21475#24231
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 57
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'IraiAccNo'
+          OnEditButtonClick = CmnIraiAccCodeEditButtonClick
+        end
+        object Teg_IraiBankName: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 230
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'AccInfo'
+        end
+        object Teg_Site: TdxDBGridColumn
+          Caption = #12469#12452#12488
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 44
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'Site'
+        end
+        object Teg_ERKbn: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Caption = ' '
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 1
+          StretchChar.Auto = False
+          FieldName = 'ERKbn'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Teg_ERName: TdxDBGridColumn
+          Caption = #38651#23376#20661#27177
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 57
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ERKbnName'
+        end
+        object Teg_BunkatuMax: TdxDBGridColumn
+          Caption = #20998#21106#26522#25968
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 57
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'Bunkatu'
+        end
+        object Teg_YusouKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 1
+          StretchChar.Auto = False
+          FieldName = 'YusoKbn'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Teg_YusouName: TdxDBGridColumn
+          Caption = #37109#36865#21306#20998
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 70
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'YusoKbnName'
+        end
+        object Teg_YusouFutanKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 1
+          StretchChar.Auto = False
+          FieldName = 'YusoFutan'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Teg_ChargeFutanName: TdxDBGridColumn
+          Caption = #36000#25285#21306#20998
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 57
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'YusoFutanName'
+        end
+        object Teg_BankCode: TdxDBGridButtonColumn
+          Alignment = taRightJustify
+          Caption = #37504#34892
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'BankCode'
+          OnEditButtonClick = Fri_BankCodeEditButtonClick
+        end
+        object Teg_BkBraCode: TdxDBGridButtonColumn
+          Alignment = taRightJustify
+          Caption = #25903#24215
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 3
+          StretchChar.Auto = False
+          FieldName = 'BkBraCode'
+          OnEditButtonClick = Fri_BankCodeEditButtonClick
+        end
+        object Teg_BankName: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 135
+          BandIndex = 2
+          RowIndex = 0
+          MaxLength = 30
+          StretchChar.Auto = False
+          FieldName = 'BankName'
+        end
+        object Teg_BankKanaName: TdxDBGridColumn
+          Caption = #12459#12490#37504#34892#21517
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 104
+          BandIndex = 2
+          RowIndex = 0
+          MaxLength = 15
+          StretchChar.Auto = False
+          FieldName = 'BankKanaName'
+        end
+        object Teg_BkBraName: TdxDBGridColumn
+          Caption = #25903#24215#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 135
+          BandIndex = 2
+          RowIndex = 0
+          MaxLength = 30
+          StretchChar.Auto = False
+          FieldName = 'BkBraName'
+        end
+        object Teg_BkBraKanaName: TdxDBGridColumn
+          Caption = #12459#12490#25903#24215#21517
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 104
+          BandIndex = 2
+          RowIndex = 0
+          MaxLength = 15
+          StretchChar.Auto = False
+          FieldName = 'BraKanaName'
+        end
+        object Teg_TransKanaName: TdxDBGridColumn
+          Caption = #12459#12490#25391#36796#20808#21517#31216
+          HeaderAlignment = taCenter
+          Width = 110
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 30
+          StretchChar.Auto = False
+          FieldName = 'TransKanaName'
+        end
+        object Teg_AccKbn: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Caption = ' '
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'AccKbn'
+          DropDownSelectEx = False
+          DropDownRows = 4
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 60
+        end
+        object Teg_AccKbnName: TdxDBGridColumn
+          Caption = #31278#30446
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'AccName'
+        end
+        object Teg_AccNo: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 66
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 8
+          StretchChar.Auto = False
+          FieldName = 'AccNo'
+        end
+        object Teg_ChargeFutanKbn2: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Caption = ' '
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'ChargeFutan'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object Teg_ChargeFutanName2: TdxDBGridColumn
+          Caption = #36000#25285#21306#20998
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 57
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ChargeName'
+        end
+        object Teg_ChargeKbn2: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Caption = ' '
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'ChargeKbn'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object Teg_ChargeKbnName2: TdxDBGridColumn
+          Caption = #25163#25968#26009#35336#31639
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 70
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ChargeKbnName'
+        end
+        object Teg_VFree1: TdxDBGridColumn
+          Caption = #12501#12522#12540#38917#30446#65297
+          HeaderAlignment = taCenter
+          Width = 135
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imClose
+          StretchChar.Auto = False
+          FieldName = 'VFree1'
+        end
+        object Teg_VFree2: TdxDBGridColumn
+          Caption = #12501#12522#12540#38917#30446#65298
+          HeaderAlignment = taCenter
+          Width = 135
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imClose
+          StretchChar.Auto = False
+          FieldName = 'VFree2'
+        end
+        object Teg_VFree3: TdxDBGridColumn
+          Caption = #12501#12522#12540#38917#30446#65299
+          HeaderAlignment = taCenter
+          Width = 135
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imClose
+          StretchChar.Auto = False
+          FieldName = 'VFree3'
+        end
+        object Teg_VFree4: TdxDBGridColumn
+          Caption = #12501#12522#12540#38917#30446#65300
+          HeaderAlignment = taCenter
+          Width = 135
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imClose
+          StretchChar.Auto = False
+          FieldName = 'VFree4'
+        end
+        object Teg_VFree5: TdxDBGridColumn
+          Caption = #12501#12522#12540#38917#30446#65301
+          HeaderAlignment = taCenter
+          Width = 135
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imClose
+          StretchChar.Auto = False
+          FieldName = 'VFree5'
+        end
+      end
+    end
+    object PanelFuriDate: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 6
+      Visible = False
+      object GridFuriDate: TdxDBGrid
+        Left = 14
+        Top = 10
+        Width = 727
+        Height = 524
+        Bands = <
+          item
+            Caption = #25903#25173#20808
+            Fixed = bfLeft
+          end
+          item
+            Caption = #25391#36796#20381#38972#21475#24231
+          end
+          item
+            Caption = #25391#12288#12288#36796#12288#12288#20808#12288#12288#24773#12288#12288#22577
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = False
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = CmnGridFurikomiKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSFuriDate
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelection = True
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoCanInsert, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeNodeEx = CmnjGridFuriChangeNodeEx
+        OnBeforeChangeColumn = GridFurikomiBeforeChangeColumn
+        object KFri_ShiharaiCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'HojCode'
+        end
+        object KFri_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object KFri_RecChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object KFri_PrjCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PrjGCode'
+        end
+        object KFri_PrjName: TdxDBGridColumn
+          Caption = #24037#20107#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PrjName'
+        end
+        object KFri_PjSubCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PjSubGCode'
+        end
+        object KFri_PjSubName: TdxDBGridColumn
+          Caption = #24037#31278#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PjSubName'
+        end
+        object KFri_IraiAccCode: TdxDBGridButtonColumn
+          Caption = #20381#38972#21475#24231
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 57
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'IraiAccNo'
+          OnEditButtonClick = CmnIraiAccCodeEditButtonClick
+        end
+        object KFri_IraiBankName: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 230
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'AccInfo'
+        end
+        object KFri_BankCode: TdxDBGridButtonColumn
+          Alignment = taRightJustify
+          Caption = #37504#34892
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'BankCode'
+          OnEditButtonClick = Fri_BankCodeEditButtonClick
+        end
+        object KFri_BkBraCode: TdxDBGridButtonColumn
+          Alignment = taRightJustify
+          Caption = #25903#24215
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 3
+          StretchChar.Auto = False
+          FieldName = 'BkBraCode'
+          OnEditButtonClick = Fri_BankCodeEditButtonClick
+        end
+        object KFri_BankName: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 186
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 30
+          StretchChar.Auto = False
+          FieldName = 'BankName'
+        end
+        object KFri_BankKanaName: TdxDBGridColumn
+          Caption = #12459#12490#37504#34892#21517
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 104
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 15
+          StretchChar.Auto = False
+          FieldName = 'BankKanaName'
+        end
+        object KFri_BkBraName: TdxDBGridColumn
+          Caption = #25903#24215#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 186
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 30
+          StretchChar.Auto = False
+          FieldName = 'BkBraName'
+        end
+        object KFri_BkBraKanaName: TdxDBGridColumn
+          Caption = #12459#12490#25903#24215#21517
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 104
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 15
+          StretchChar.Auto = False
+          FieldName = 'BraKanaName'
+        end
+        object KFri_TransKanaName: TdxDBGridColumn
+          Caption = #12459#12490#25391#36796#20808#21517#31216
+          HeaderAlignment = taCenter
+          Width = 110
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 30
+          StretchChar.Auto = False
+          FieldName = 'TransKanaName'
+        end
+        object KFri_AccKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'AccKbn'
+          DropDownSelectEx = False
+          DropDownRows = 4
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 60
+        end
+        object KFri_AccKbnName: TdxDBGridColumn
+          Alignment = taLeftJustify
+          Caption = #31278#30446
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'AccName'
+        end
+        object KFri_AccNo: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 66
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 8
+          StretchChar.Auto = False
+          FieldName = 'AccNo'
+        end
+        object KFri_ChargeFutanKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'ChargeFutan'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object KFri_ChargeFutanName: TdxDBGridColumn
+          Caption = #36000#25285
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 33
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ChargeName'
+        end
+        object KFri_ChargeKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'ChargeKbn'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object KFri_ChargeName: TdxDBGridColumn
+          Caption = #25163#25968#26009#35336#31639
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ChargeKbnName'
+        end
+        object KFri_TransKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'TransKbn'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 60
+        end
+        object KFri_TransName: TdxDBGridColumn
+          Caption = #25391#36796#26041#27861
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 57
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'TransKbnName'
+        end
+        object KFri_FBSetKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'FBSet'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object KFri_FBSetName: TdxDBGridColumn
+          Caption = 'FB'#21306#20998
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 59
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'FBSetName'
+        end
+        object KFri_EDIInfo: TdxDBGridColumn
+          Caption = 'EDI'#24773#22577
+          HeaderAlignment = taCenter
+          Width = 165
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imClose
+          MaxLength = 20
+          StretchChar.Auto = False
+          FieldName = 'EDIInfo'
+        end
+        object KFri_AiteNo1: TdxDBGridColumn
+          Caption = #39015#23458#12467#12540#12489'1'
+          HeaderAlignment = taCenter
+          Width = 76
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          MaxLength = 10
+          StretchChar.Auto = False
+          FieldName = 'AiteNo1'
+        end
+        object KFri_AiteNo2: TdxDBGridColumn
+          Caption = #39015#23458#12467#12540#12489'2'
+          HeaderAlignment = taCenter
+          Width = 76
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          MaxLength = 10
+          StretchChar.Auto = False
+          FieldName = 'AiteNo2'
+        end
+        object KFri_Site: TdxDBGridMaskColumn
+          Alignment = taRightJustify
+          Caption = #12469#12452#12488
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 44
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'Site'
+        end
+      end
+    end
+    object PanelPayFixed: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 4
+      Visible = False
+      object GridPayFixed: TdxDBGrid
+        Left = 20
+        Top = 20
+        Width = 732
+        Height = 524
+        Bands = <
+          item
+            Caption = #25903#25173#20808
+            Fixed = bfLeft
+            Width = 253
+          end
+          item
+            Caption = #25903#25173#26041#27861'1'
+            Width = 70
+          end
+          item
+            Caption = #25903#25173#26041#27861'2'
+            Width = 70
+          end
+          item
+            Caption = #25903#25173#26041#27861'3'
+            Width = 70
+          end
+          item
+            Caption = #25903#25173#26041#27861'4'
+            Width = 257
+          end
+          item
+            Caption = #25903#25173#26041#27861'5'
+            Width = 70
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = False
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = GridPayWayKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSPayFixed
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelectionColor = clWindow
+        HideSelectionTextColor = clBtnText
+        HighlightColor = clWhite
+        HighlightTextColor = clBlack
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeNodeEx = CmnGridPayChangeNodeEx
+        OnBeforeChangeColumn = CmnGridPayBeforeChangeColumn
+        object Hou_T_ShiharaiCode: TdxDBGridColumn
+          Alignment = taLeftJustify
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'HojCode'
+        end
+        object Hou_T_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object Hou_T_RenChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object Hou_T_PrjCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PrjGCode'
+        end
+        object Hou_T_PrjName: TdxDBGridColumn
+          Caption = #24037#20107#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PrjName'
+        end
+        object Hou_T_PjSubCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PjSubGCode'
+        end
+        object Hou_T_PjSubName: TdxDBGridColumn
+          Caption = #24037#31278#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PjSubName'
+        end
+        object Hou_T_PriPayWay: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Caption = #12288
+          Width = 26
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'PriPayWay'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_T_PriPayWayName: TdxDBGridMaskColumn
+          Caption = #20778#20808#25903#25173
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 57
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PriPayWayName'
+        end
+        object Hou_T_Houhou1_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          MinWidth = 10
+          Sizing = False
+          Width = 20
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou1No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_T_Houhou1_Name: TdxDBGridColumn
+          Caption = #26041#27861'1'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou1Name'
+        end
+        object Hou_T_Houhou1_StdRitu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 11
+          StretchChar.Auto = False
+          FieldName = 'Hou1StdRitsu'
+        end
+        object Hou_T_Houhou2_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou2No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_T_Houhou2_Name: TdxDBGridColumn
+          Caption = #26041#27861'2'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou2Name'
+        end
+        object Hou_T_Houhou2_StdRitu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 2
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 11
+          StretchChar.Auto = False
+          FieldName = 'Hou2StdRitsu'
+        end
+        object Hou_T_Houhou3_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 3
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou3No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_T_Houhou3_Name: TdxDBGridColumn
+          Caption = #26041#27861'3'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 3
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou3Name'
+        end
+        object Hou_T_Houhou3_StdRitu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 3
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 11
+          StretchChar.Auto = False
+          FieldName = 'Hou3StdRitsu'
+        end
+        object Hou_T_Houhou4_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 4
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou4No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_T_Houhou4_Name: TdxDBGridColumn
+          Caption = #26041#27861'4'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 4
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou4Name'
+        end
+        object Hou_T_Houhou4_StdRitu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 4
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 11
+          StretchChar.Auto = False
+          FieldName = 'Hou4StdRitsu'
+        end
+        object Hou_T_Houhou5_No: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'Hou5No'
+          DropDownSelectEx = False
+          DropDownRows = 6
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hou_T_Houhou5_Name: TdxDBGridColumn
+          Caption = #26041#27861'5'
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 5
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'Hou5Name'
+        end
+        object Hou_T_Houhou5_StdRitu: TdxDBGridColumn
+          Caption = #20998#35299#22522#28310#20516
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 83
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 11
+          StretchChar.Auto = False
+          FieldName = 'Hou5StdRitsu'
+        end
+      end
+    end
+    object PanelPayWay: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 13
+      Visible = False
+      object GridPayWay: TdxDBGrid
+        Left = 14
+        Top = 9
+        Width = 735
+        Height = 496
+        BandMaxRowCount = 6
+        Bands = <
+          item
+            Caption = #12467#12540#12489
+          end
+          item
+            Caption = #25903#25173#20808#21517#31216
+          end
+          item
+            Caption = #36899#24819
+          end
+          item
+            Caption = #12467#12540#12489
+          end
+          item
+            Caption = #24037#20107#65297#21517#31216
+          end
+          item
+            Caption = #12467#12540#12489
+          end
+          item
+            Caption = #24037#31278#65297#21517#31216
+          end
+          item
+            Caption = #20998#35299#26041#27861
+          end
+          item
+            Caption = #21463#21462#20154#21517#31216
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = CmnGridKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -13
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSPayWay
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -13
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelectionColor = clWindow
+        HideSelectionTextColor = clBlack
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoEditing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCanAppend, egoCancelOnExit, egoImmediateEditor, egoCanInsert, egoIndicator]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -13
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        ShowBands = True
+        ShowHeader = False
+        OnChangeNodeEx = GridChangeNodeEx
+        OnCustomDrawCell = GridPayWayCustomDrawCell
+        OnBeforeChangeColumn = GridPayWayBeforeChangeColumn
+        object GridPayWay_GCode: TdxDBGridButtonColumn
+          Alignment = taRightJustify
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = True
+          FieldName = 'strHojCode'
+          OnEditButtonClick = GridPayWay_GCodeEditButtonClick
+        end
+        object GridPayWay_SimpleName: TdxDBGridColumn
+          Caption = #31777#30053#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strNameSimple'
+        end
+        object GridPayWay_RenChar: TdxDBGridColumn
+          Caption = #36899#24819
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strAssociation'
+        end
+        object GridPayWay_PrjCode: TdxDBGridButtonColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          Width = 75
+          BandIndex = 3
+          RowIndex = 0
+          ImeMode = imDisable
+          StretchChar.Auto = True
+          FieldName = 'PrjGCode'
+          OnEditButtonClick = GridPayWay_GCodeEditButtonClick
+        end
+        object GridPayWay_PrjName: TdxDBGridColumn
+          Caption = #24037#20107#65297#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 4
+          RowIndex = 0
+          ImeMode = imHira
+          StretchChar.Auto = False
+          FieldName = 'PrjName'
+        end
+        object GridPayWay_PjSubCode: TdxDBGridButtonColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          Width = 75
+          BandIndex = 5
+          RowIndex = 0
+          ImeMode = imDisable
+          StretchChar.Auto = True
+          FieldName = 'PjSubGCode'
+          OnEditButtonClick = GridPayWay_GCodeEditButtonClick
+        end
+        object GridPayWay_PjSubName: TdxDBGridColumn
+          Caption = #24037#31278#65297#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 6
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 14
+          StretchChar.Auto = False
+          FieldName = 'PjSubName'
+        end
+        object GridPayWay_BunkaiNo: TdxDBGridLookupColumn
+          Width = 26
+          BandIndex = 7
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'intApartNo'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object GridPayWay_BunkaiName: TdxDBGridMaskColumn
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 35
+          BandIndex = 7
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strApart'
+        end
+        object GridPayWay_UketoriName: TdxDBGridColumn
+          Caption = 'GridKihon_UketoriName'
+          Width = 200
+          BandIndex = 8
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 40
+          StretchChar.Auto = False
+          FieldName = 'UketoriName'
+        end
+      end
+    end
+    object PanelNayose: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelOuter = bvNone
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 11
+      Visible = False
+      object Splitter: TSplitter
+        Left = 209
+        Top = 0
+        Height = 450
+      end
+      object PanelNayoseGrid: TMPanel
+        Left = 297
+        Top = 0
+        Width = 477
+        Height = 480
+        BevelOuter = bvNone
+        Color = 15921906
+        ParentBackground = False
+        TabOrder = 1
+        DesignSize = (
+          477
+          480)
+        object GridNayose: TdxDBGrid
+          Left = 0
+          Top = 52
+          Width = 385
+          Height = 428
+          Bands = <
+            item
+              Caption = #25903#25173#20808
+            end
+            item
+              Caption = #21517#23492#12379#35242#25903#25173#20808#65288#35242#65289
+            end>
+          DefaultLayout = False
+          HeaderPanelRowCount = 1
+          KeyField = 'BaseHojCode'
+          SummaryGroups = <>
+          SummarySeparator = ', '
+          TabOrder = 1
+          OnEnter = NayoseEnter
+          OnExit = NayoseExit
+          OnKeyDown = CmnGridKeyDown
+          BandColor = 10204878
+          DataSource = DSNayose
+          HeaderColor = 10204878
+          HideFocusRect = True
+          HideSelectionColor = clWindow
+          HideSelectionTextColor = clBtnText
+          HighlightColor = clWhite
+          HighlightTextColor = clBlack
+          Options = [egoColumnSizing, egoEditing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCanAppend, egoCancelOnExit, egoImmediateEditor, egoCanInsert, egoIndicator]
+          OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+          OnChangeColumn = GridNayoseChangeColumn
+          OnChangeNodeEx = GridNayoseChangeNodeEx
+          OnBeforeChangeColumn = GridNayoseBeforeChangeColumn
+          Anchors = [akLeft, akTop, akBottom]
+          object GridNayoseCode: TdxDBGridButtonColumn
+            Caption = #12467#12540#12489
+            HeaderAlignment = taCenter
+            Sizing = False
+            Width = 80
+            BandIndex = 0
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'HojCode'
+          end
+          object GridNayoseName: TdxDBGridColumn
+            Caption = #25903#25173#20808#21517#31216
+            HeaderAlignment = taCenter
+            ReadOnly = True
+            Sizing = False
+            TabStop = False
+            Width = 96
+            BandIndex = 0
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'SName'
+          end
+          object GridNayoseOyaCode: TdxDBGridButtonColumn
+            Caption = #12467#12540#12489
+            HeaderAlignment = taCenter
+            Sizing = False
+            Width = 80
+            BandIndex = 1
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'OyaHojCD'
+          end
+          object GridNayoseOyaName: TdxDBGridColumn
+            Caption = #21517#23492#12379#35242#21517#31216
+            HeaderAlignment = taCenter
+            ReadOnly = True
+            Sizing = False
+            TabStop = False
+            Width = 96
+            BandIndex = 1
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'OyaName'
+          end
+        end
+        object RBNayoseGrid: TMRadioButton
+          Left = 16
+          Top = 24
+          Width = 169
+          Height = 19
+          Caption = #19968#35239#12391#12398#35373#23450
+          TabOrder = 0
+          OnClick = RBNayoseGridClick
+          OnEnter = NayoseEnter
+        end
+      end
+      object PanelNayoseLeft: TMPanel
+        Left = 0
+        Top = 0
+        Width = 9
+        Height = 450
+        Align = alLeft
+        BevelOuter = bvNone
+        Color = 15921906
+        ParentBackground = False
+        TabOrder = 2
+      end
+      object PanelNayoseTree: TMPanel
+        Left = 9
+        Top = 0
+        Width = 200
+        Height = 450
+        Align = alLeft
+        BevelOuter = bvNone
+        Caption = 'PanelNayoseTree'
+        Color = 14608367
+        ParentBackground = False
+        TabOrder = 0
+        object TreeViewNayose: TMTreeView
+          Left = 0
+          Top = 52
+          Width = 200
+          Height = 398
+          Align = alClient
+          Color = clWhite
+          DragMode = dmAutomatic
+          HotTrack = True
+          Images = CmnTreeViewImage
+          Indent = 19
+          PopupMenu = PMNayoseTree
+          ReadOnly = True
+          RightClickSelect = True
+          TabOrder = 1
+          OnChange = TreeViewNayoseChange
+          OnDragDrop = TreeViewDragDrop
+          OnDragOver = TreeViewDragOver
+          OnEnter = NayoseEnter
+          OnExit = NayoseExit
+        end
+        object PanelNayoseTreeTop: TMPanel
+          Left = 0
+          Top = 0
+          Width = 200
+          Height = 52
+          Align = alTop
+          BevelOuter = bvNone
+          Color = 15921906
+          ParentBackground = False
+          TabOrder = 0
+          object RBNayoseTree: TMRadioButton
+            Left = 8
+            Top = 24
+            Width = 169
+            Height = 19
+            Caption = #12484#12522#12540#12391#12398#35373#23450
+            Checked = True
+            TabOrder = 0
+            TabStop = True
+            OnClick = RBNayoseTreeClick
+            OnEnter = NayoseEnter
+          end
+        end
+      end
+      object PanelNayoseBottom: TMPanel
+        Left = 0
+        Top = 450
+        Width = 743
+        Height = 29
+        Align = alBottom
+        BevelOuter = bvNone
+        Color = 15921906
+        ParentBackground = False
+        TabOrder = 3
+      end
+    end
+    object PanelFurikomi_GD: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 16
+      Visible = False
+      object GridFurikomiGD: TdxDBGrid
+        Left = 24
+        Top = 18
+        Width = 732
+        Height = 524
+        Bands = <
+          item
+            Caption = #12467#12540#12489#65374#36899#24819
+            Fixed = bfLeft
+          end
+          item
+            Caption = #20381#38972#21475#24231
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyPress = CmnGridFurikomiKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSFuri_GD
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelection = True
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeNodeEx = CmnjGridFuriChangeNodeEx
+        OnCustomDrawCell = GridFurikomiGDCustomDrawCell
+        OnBeforeChangeColumn = GridFurikomiGDBeforeChangeColumn
+        object FriGD_ShiharaiCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'HojCode'
+        end
+        object FriGD_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 200
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object FriGD_RecChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 88
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object FriGD_IraiAccCode: TdxDBGridButtonColumn
+          Caption = #20381#38972#21475#24231
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 70
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'IraiAccNo'
+          OnEditButtonClick = CmnIraiAccCodeEditButtonClick
+        end
+        object FriGD_IraiAccInfo: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'AccInfo'
+        end
+        object FriGD_IraiFeeAccCode: TdxDBGridButtonColumn
+          Alignment = taRightJustify
+          Caption = #25163#25968#26009#21475#24231
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 70
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'IraiFeeAccNo'
+          OnEditButtonClick = CmnIraiAccCodeEditButtonClick
+        end
+        object FriGD_IraiFeeAccInfo: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'FeeAccInfo'
+        end
+        object FriGD_ChargeFutanKbn: TdxDBGridLookupColumn
+          Caption = ' '
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'ChargeFutan'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object FriGD_ChargeFutanName: TdxDBGridColumn
+          Caption = #36000#25285#21306#20998
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ChargeName'
+        end
+        object FriGD_ChargeKbn: TdxDBGridLookupColumn
+          Caption = ' '
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'ChargeKbn'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 100
+        end
+        object FriGD_ChargeName: TdxDBGridColumn
+          Caption = #35336#31639#21306#20998
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ChargeKbnName'
+        end
+        object FriGD_EDIInfo: TdxDBGridColumn
+          Caption = #21462#24341#20808#29031#20250#30058#21495
+          HeaderAlignment = taCenter
+          Width = 130
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 16
+          StretchChar.Auto = False
+          FieldName = 'EDiInfo'
+        end
+        object FriGD_SendNo: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #65326#65327
+          HeaderAlignment = taCenter
+          Width = 35
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'SendNo'
+        end
+        object FriGD_SendPos: TdxDBGridColumn
+          Caption = #36865#37329#30446#30340
+          HeaderAlignment = taCenter
+          MinWidth = 22
+          Width = 210
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 22
+          StretchChar.Auto = False
+          FieldName = 'SendPos'
+        end
+        object FriGD_SendLNo: TdxDBGridColumn
+          Alignment = taLeftJustify
+          Caption = #36865#37329#35377#21487
+          HeaderAlignment = taCenter
+          Width = 190
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 20
+          StretchChar.Auto = False
+          FieldName = 'SendLNo'
+        end
+        object FriGD_SendDate: TdxDBGridDateColumn
+          Alignment = taCenter
+          Caption = #26085#20184
+          HeaderAlignment = taCenter
+          Width = 110
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imClose
+          MaxLength = 10
+          StretchChar.Auto = False
+          FieldName = 'SendDate'
+          DropDownSelectEx = False
+          Gengou = 'H'
+        end
+        object FriGD_HHMMDD: TdxDBGridDateColumn
+          Visible = False
+          BandIndex = -1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          DropDownSelectEx = False
+          DateEditFormat = dfEMD
+          Gengou = 'H'
+        end
+        object FriGD_YYMMDD: TdxDBGridDateColumn
+          Visible = False
+          BandIndex = -1
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          DropDownSelectEx = False
+          DateEditFormat = dfYMD
+          Gengou = 'H'
+        end
+      end
+    end
+    object PanelFurikomi_GT: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 17
+      Visible = False
+      object GridFurikomiGT: TdxDBGrid
+        Left = 8
+        Top = 18
+        Width = 705
+        Height = 524
+        Bands = <
+          item
+            Caption = #12467#12540#12489#12363#12425#36899#24819
+            Fixed = bfLeft
+          end
+          item
+            Caption = #25903#25173#21475#24231#12363#12425#24460#12429
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyPress = CmnGridFurikomiKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSFuri_GT
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelection = True
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeNodeEx = CmnjGridFuriChangeNodeEx
+        OnBeforeChangeColumn = GridFurikomiGTBeforeChangeColumn
+        object FriGT_ShiharaiCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          ImeMode = imClose
+          StretchChar.Auto = True
+          FieldName = 'HojCode'
+        end
+        object FriGT_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 200
+          BandIndex = 0
+          RowIndex = 0
+          ImeMode = imClose
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object FriGT_RecChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 88
+          BandIndex = 0
+          RowIndex = 0
+          ImeMode = imClose
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object FriGT_IraiAccCode: TdxDBGridButtonColumn
+          Caption = #25903#25173#21475#24231
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 70
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'IraiAccNo'
+          OnEditButtonClick = CmnIraiAccCodeEditButtonClick
+        end
+        object FriGT_IraiBankName: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 260
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imClose
+          StretchChar.Auto = False
+          FieldName = 'AccInfo'
+        end
+      end
+    end
+    object PanelFurikomi_GK: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 18
+      Visible = False
+      object GridFurikomiGK: TdxDBGrid
+        Left = 32
+        Top = 16
+        Width = 1540
+        Height = 524
+        Bands = <
+          item
+            Caption = #12467#12540#12489#12363#12425#36899#24819
+            Fixed = bfLeft
+          end
+          item
+            Caption = #20381#38972#21475#24231
+          end
+          item
+            Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          end
+          item
+            Caption = #25163#25968#26009#21475#24231
+          end
+          item
+            Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          end
+          item
+            Caption = #36865#37329#30446#30340
+          end
+          item
+            Caption = #36865#37329#35377#21487
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyPress = CmnGridFurikomiKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSFuri_GK
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelection = True
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeNodeEx = CmnjGridFuriChangeNodeEx
+        OnBeforeChangeColumn = GridFurikomiGKBeforeChangeColumn
+        object FriGK_ShiharaiCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'HojCode'
+        end
+        object FriGK_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 200
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object FriGK_RecChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 88
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object FriGK_IraiAccCode: TdxDBGridButtonColumn
+          Caption = #20381#38972#21475#24231
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 70
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'IraiAccNo'
+          OnEditButtonClick = CmnIraiAccCodeEditButtonClick
+        end
+        object FriGK_IraiAccInfo: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 230
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'AccInfo'
+        end
+        object FriGK_IraiFeeAccCode: TdxDBGridButtonColumn
+          Alignment = taRightJustify
+          Caption = #25163#25968#26009#21475#24231
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 70
+          BandIndex = 3
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'IraiFeeAccNo'
+          OnEditButtonClick = CmnIraiAccCodeEditButtonClick
+        end
+        object FriGK_IraiFeeAccInfo: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 230
+          BandIndex = 4
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'FeeAccInfo'
+        end
+        object FriGK_SendNo: TdxDBGridColumn
+          Alignment = taRightJustify
+          Caption = #65326#65327
+          HeaderAlignment = taCenter
+          Width = 35
+          BandIndex = 5
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'SendNo'
+        end
+        object FriGK_SendPos: TdxDBGridColumn
+          Caption = #36865#37329#30446#30340
+          HeaderAlignment = taCenter
+          MinWidth = 22
+          Width = 210
+          BandIndex = 5
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 22
+          StretchChar.Auto = False
+          FieldName = 'SendPos'
+        end
+        object FriGK_SendLNo: TdxDBGridColumn
+          Caption = #36865#37329#35377#21487
+          HeaderAlignment = taCenter
+          Width = 210
+          BandIndex = 6
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 20
+          StretchChar.Auto = False
+          FieldName = 'SendLNo'
+        end
+        object FriGK_HHMMDD: TdxDBGridDateColumn
+          Visible = False
+          BandIndex = 6
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          DropDownSelectEx = False
+          DateEditFormat = dfEMD
+          Gengou = 'H'
+        end
+        object FriGK_SendDate: TdxDBGridDateColumn
+          Alignment = taCenter
+          Caption = #26085#20184
+          HeaderAlignment = taCenter
+          Width = 110
+          BandIndex = 6
+          RowIndex = 0
+          ImeMode = imClose
+          MaxLength = 10
+          StretchChar.Auto = False
+          FieldName = 'SendDate'
+          DropDownSelectEx = False
+          Gengou = 'H'
+        end
+        object FriGK_YYMMDD: TdxDBGridDateColumn
+          Visible = False
+          BandIndex = 6
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          DropDownSelectEx = False
+          DateEditFormat = dfYMD
+          Gengou = 'H'
+        end
+      end
+    end
+    object PanelOther: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 10
+      Visible = False
+      object GridOther: TdxDBGrid
+        Left = 14
+        Top = 10
+        Width = 732
+        Height = 524
+        Bands = <
+          item
+            Caption = #25903#25173#20808
+            Fixed = bfLeft
+          end
+          item
+            Caption = #21462#12288#24341#12288#20808#12288#20303#12288#25152
+          end
+          item
+            Caption = #21517#23492#12379#35242#20195#26367#25903#25173#20808
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSOther
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelection = True
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnChangeColumn = GridOtherChangeColumn
+        OnChangeNodeEx = GridOtherChangeNodeEx
+        OnBeforeChangeColumn = GridOtherBeforeChangeColumn
+        OnBeforeChangeNode = GridOtherBeforeChangeNode
+        object Hoka_ShiharaiCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'HojCode'
+        end
+        object Hoka_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object Hoka_RenChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object Hoka_ZipCode1: TdxDBGridColumn
+          Caption = #37109#20415#30058#21495
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 57
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 3
+          StretchChar.Auto = False
+          FieldName = 'ZipCode1'
+        end
+        object Hoka_ZipCode2: TdxDBGridButtonColumn
+          Caption = #37109#20415#30058#21495
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 57
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'ZipCode2'
+          OnEditButtonClick = Hoka_ZipCode2EditButtonClick
+        end
+        object Hoka_Address1: TdxDBGridColumn
+          Caption = #20303#25152#65288#19978#27573#65289
+          HeaderAlignment = taCenter
+          Width = 200
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 60
+          StretchChar.Auto = False
+          FieldName = 'Address1'
+        end
+        object Hoka_Address2: TdxDBGridColumn
+          Caption = #20303#25152#65288#19979#27573#65289
+          HeaderAlignment = taCenter
+          Width = 200
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 60
+          StretchChar.Auto = False
+          FieldName = 'Address2'
+        end
+        object Hoka_TelNo: TdxDBGridColumn
+          Caption = #38651#35441#30058#21495
+          HeaderAlignment = taCenter
+          Width = 100
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          MaxLength = 20
+          StretchChar.Auto = False
+          FieldName = 'TelNo'
+        end
+        object Hoka_SectionName: TdxDBGridColumn
+          Caption = #36865#20184#20808#37096#32626
+          HeaderAlignment = taCenter
+          Width = 100
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 40
+          StretchChar.Auto = False
+          FieldName = 'SectionName'
+        end
+        object Hoka_PersonName: TdxDBGridColumn
+          Caption = #25285#24403#32773
+          HeaderAlignment = taCenter
+          Width = 115
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 16
+          StretchChar.Auto = False
+          FieldName = 'PersonName'
+        end
+        object Hoka_TitleKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'TitleKbn'
+          DropDownSelectEx = False
+          DropDownRows = 4
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hoka_TitleName: TdxDBGridColumn
+          Caption = #25964#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 31
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'TitleName'
+        end
+        object Hoka_LetterKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'LetterKbn'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Hoka_LetterName: TdxDBGridColumn
+          Caption = #36890#30693#26360
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'LetterName'
+        end
+        object Hoka_UketoriName: TdxDBGridColumn
+          Caption = #21463#21462#20154#21517#31216
+          HeaderAlignment = taCenter
+          Width = 200
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 40
+          StretchChar.Auto = False
+          FieldName = 'UketoriName'
+        end
+        object Hoka_ChangeCode: TdxDBGridButtonColumn
+          Caption = #20195#26367#12467#12540#12489
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 75
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'ChangeCode'
+        end
+        object Hoka_ChangeName: TdxDBGridColumn
+          Caption = #20195#26367#21462#24341#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 96
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'SimpleName'
+        end
+      end
+    end
+    object PanelReal: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 0
+      Visible = False
+      object GridReal: TdxDBGrid
+        Left = 10
+        Top = 18
+        Width = 720
+        Height = 496
+        Bands = <
+          item
+            MinWidth = 18
+            Width = 20
+          end
+          item
+            Caption = #12467#12540#12489
+          end
+          item
+            Caption = #36899#24819
+          end
+          item
+            Caption = #27491#24335#21517#31216
+          end
+          item
+            Caption = #31777#30053#21517#31216
+          end
+          item
+            Caption = #20184#31627#20633#32771
+            Visible = False
+          end
+          item
+            Caption = #20998#35299#26041#27861
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'strHojCode'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #65325#65331' '#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnEnter = CmnGridEnter
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = CmnGridKeyPress
+        OnMouseMove = CmnGridMouseMove
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -13
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSReal
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -13
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelectionColor = clWindow
+        HideSelectionTextColor = clBlack
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoEditing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCanAppend, egoCancelOnExit, egoImmediateEditor, egoIndicator]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -13
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        ShowBands = True
+        ShowHeader = False
+        OnChangeColumn = GridChangeColumn
+        OnChangeNodeEx = GridChangeNodeEx
+        OnBeforeChangeColumn = GridBeforeChangeColumn
+        object GridRealTag: TdxDBGridGraphicColumn
+          Caption = ' '
+          HeaderAlignment = taCenter
+          MinWidth = 18
+          TabStop = False
+          Width = 20
+          BandIndex = 0
+          RowIndex = 0
+          HeaderMaxLineCount = 1
+          StretchChar.Auto = False
+          FieldName = 'grTag'
+          PopupToolBar.Buttons = []
+          PopupToolBar.ShowCaptions = False
+          PopupToolBar.Visible = False
+          PopupToolbarPosStored = False
+          ShadowSelection = False
+          Stretch = False
+        end
+        object GridRealCode: TdxDBGridMaskColumn
+          Alignment = taRightJustify
+          Caption = #12467#12540#12489
+          Font.Charset = SHIFTJIS_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = #65325#65331' '#12468#12471#12483#12463
+          Font.Style = []
+          HeaderAlignment = taCenter
+          Width = 75
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'strHojCode'
+        end
+        object GridRealAssociation: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          Width = 88
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 10
+          Hankaku = True
+          StretchChar.Auto = False
+          FieldName = 'strAssociation'
+        end
+        object GridRealName: TdxDBGridColumn
+          Caption = #27491#24335#21517#31216
+          Font.Charset = SHIFTJIS_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+          Font.Style = []
+          HeaderAlignment = taCenter
+          Width = 345
+          BandIndex = 3
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 40
+          StretchChar.Auto = False
+          FieldName = 'strName'
+        end
+        object GridRealNameSimple: TdxDBGridColumn
+          Caption = #31777#30053#21517#31216
+          HeaderAlignment = taCenter
+          Width = 102
+          BandIndex = 4
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 14
+          StretchChar.Auto = False
+          FieldName = 'strNameSimple'
+        end
+        object GridRealComment: TdxDBGridColumn
+          Caption = #20184#31627#20633#32771
+          ReadOnly = True
+          Visible = False
+          BandIndex = 5
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strComment'
+        end
+        object GridRealApartNo: TdxDBGridLookupColumn
+          Width = 26
+          BandIndex = 6
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'intApartNo'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object GridRealApart: TdxDBGridMaskColumn
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 35
+          BandIndex = 6
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strApart'
+        end
+      end
+    end
+    object PanelCheck: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 8
+      Visible = False
+      object GridCheck: TdxDBGrid
+        Left = 18
+        Top = 15
+        Width = 732
+        Height = 524
+        Bands = <
+          item
+            Caption = #25903#25173#20808
+            Fixed = bfLeft
+          end
+          item
+            Caption = #25391#36796#20381#38972#21475#24231
+          end
+          item
+            Caption = #25163#24418#24773#22577
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'RecId'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnEnter = CmnGridEnter2
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = GridCheckKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -12
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSCheck
+        FixedBandLineColor = clActiveBorder
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -12
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelection = True
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoTabs, egoTabThrough, egoCanDelete, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoCanInsert, egoLoadAllRecords, egoIndicator, egoSmartReload, egoSmartRefresh]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoBandMoving, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -12
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        OnBeforeChangeColumn = GridDraftBeforeChangeColumn
+        object Kog_ShiharaiCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          HeaderMaxLineCount = 2
+          StretchChar.Auto = True
+          FieldName = 'HojCode'
+        end
+        object Kog_ShiharaiName: TdxDBGridColumn
+          Caption = #25903#25173#20808#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          HeaderMaxLineCount = 2
+          StretchChar.Auto = False
+          FieldName = 'SName'
+        end
+        object Kog_RenChar: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 44
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'RenChar'
+        end
+        object Kog_PrjCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PrjGCode'
+        end
+        object Kog_PrjName: TdxDBGridColumn
+          Caption = #24037#20107#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PrjName'
+        end
+        object Kog_PjSubCode: TdxDBGridColumn
+          Caption = #12467#12540#12489
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = True
+          FieldName = 'PjSubGCode'
+        end
+        object Kog_PjSubName: TdxDBGridColumn
+          Caption = #24037#31278#65297#21517#31216
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 96
+          BandIndex = 0
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'PjSubName'
+        end
+        object Kog_IraiAccCode: TdxDBGridButtonColumn
+          Caption = #20381#38972#21475#24231
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 57
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 4
+          StretchChar.Auto = False
+          FieldName = 'IraiAccNo'
+          OnEditButtonClick = CmnIraiAccCodeEditButtonClick
+        end
+        object Kog_IraiBankName: TdxDBGridColumn
+          Caption = #37504#34892#21517#31216#65295#38928#37329#31278#30446#65295#21475#24231#30058#21495
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 230
+          BandIndex = 1
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'AccInfo'
+        end
+        object Kog_YusouKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 1
+          StretchChar.Auto = False
+          FieldName = 'YusoKbn'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Kog_YusouName: TdxDBGridColumn
+          Caption = #37109#36865#21306#20998
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 70
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'YusoKbnName'
+        end
+        object Kog_YusouFutanKbn: TdxDBGridLookupColumn
+          Caption = #12288
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 20
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 1
+          StretchChar.Auto = False
+          FieldName = 'YusoFutan'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object Kog_ChargeFutanName: TdxDBGridColumn
+          Caption = #36000#25285#21306#20998
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          Sizing = False
+          TabStop = False
+          Width = 57
+          BandIndex = 2
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'YusoFutanName'
+        end
+      end
+    end
+    object PanelTotal: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 2
+      Visible = False
+      object GridTotal: TdxDBGrid
+        Left = 10
+        Top = 10
+        Width = 720
+        Height = 496
+        Bands = <
+          item
+            MinWidth = 18
+          end
+          item
+            Caption = #12467#12540#12489
+          end
+          item
+            Caption = #36899#24819
+          end
+          item
+            Caption = #27491#24335#21517#31216
+          end
+          item
+            Caption = #31777#30053#21517#31216
+          end
+          item
+            Caption = #20184#31627#20633#32771
+            Visible = False
+          end
+          item
+            Caption = #20998#35299#26041#27861
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'strHojCode'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #65325#65331' '#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+        OnEnter = CmnGridEnter
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = CmnGridKeyPress
+        OnMouseMove = CmnGridMouseMove
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -13
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSTotal
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -13
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelectionColor = clWindow
+        HideSelectionTextColor = clBlack
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoEditing, egoTabs, egoTabThrough, egoCanDelete, egoConfirmDelete, egoCanNavigation, egoCanAppend, egoCancelOnExit, egoImmediateEditor, egoIndicator]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -13
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        ShowBands = True
+        ShowHeader = False
+        OnChangeColumn = GridChangeColumn
+        OnChangeNodeEx = GridChangeNodeEx
+        OnBeforeChangeColumn = GridBeforeChangeColumn
+        object GridTotalTag: TdxDBGridGraphicColumn
+          Caption = ' '
+          HeaderAlignment = taCenter
+          MinWidth = 18
+          TabStop = False
+          Width = 18
+          BandIndex = 0
+          RowIndex = 0
+          HeaderMaxLineCount = 1
+          StretchChar.Auto = False
+          FieldName = 'grTag'
+          PopupToolBar.Buttons = []
+          PopupToolBar.ShowCaptions = False
+          PopupToolBar.Visible = False
+          PopupToolbarPosStored = False
+          ShadowSelection = False
+          Stretch = False
+        end
+        object GridTotalCode: TdxDBGridMaskColumn
+          Alignment = taRightJustify
+          Caption = #12467#12540#12489
+          Font.Charset = SHIFTJIS_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = #65325#65331' '#12468#12471#12483#12463
+          Font.Style = []
+          HeaderAlignment = taCenter
+          Width = 75
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'strHojCode'
+        end
+        object GridTotalAssociation: TdxDBGridColumn
+          Caption = #36899#24819
+          HeaderAlignment = taCenter
+          Width = 88
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 10
+          Hankaku = True
+          StretchChar.Auto = False
+          FieldName = 'strAssociation'
+        end
+        object GridTotalName: TdxDBGridColumn
+          Caption = #27491#24335#21517#31216
+          Font.Charset = SHIFTJIS_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+          Font.Style = []
+          HeaderAlignment = taCenter
+          Width = 345
+          BandIndex = 3
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 40
+          StretchChar.Auto = False
+          FieldName = 'strName'
+        end
+        object GridTotalNameSimple: TdxDBGridColumn
+          Caption = #31777#30053#21517#31216
+          HeaderAlignment = taCenter
+          Width = 102
+          BandIndex = 4
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 14
+          StretchChar.Auto = False
+          FieldName = 'strNameSimple'
+        end
+        object GridTotalComment: TdxDBGridColumn
+          Caption = #20184#31627#20633#32771
+          ReadOnly = True
+          Visible = False
+          BandIndex = 5
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strComment'
+        end
+        object GridTotalApartNo: TdxDBGridLookupColumn
+          Width = 26
+          BandIndex = 6
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'intApartNo'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object GridTotalApart: TdxDBGridMaskColumn
+          ReadOnly = True
+          TabStop = False
+          Width = 35
+          BandIndex = 6
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strApart'
+        end
+      end
+    end
+    object PanelOffset: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelOuter = bvNone
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 9
+      Visible = False
+      object MPanel24: TMPanel
+        Left = 10
+        Top = 388
+        Width = 886
+        Height = 55
+        BevelInner = bvLowered
+        Color = 14608367
+        ParentBackground = False
+        TabOrder = 1
+        object MLabel2: TMLabel
+          Left = 2
+          Top = 2
+          Width = 131
+          Height = 16
+          Alignment = taCenter
+          AutoSize = False
+          Caption = #25903#25173#20808
+          Color = 16766672
+          ParentColor = False
+          BorderLine = tmb3DUp
+          FontRatio.Auto = False
+        end
+        object MLabel1: TMLabel
+          Left = 264
+          Top = 2
+          Width = 21
+          Height = 16
+          Alignment = taCenter
+          AutoSize = False
+          Caption = 'NO'
+          Color = 16766672
+          ParentColor = False
+          BorderLine = tmb3DUp
+          FontRatio.Auto = False
+        end
+        object MLabel3: TMLabel
+          Left = 285
+          Top = 2
+          Width = 350
+          Height = 16
+          Alignment = taCenter
+          AutoSize = False
+          Caption = #31185#30446#65295#37096#38272#65295#35036#21161
+          Color = 16766672
+          ParentColor = False
+          BorderLine = tmb3DUp
+          FontRatio.Auto = False
+        end
+        object MLabel4: TMLabel
+          Left = 635
+          Top = 2
+          Width = 128
+          Height = 16
+          Alignment = taCenter
+          AutoSize = False
+          Caption = #28040#36027#31246
+          Color = 16766672
+          ParentColor = False
+          BorderLine = tmb3DUp
+          FontRatio.Auto = False
+        end
+        object MLabel5: TMLabel
+          Left = 763
+          Top = 2
+          Width = 121
+          Height = 16
+          Alignment = taCenter
+          AutoSize = False
+          Caption = #30456#27578#37329#38989
+          Color = 16766672
+          ParentColor = False
+          BorderLine = tmb3DUp
+          FontRatio.Auto = False
+        end
+        object MLabel6: TMLabel
+          Left = 133
+          Top = 2
+          Width = 131
+          Height = 16
+          Alignment = taCenter
+          AutoSize = False
+          Caption = #24037#20107#65297
+          Color = 16766672
+          ParentColor = False
+          BorderLine = tmb3DUp
+          FontRatio.Auto = False
+        end
+        object MPanel29: TMPanel
+          Left = 2
+          Top = 19
+          Width = 882
+          Height = 34
+          BevelOuter = bvNone
+          ParentBackground = False
+          TabOrder = 0
+          object Edit04HojCodeName: TMTxtEdit
+            Left = 535
+            Top = 0
+            Width = 97
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            ReadOnly = True
+            TabOrder = 14
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit05HojCodeNum: TMNumEdit
+            Left = 458
+            Top = 17
+            Width = 76
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = True
+            ParentFont = False
+            TabOrder = 15
+            OnEnter = EditEnter
+            FormatStr = '0'
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit04HojCodeNum: TMNumEdit
+            Left = 458
+            Top = 0
+            Width = 76
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = True
+            ParentFont = False
+            TabOrder = 12
+            OnEnter = EditEnter
+            FormatStr = '0'
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit03HojCodeFree: TMTxtEdit
+            Left = 283
+            Top = 17
+            Width = 76
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = True
+            TabOrder = 10
+            Text = ''
+            OnEnter = EditEnter
+            ValidChars = ''
+          end
+          object Edit09PrjCodeNum: TMNumEdit
+            Left = 131
+            Top = 0
+            Width = 130
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = True
+            ParentFont = False
+            TabOrder = 4
+            OnEnter = EditEnter
+            FormatStr = '0'
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit00PayCodeNum: TMNumEdit
+            Left = 0
+            Top = 0
+            Width = 130
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = True
+            ParentFont = False
+            TabOrder = 0
+            OnEnter = EditEnter
+            FormatStr = '0'
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit09PrjCodeFree: TMTxtEdit
+            Left = 131
+            Top = 0
+            Width = 130
+            Height = 16
+            TabStop = False
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = True
+            TabOrder = 3
+            Text = ''
+            OnEnter = EditEnter
+            ValidChars = ''
+          end
+          object Edit00PayCodeFree: TMTxtEdit
+            Left = 0
+            Top = 0
+            Width = 130
+            Height = 16
+            TabStop = False
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = True
+            TabOrder = 1
+            Text = ''
+            OnEnter = EditEnter
+            ValidChars = ''
+          end
+          object Edit04HojCodeFree: TMTxtEdit
+            Left = 458
+            Top = 0
+            Width = 76
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = True
+            TabOrder = 13
+            Text = ''
+            OnEnter = EditEnter
+            ValidChars = ''
+          end
+          object Edit05HojCodeFree: TMTxtEdit
+            Left = 458
+            Top = 17
+            Width = 76
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = True
+            TabOrder = 16
+            Text = ''
+            OnEnter = EditEnter
+            ValidChars = ''
+          end
+          object Edit03HojCodeNum: TMNumEdit
+            Left = 283
+            Top = 17
+            Width = 76
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = True
+            ParentFont = False
+            TabOrder = 9
+            OnEnter = EditEnter
+            FormatStr = '0'
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit02KmkCode: TMNumEdit
+            Left = 283
+            Top = 0
+            Width = 76
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = False
+            ParentFont = False
+            TabOrder = 7
+            OnEnter = EditEnter
+            FormatStr = '0'
+            Digits = 6
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit02KmkCodeName: TMTxtEdit
+            Left = 360
+            Top = 0
+            Width = 97
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            ReadOnly = True
+            TabOrder = 8
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit03HojCodeName: TMTxtEdit
+            Left = 360
+            Top = 17
+            Width = 97
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            ReadOnly = True
+            TabOrder = 11
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit05HojCodeName: TMTxtEdit
+            Left = 535
+            Top = 17
+            Width = 97
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            ReadOnly = True
+            TabOrder = 17
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit06TaxCode: TMNumEdit
+            Left = 633
+            Top = 0
+            Width = 21
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdArrowClick
+            ArrowType = atArrow
+            F4Arrow = True
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = False
+            ParentFont = False
+            TabOrder = 18
+            OnChange = Edit06TaxCodeChange
+            OnEnter = EditEnter
+            Negative = False
+            Digits = 2
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit07TaxRate: TMNumEdit
+            Left = 633
+            Top = 17
+            Width = 21
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdArrowClick
+            SelectItems.Strings = (
+              '0: '#27161#28310#31246#29575
+              '1: '#65299#65285
+              '2: '#65301#65285)
+            ArrowType = atArrow
+            F4Arrow = True
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = False
+            ParentFont = False
+            TabOrder = 20
+            OnChange = Edit07TaxRateChange
+            OnEnter = EditEnter
+            Digits = 1
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit06TaxCodeName: TMTxtEdit
+            Left = 655
+            Top = 0
+            Width = 105
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = True
+            FontRatio.Minimum = 80
+            ReadOnly = True
+            TabOrder = 19
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit07TaxRateName: TMTxtEdit
+            Left = 655
+            Top = 17
+            Width = 105
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            ReadOnly = True
+            TabOrder = 21
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit08OffsetPrice: TMNumEdit
+            Left = 761
+            Top = 0
+            Width = 120
+            Height = 33
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            ArrowType = atArrow
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 10
+            MRightMargin = 2
+            FontRatio.Auto = False
+            ParentFont = False
+            TabOrder = 22
+            OnEnter = EditEnter
+            FormatStr = ',,,0'
+            Negative = False
+            Validate = False
+            Zero = True
+          end
+          object Edit01SeqNo: TMNumEdit
+            Left = 262
+            Top = 0
+            Width = 20
+            Height = 33
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            ArrowType = atArrow
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 10
+            MRightMargin = 1
+            FontRatio.Auto = False
+            ParentFont = False
+            TabOrder = 6
+            OnEnter = EditEnter
+            Digits = 2
+            Validate = False
+            Value = 1.000000000000000000
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object QRShape6: TMPanel
+            Left = 359
+            Top = 0
+            Width = 1
+            Height = 34
+            ParentBackground = False
+            TabOrder = 23
+          end
+          object QRShape7: TMPanel
+            Left = 534
+            Top = 0
+            Width = 1
+            Height = 34
+            ParentBackground = False
+            TabOrder = 24
+          end
+          object QRShape8: TMPanel
+            Left = 654
+            Top = 0
+            Width = 1
+            Height = 34
+            ParentBackground = False
+            TabOrder = 25
+          end
+          object Edit00PayName: TMTxtEdit
+            Left = 0
+            Top = 17
+            Width = 130
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            ReadOnly = True
+            TabOrder = 2
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit09PrjName: TMTxtEdit
+            Left = 131
+            Top = 17
+            Width = 130
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            ReadOnly = True
+            TabOrder = 5
+            Text = ''
+            ValidChars = ''
+          end
+        end
+      end
+      object PanelOffsetGrid: TMPanel
+        Left = 9
+        Top = 9
+        Width = 913
+        Height = 366
+        BevelInner = bvLowered
+        Color = 14608367
+        ParentBackground = False
+        TabOrder = 0
+        object GridOffset: TdxDBGrid
+          Left = 2
+          Top = 2
+          Width = 909
+          Height = 362
+          Bands = <
+            item
+              Caption = #25903#25173#20808
+            end
+            item
+              Caption = #24037#20107#65297
+            end
+            item
+              Caption = #24037#31278#65297
+            end
+            item
+              Caption = 'NO'
+              MinWidth = 26
+              Width = 26
+            end
+            item
+              Caption = #31185#30446#65295#37096#38272#65295#35036#21161
+            end
+            item
+              Caption = #28040#36027#31246
+            end
+            item
+              Caption = #30456#27578#37329#38989
+            end>
+          DefaultLayout = False
+          HeaderPanelRowCount = 1
+          KeyField = 'RecId'
+          SummaryGroups = <>
+          SummarySeparator = ', '
+          Align = alClient
+          Font.Charset = SHIFTJIS_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = #65325#65331' '#12468#12471#12483#12463
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 0
+          OnDblClick = GridOffsetDblClick
+          OnEnter = CmnGridEnter2
+          OnKeyDown = CmnGridKeyDown
+          BandColor = 10204878
+          BandFont.Charset = SHIFTJIS_CHARSET
+          BandFont.Color = clWindowText
+          BandFont.Height = -12
+          BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+          BandFont.Style = []
+          DataSource = DSOffset
+          FixedBandLineWidth = 1
+          GroupNodeColor = 10204878
+          HeaderColor = 10204878
+          HeaderFont.Charset = SHIFTJIS_CHARSET
+          HeaderFont.Color = clWindowText
+          HeaderFont.Height = -12
+          HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+          HeaderFont.Style = []
+          HideFocusRect = True
+          HideSelectionColor = clWindow
+          HideSelectionTextColor = clBlack
+          HighlightTextColor = clWindowText
+          LookAndFeel = lfFlat
+          Options = [egoTabs, egoTabThrough, egoRowSelect, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoLoadAllRecords, egoIndicator]
+          OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandMoving, egoVertThrough, egoDragScroll, egoAutoSort]
+          PreviewFont.Charset = SHIFTJIS_CHARSET
+          PreviewFont.Color = clBlue
+          PreviewFont.Height = -12
+          PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+          PreviewFont.Style = []
+          ShowBands = True
+          ShowHeader = False
+          OnChangeNodeEx = GridOffsetChangeNodeEx
+          OnCustomDrawCell = dxDBGridSelectCustomDrawCell
+          object GridOffsetHojName: TdxDBGridColumn
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            Width = 135
+            BandIndex = 0
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'strHojName'
+          end
+          object GridOffsetPrjCode: TdxDBGridColumn
+            HeaderAlignment = taCenter
+            ReadOnly = True
+            Sizing = False
+            TabStop = False
+            Visible = False
+            Width = 75
+            BandIndex = 1
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'PrjGCode'
+          end
+          object GridOffsetPrjName: TdxDBGridColumn
+            HeaderAlignment = taCenter
+            ReadOnly = True
+            TabStop = False
+            Width = 135
+            BandIndex = 1
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'PrjName'
+          end
+          object GridOffsetPjSubCode: TdxDBGridColumn
+            HeaderAlignment = taCenter
+            ReadOnly = True
+            Sizing = False
+            TabStop = False
+            Visible = False
+            Width = 75
+            BandIndex = 2
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'PjSubGCode'
+          end
+          object GridOffsetPjSubName: TdxDBGridColumn
+            HeaderAlignment = taCenter
+            ReadOnly = True
+            TabStop = False
+            Width = 135
+            BandIndex = 2
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'PjSubName'
+          end
+          object GridOffsetSeqNo: TdxDBGridColumn
+            Alignment = taCenter
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            MinWidth = 1
+            ReadOnly = True
+            TabStop = False
+            Width = 10
+            BandIndex = 3
+            RowIndex = 0
+            HeaderMaxLineCount = 0
+            EditAlignment = taRightJustify
+            FormatOnEditing = True
+            MaxLength = 2
+            StretchChar.Auto = False
+            FieldName = 'nSeqNo'
+          end
+          object GridOffsetKmk: TdxDBGridColumn
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            HeaderAlignment = taCenter
+            ReadOnly = True
+            TabStop = False
+            Width = 96
+            BandIndex = 4
+            RowIndex = 0
+            ImeMode = imDisable
+            StretchChar.Auto = False
+            FieldName = 'strKmkDesc'
+          end
+          object GridOffsetHoj01: TdxDBGridColumn
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            ReadOnly = True
+            TabStop = False
+            Width = 96
+            BandIndex = 4
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'strSubDesc01'
+            StoredRowIndex = 1
+          end
+          object GridOffsetHoj02: TdxDBGridColumn
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            ReadOnly = True
+            TabStop = False
+            Width = 96
+            BandIndex = 4
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'strSubDesc02'
+          end
+          object GridOffsetHoj03: TdxDBGridColumn
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            ReadOnly = True
+            TabStop = False
+            Width = 96
+            BandIndex = 4
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'strSubDesc03'
+            StoredRowIndex = 1
+          end
+          object GridOffsetTaxCode: TdxDBGridMaskColumn
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            ReadOnly = True
+            TabStop = False
+            Width = 20
+            BandIndex = 5
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'nTaxCode'
+          end
+          object GridOffsetTaxRate: TdxDBGridColumn
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            ReadOnly = True
+            TabStop = False
+            Width = 58
+            BandIndex = 5
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'strTaxRateDesc'
+            StoredRowIndex = 1
+          end
+          object GridOffsetOffsetPrice: TdxDBGridColumn
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ReadOnly = True
+            TabStop = False
+            Width = 120
+            BandIndex = 6
+            RowIndex = 0
+            HeaderMaxLineCount = 0
+            StretchChar.Auto = False
+            FieldName = 'nOffsetPrice'
+          end
+          object GridOffsetnTaxRate: TdxDBGridColumn
+            DisableEditor = True
+            ReadOnly = True
+            TabStop = False
+            Visible = False
+            BandIndex = 0
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'nTaxRate'
+          end
+        end
+      end
+    end
+    object PanelKhnset_G: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelOuter = bvNone
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 19
+      Visible = False
+      object MPanel24G: TMPanel
+        Left = 6
+        Top = 420
+        Width = 927
+        Height = 55
+        BevelInner = bvLowered
+        Color = 14608367
+        ParentBackground = False
+        TabOrder = 1
+        object MLabel2G: TMLabel
+          Left = 2
+          Top = 2
+          Width = 101
+          Height = 16
+          Alignment = taCenter
+          AutoSize = False
+          Caption = #25903#25173#20808
+          Color = 16766672
+          ParentColor = False
+          BorderLine = tmb3DUp
+          FontRatio.Auto = False
+        end
+        object MLabel1G: TMLabel
+          Left = 104
+          Top = 2
+          Width = 31
+          Height = 16
+          Alignment = taCenter
+          AutoSize = False
+          Caption = 'ID'
+          Color = 16766672
+          ParentColor = False
+          BorderLine = tmb3DUp
+          FontRatio.Auto = False
+        end
+        object MLabel3G: TMLabel
+          Left = 135
+          Top = 2
+          Width = 790
+          Height = 16
+          Alignment = taCenter
+          AutoSize = False
+          Caption = #38917#30446#21517#65295#26689#25968#65295#20633#32771#65295#20869#23481
+          Color = 16766672
+          ParentColor = False
+          BorderLine = tmb3DUp
+          FontRatio.Auto = False
+        end
+        object MPanel29G: TMPanel
+          Left = 2
+          Top = 19
+          Width = 923
+          Height = 34
+          BevelOuter = bvNone
+          ParentBackground = False
+          TabOrder = 0
+          object Edit00GPayCodeFree: TMTxtEdit
+            Left = 0
+            Top = 0
+            Width = 100
+            Height = 16
+            TabStop = False
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = True
+            TabOrder = 0
+            Text = ''
+            OnEnter = EditGEnter
+            ValidChars = ''
+          end
+          object Edit00GPayCodeNum: TMNumEdit
+            Left = 0
+            Top = 0
+            Width = 100
+            Height = 16
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = True
+            ParentFont = False
+            TabOrder = 1
+            OnEnter = EditGEnter
+            FormatStr = '0'
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit01GItemValue: TMTxtEdit
+            Left = 133
+            Top = 17
+            Width = 789
+            Height = 17
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            ArrowType = atOmission
+            F4Arrow = True
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            ImeMode = imDisable
+            MaxLength = 256
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = True
+            FontRatio.Minimum = 0
+            TabOrder = 3
+            Text = ''
+            OnEnter = EditGEnter
+            OnKeyPress = Edit01GItemValueKeyPress
+            ValidChars = ''
+          end
+          object Edit00GPayName: TMTxtEdit
+            Left = 0
+            Top = 17
+            Width = 100
+            Height = 17
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            ReadOnly = True
+            TabOrder = 5
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit01GRemarks: TMTxtEdit
+            Left = 295
+            Top = 0
+            Width = 627
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = True
+            ReadOnly = True
+            TabOrder = 4
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit01GSimpleName: TMTxtEdit
+            Left = 133
+            Top = 0
+            Width = 119
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            ReadOnly = True
+            TabOrder = 7
+            Text = ''
+            ValidChars = ''
+          end
+          object Edit01GMaxDigit: TMNumEdit
+            Left = 253
+            Top = 0
+            Width = 41
+            Height = 16
+            TabStop = False
+            ArrowDisp = adNone
+            SelectDisp = sdNone
+            Static = True
+            ArrowType = atArrow
+            AutoSize = False
+            BorderStyle = bsNone
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#26126#26397
+            Font.Style = []
+            ImeMode = imClose
+            MTopMargin = 2
+            FontRatio.Auto = False
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 6
+            FormatStr = '0'
+            Digits = 6
+            Validate = False
+            InputFlag = True
+            InputFlagEnabled = True
+            Zero = True
+          end
+          object Edit01GItemID: TMTxtEdit
+            Left = 101
+            Top = 0
+            Width = 31
+            Height = 34
+            ArrowDisp = adFocused
+            SelectDisp = sdNone
+            OnArrowClick = ArrowClick
+            ArrowType = atOmission
+            F4Arrow = True
+            TagStr = ''
+            AutoSize = False
+            BorderStyle = bsNone
+            ImeMode = imDisable
+            MaxLength = 3
+            MLeftMargin = 2
+            MTopMargin = 3
+            FontRatio.Auto = False
+            TabOrder = 2
+            Text = ''
+            OnEnter = EditGEnter
+            OnKeyPress = Edit01GItemIDKeyPress
+            ValidChars = ''
+          end
+        end
+      end
+      object PanelKhnset_GGrid: TMPanel
+        Left = 9
+        Top = 17
+        Width = 920
+        Height = 384
+        BevelInner = bvLowered
+        Color = 14608367
+        ParentBackground = False
+        TabOrder = 0
+        object GridKhnsetG: TdxDBGrid
+          Left = 2
+          Top = 2
+          Width = 915
+          Height = 380
+          Bands = <
+            item
+              Caption = #12467#12540#12489
+              Fixed = bfLeft
+              MinWidth = 0
+              Width = 300
+            end
+            item
+            end>
+          DefaultLayout = False
+          HeaderPanelRowCount = 1
+          KeyField = 'RecId'
+          SummaryGroups = <>
+          SummarySeparator = ', '
+          Font.Charset = SHIFTJIS_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = #65325#65331' '#12468#12471#12483#12463
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 0
+          OnDblClick = GridKhnsetGDblClick
+          OnEnter = EditGEnter
+          BandColor = 10204878
+          BandFont.Charset = SHIFTJIS_CHARSET
+          BandFont.Color = clWindowText
+          BandFont.Height = -12
+          BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+          BandFont.Style = []
+          DataSource = DSKhnsetG
+          FixedBandLineWidth = 1
+          GroupNodeColor = 10204878
+          HeaderColor = 10204878
+          HeaderFont.Charset = SHIFTJIS_CHARSET
+          HeaderFont.Color = clWindowText
+          HeaderFont.Height = -12
+          HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+          HeaderFont.Style = []
+          HideFocusRect = True
+          HideSelectionColor = clWindow
+          HideSelectionTextColor = clBlack
+          HighlightTextColor = clWindowText
+          LookAndFeel = lfFlat
+          Options = [egoColumnSizing, egoTabs, egoTabThrough, egoRowSelect, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoLoadAllRecords, egoIndicator]
+          OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandMoving, egoVertThrough, egoDragScroll, egoAutoSort]
+          PreviewFont.Charset = SHIFTJIS_CHARSET
+          PreviewFont.Color = clBlue
+          PreviewFont.Height = -12
+          PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+          PreviewFont.Style = []
+          OnChangeNodeEx = GridKhnsetGChangeNodeEx
+          object GridKhnsetGHojCode: TdxDBGridColumn
+            Caption = #12467#12540#12489
+            HeaderAlignment = taCenter
+            Width = 75
+            BandIndex = 0
+            RowIndex = 0
+            StretchChar.Auto = True
+            FieldName = 'strHojCode'
+          end
+          object GridKhnsetGHojName: TdxDBGridColumn
+            Caption = #25903#25173#20808#21517#31216
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            HeaderAlignment = taCenter
+            Width = 96
+            BandIndex = 0
+            RowIndex = 0
+            StretchChar.Auto = False
+            FieldName = 'strHojName'
+          end
+          object GridKhnsetGItemID: TdxDBGridColumn
+            Alignment = taLeftJustify
+            Caption = 'ID'
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            HeaderAlignment = taCenter
+            MinWidth = 1
+            ReadOnly = True
+            TabStop = False
+            Width = 40
+            BandIndex = 0
+            RowIndex = 0
+            HeaderMaxLineCount = 0
+            EditAlignment = taRightJustify
+            FormatOnEditing = True
+            MaxLength = 2
+            StretchChar.Auto = False
+            FieldName = 'ItemID'
+          end
+          object GridKhnsetGSimpleName: TdxDBGridColumn
+            Caption = #38917#30446#21517
+            DisableEditor = True
+            Font.Charset = SHIFTJIS_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+            Font.Style = []
+            HeaderAlignment = taCenter
+            ReadOnly = True
+            TabStop = False
+            Width = 140
+            BandIndex = 0
+            RowIndex = 0
+            ImeMode = imDisable
+            StretchChar.Auto = False
+            FieldName = 'IDName'
+          end
+          object GridKhnsetGItemValue: TdxDBGridColumn
+            Caption = #12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288'        '#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#12288#20869#23481
+            Width = 1900
+            BandIndex = 1
+            RowIndex = 0
+            MaxLength = 256
+            StretchChar.Auto = False
+            FieldName = 'ItemValue'
+          end
+        end
+      end
+    end
+    object Tab: TMTab
+      Left = 0
+      Top = 0
+      Width = 743
+      Height = 49
+      Items = <
+        item
+          Caption = #22522#26412#24773#22577
+          Color = 16766672
+          SyncControl = PanelKihon
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #23455#22312#24773#22577
+          Color = 16766672
+          SyncControl = PanelReal
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #21512#35336#24773#22577
+          Color = 16766672
+          SyncControl = PanelTotal
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #25903#25173#26041#27861
+          Color = 16766672
+          SyncControl = PanelPayWay
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #26041#27861#65288#27604#29575#65289
+          Color = 16766672
+          SyncControl = PanelPayRatio
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #26041#27861#65288#23450#38989#65289
+          Color = 16766672
+          SyncControl = PanelPayFixed
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #25391#36796#24773#22577
+          Color = 16766672
+          SyncControl = PanelFurikomi
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #26399#26085#25391#36796#24773#22577
+          Color = 16766672
+          SyncControl = PanelFuriDate
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #25163#24418#65295#38651#23376#20661#27177#24773#22577
+          Color = 16766672
+          SyncControl = PanelDraft
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #23567#20999#25163#24773#22577
+          Color = 16766672
+          SyncControl = PanelCheck
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #30456#27578#24773#22577
+          Color = 16766672
+          SyncControl = PanelOffset
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #12381#12398#20182#24773#22577
+          Color = 16766672
+          SyncControl = PanelOther
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #21517#23492#12379
+          Color = 16766672
+          SyncControl = PanelNayose
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #22806#36008#22522#26412
+          Color = 16766672
+          SyncControl = PanelKihon_G
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #38651#20449#36865#37329
+          Color = 16766672
+          SyncControl = PanelFurikomi_GD
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #28858#26367#25163#24418
+          Color = 16766672
+          SyncControl = PanelFurikomi_GT
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #36865#37329#23567#20999#25163
+          Color = 16766672
+          SyncControl = PanelFurikomi_GK
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end
+        item
+          Caption = #21487#22793#38917#30446
+          Color = 16766672
+          SyncControl = PanelKhnset_G
+          Alignment = taCenter
+          ImageIndex = -1
+          ParentBorderCaption = True
+        end>
+      Align = alTop
+      TabOrder = 1
+      OnChange = TabChange
+      ItemWidth = 0
+      ItemHeight = 0
+      ItemMargin = 6
+      Style = tsCrystal
+      BorderHeight = 19
+      BorderFont.Charset = SHIFTJIS_CHARSET
+      BorderFont.Color = clWindowText
+      BorderFont.Height = -12
+      BorderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+      BorderFont.Style = []
+      OnEnter = TabEnter
+      OnKeyDown = TabKeyDown
+      BorderCaptionAlign = taLeftJustify
+      DropShadow = False
+    end
+    object PanelKihon: TMPanel
+      Left = 0
+      Top = 49
+      Width = 743
+      Height = 479
+      Align = alClient
+      BevelInner = bvLowered
+      Color = 15921906
+      ParentBackground = False
+      TabOrder = 12
+      Visible = False
+      object GridKihon: TdxDBGrid
+        Left = 22
+        Top = 13
+        Width = 735
+        Height = 496
+        BandMaxRowCount = 6
+        Bands = <
+          item
+            Caption = #12467#12540#12489
+          end
+          item
+            Caption = #25903#25173#20808#21517#31216
+          end
+          item
+            Caption = #36899#24819
+          end
+          item
+            Caption = #26619#23450#26041#27861
+          end
+          item
+            Caption = #32368#36234#35336#31639
+          end
+          item
+            Caption = #27604#29575
+          end
+          item
+            Caption = #23450#38989
+          end
+          item
+            Caption = #20998#35299#26041#27861
+          end
+          item
+            Caption = #21463#21462#20154#21517#31216
+          end
+          item
+            Caption = #20998#35299#12497#12479#12540#12531
+          end
+          item
+            Caption = #38928#12363#12426#28304#27849#31246#25505#29992#21306#20998
+            Visible = False
+          end>
+        DefaultLayout = False
+        HeaderPanelRowCount = 1
+        KeyField = 'strHojCode'
+        SummaryGroups = <>
+        SummarySeparator = ', '
+        BorderStyle = bsNone
+        Font.Charset = SHIFTJIS_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        Font.Style = []
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        OnKeyDown = CmnGridKeyDown
+        OnKeyPress = GridKihonKeyPress
+        BandColor = 10204878
+        BandFont.Charset = SHIFTJIS_CHARSET
+        BandFont.Color = clWindowText
+        BandFont.Height = -13
+        BandFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        BandFont.Style = []
+        DataSource = DSKihon
+        HeaderColor = 10204878
+        HeaderFont.Charset = SHIFTJIS_CHARSET
+        HeaderFont.Color = clWindowText
+        HeaderFont.Height = -13
+        HeaderFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        HeaderFont.Style = []
+        HideFocusRect = True
+        HideSelectionColor = clWindow
+        HideSelectionTextColor = clBlack
+        HighlightTextColor = clWindowText
+        LookAndFeel = lfFlat
+        Options = [egoColumnSizing, egoEditing, egoTabs, egoTabThrough, egoConfirmDelete, egoCanNavigation, egoCancelOnExit, egoImmediateEditor, egoIndicator]
+        OptionsEx = [egoUseBitmap, egoBandHeaderWidth, egoBandSizing, egoVertThrough, egoEnterThrough, egoEnterShowEditor, egoDragScroll, egoAutoSort]
+        PreviewFont.Charset = SHIFTJIS_CHARSET
+        PreviewFont.Color = clBlue
+        PreviewFont.Height = -13
+        PreviewFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        PreviewFont.Style = []
+        ShowBands = True
+        ShowHeader = False
+        OnChangeNodeEx = GridChangeNodeEx
+        OnCustomDrawCell = GridKihonCustomDrawCell
+        OnBeforeChangeColumn = GridKihonBeforeChangeColumn
+        OnBeforeChangeNode = GridKihonBeforeChangeNode
+        object GridKihon_GCode: TdxDBGridMaskColumn
+          Alignment = taRightJustify
+          Caption = #12467#12540#12489
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 75
+          BandIndex = 0
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          StretchChar.Auto = True
+          FieldName = 'strHojCode'
+        end
+        object GridKihon_Renso: TdxDBGridColumn
+          Caption = #36899#24819
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 88
+          BandIndex = 2
+          RowIndex = 0
+          ImeMode = imSKata
+          MaxLength = 10
+          Hankaku = True
+          StretchChar.Auto = False
+          FieldName = 'strAssociation'
+        end
+        object GridKihon_SimpleName: TdxDBGridColumn
+          Caption = #31777#30053#21517#31216
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 200
+          BandIndex = 1
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 14
+          StretchChar.Auto = False
+          FieldName = 'strNameSimple'
+        end
+        object GridKihon_SateiNo: TdxDBGridLookupColumn
+          Width = 26
+          BandIndex = 3
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'intSateiNo'
+          DropDownSelectEx = False
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 130
+        end
+        object GridKihon_SateiName: TdxDBGridMaskColumn
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          TabStop = False
+          Width = 122
+          BandIndex = 3
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strSatei'
+        end
+        object GridKihon_SateiCalc: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Width = 26
+          BandIndex = 4
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'intSateiCalc'
+          DropDownSelectEx = False
+          DropDownRows = 3
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object GridKihon_SateiCalcName: TdxDBGridMaskColumn
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          TabStop = False
+          Width = 57
+          BandIndex = 4
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strSateiCalc'
+        end
+        object GridKihon_H_SateiCalcValue: TdxDBGridColumn
+          Alignment = taRightJustify
+          HeaderAlignment = taCenter
+          Sizing = False
+          Width = 40
+          BandIndex = 5
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 6
+          StretchChar.Auto = False
+          FieldName = 'SateiCalcHiritu'
+        end
+        object GridKihon_T_SateiCalcValue: TdxDBGridColumn
+          Alignment = taRightJustify
+          HeaderAlignment = taCenter
+          Width = 82
+          BandIndex = 6
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          MaxLength = 11
+          StretchChar.Auto = False
+          FieldName = 'SateiCalcTeigaku'
+        end
+        object GridKihon_BunkaiNo: TdxDBGridLookupColumn
+          Width = 26
+          BandIndex = 7
+          RowIndex = 0
+          ImeMode = imDisable
+          EditAlignment = taRightJustify
+          MaxLength = 2
+          StretchChar.Auto = False
+          FieldName = 'intApartNo'
+          DropDownSelectEx = False
+          DropDownRows = 2
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 80
+        end
+        object GridKihon_BunkaiName: TdxDBGridMaskColumn
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 35
+          BandIndex = 7
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'strApart'
+        end
+        object GridKihon_UketoriName: TdxDBGridColumn
+          Caption = 'GridKihon_UketoriName'
+          Width = 200
+          BandIndex = 8
+          RowIndex = 0
+          ImeMode = imHira
+          MaxLength = 40
+          StretchChar.Auto = False
+          FieldName = 'UketoriName'
+        end
+        object GridKihon_BunkaiPtn: TdxDBGridLookupColumn
+          Alignment = taRightJustify
+          Caption = 'intBunkaiPtn'
+          Width = 26
+          BandIndex = 9
+          RowIndex = 0
+          EditAlignment = taRightJustify
+          StretchChar.Auto = False
+          FieldName = 'BunkaiPtn'
+          DropDownSelectEx = False
+          DropDownRows = 4
+          ListFieldName = 'Kbn;Name'
+          ListWidth = 135
+        end
+        object GridKihon_BunkaiPtnName: TdxDBGridMaskColumn
+          Caption = 'strBunkaiPtn'
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Width = 122
+          BandIndex = 9
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'BunkaiPtnName'
+        end
+        object GridKihon_GensenUseKbn: TdxDBGridColumn
+          DisableDragging = True
+          DisableEditor = True
+          HeaderAlignment = taCenter
+          ReadOnly = True
+          TabStop = False
+          Visible = False
+          BandIndex = 10
+          RowIndex = 0
+          StretchChar.Auto = False
+          FieldName = 'GensenUseKbn'
+        end
+      end
+    end
+  end
+  object MSPFunctionBar: TMSPFunctionBar
+    Left = 0
+    Top = 555
+    Width = 945
+    Height = 21
+    Alignment = taLeftJustify
+    FuncColor = 15921906
+    Align = alBottom
+    Font.Charset = SHIFTJIS_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+    Font.Pitch = fpFixed
+    Font.Style = []
+    KeyDownEvent = False
+    ButtonCount = 8
+    ButtonWidth = 118
+    FuncAnchors = True
+    OnFunctionClick = MSPFunctionBarFunctionClick
+    SysBaseColorB = 10841658
+    SysBaseColorD = 6956042
+  end
+  object CmnTreeViewImage: TImageList
+    Left = 16
+    Top = 392
+    Bitmap = {
+      494C010113001800040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      0000000000003600000028000000400000005000000001002000000000000050
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008484
+      8400848484008484840000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000084848400000000008484840000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008484
+      8400000000000000000084848400848484008484840084848400848484008484
+      8400848484008484840000000000000000000000000000000000000000000000
+      0000840000008442000000000000000000000000000000000000844200008400
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000084848400848484000000000000000000C6C6C600000000000000
+      0000000000000000000000000000000000000000000000000000000000008484
+      84000000000000000000000000000000000084848400C6C6C600C6C6C6000000
+      0000000000008484840000000000000000000000000000000000000000008400
+      000084420000FF84000000000000000000000000000000000000FF8400008442
+      0000840000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000848484008484840084848400000000008484840000000000C6C6C6000000
+      0000C6C6C6000000000000000000000000000000000000000000848484008484
+      84000000000000000000C6C6C600000000008484840000000000000000000000
+      0000000000008484840000000000000000000000000000000000840000008400
+      0000FF840000FF84000084000000840000008400000084000000FF840000FF84
+      0000844200008400000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008484
+      8400848484008484840084848400C6C6C600000000000000000084848400C6C6
+      C60000000000C6C6C60000000000000000000000000084848400848484000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      840000000000848484000000000000000000000000008400000084000000FF84
+      0000FF840000FFA5210084420000844200008442000084420000FFA56300FF84
+      0000FF8400008442000084000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000848484008484
+      84008484840084848400C6C6C600848484008484840084848400000000000000
+      0000848484000000000084848400000000000000000084848400000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000008484840000000000000000008400000084420000FF840000FF84
+      0000FFA56300FFA56300FFA56300FFA56300FFA56300FFA56300FFA56300FFA5
+      6300FF840000FF84000084420000840000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000084848400848484008484
+      840084848400C6C6C60084848400848484008484840084848400848484008484
+      8400000000000000000084848400000000000000000084848400000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      84000000000084848400000000000000000084420000FF840000FF840000FFC6
+      8400FFC68400FFC68400FFC68400FFC68400FFC68400FFC68400FFC68400FFC6
+      8400FFA56300FF840000FF840000844200000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000084848400848484008484
+      8400C6C6C6008484840084848400848484008484840084848400848484008484
+      8400848484008484840000000000000000000000000084848400000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      840000000000848484000000000000000000FF840000FF840000FFA56300FFA5
+      6300FFC68400FFC6A500FFC6A500FFC6A500FFC6A500FFC6A500FFC6A500FFC6
+      A500FFC68400FFA56300FF840000FF8400000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000008484840084848400C6C6
+      C600848484008484840084848400848484008484840084848400848484008484
+      8400848484008484840000000000000000000000000084848400000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      84000000000084848400000000000000000000000000FF840000FF840000FF84
+      0000FFC68400FFC68400FFC68400FFC68400FFC68400FFC68400FFC68400FFC6
+      8400FFA56300FF840000FF840000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000084848400C6C6C6008484
+      8400848484008484840084848400848484008484840084848400848484008484
+      8400848484000000000000000000000000000000000084848400000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000008484840000000000000000000000000000000000FF840000FF84
+      0000FFA52100FFA56300FFA56300FFA56300FFA56300FFA56300FFA56300FFA5
+      2100FF840000FF84000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000C6C6C600848484008484
+      8400848484008484840084848400848484008484840084848400848484008484
+      8400000000000000000000000000000000000000000084848400000000000000
+      0000C6C6C600848484008484840000000000000000000000000000FFFF008484
+      840000000000000000000000000000000000000000000000000000000000FF84
+      0000FF840000FFA5210000000000000000000000000000000000FFA52100FF84
+      0000FF8400000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008484
+      8400848484008484840084848400848484008484840084848400848484000000
+      0000000000000000000000000000000000000000000084848400000000000000
+      0000848484000000000000000000848484008484840000000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000FF840000FF84000000000000000000000000000000000000FF840000FF84
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000008484840084848400848484008484840084848400000000000000
+      000000000000000000000000000000000000000000008484840000000000C6C6
+      C600848484000000000000000000000000000000000084848400848484008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      000000000000FF84000000000000000000000000000000000000FF8400000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000848484008484840000000000000000000000
+      0000000000000000000000000000000000000000000084848400C6C6C6008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000848484000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000084848400848484008484
+      8400848484008484840084848400848484008484840084848400848484008484
+      8400848484000000000000000000000000000000000084848400848484008484
+      8400848484008484840084848400848484008484840084848400848484008484
+      840084848400000000000000000000000000000000004284FF004284FF004284
+      FF004284FF004284FF004284FF004284FF004284FF004284FF004284FF004284
+      FF004284FF00000000000000000000000000000000004284FF004284FF004284
+      FF004284FF004284FF004284FF004284FF004284FF004284FF004284FF004284
+      FF004284FF000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF000000000000000000000000000000000084848400000000000000
+      0000848484008484840084848400848484008484840084848400000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      0000000000008484840084848400848484008484840084848400000000000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      00004284FF004284FF004284FF004284FF004284FF004284FF00000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      0000000000004284FF004284FF004284FF004284FF004284FF00000000000000
+      00004284FF000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF000000000000000000000000000000000084848400000000000000
+      0000848484008484840084848400848484008484840084848400000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      00000000000000FFFF0000000000000000000000000084848400000000000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      00004284FF004284FF004284FF004284FF004284FF004284FF00000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      00000000000000FFFF000000000000000000000000004284FF00000000000000
+      00004284FF000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      000000FFFF0000FFFF000000C600000000000000000000000000000000000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      000000FFFF0000FFFF000000C600000000000000000000000000000000000000
+      00004284FF000000000000000000000000000000000084848400000000000000
+      0000848484008484840084848400848484008484840084848400000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      0000848484000000C6000000C600000084008484840084848400000000000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      00004284FF004284FF004284FF004284FF004284FF004284FF00000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      00004284FF000000C6000000C600000084004284FF004284FF00000000000000
+      00004284FF000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      000000000000000000000000C6000000C6000000840000000000000000000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      000000000000000000000000C6000000C6000000840000000000000000000000
+      00004284FF000000000000000000000000000000000084848400000000000000
+      0000848484008484840084848400848484008484840084848400000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      00008484840084848400848484000000C6000000C60000008400000000000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      00004284FF004284FF004284FF004284FF004284FF004284FF00000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      00004284FF004284FF004284FF000000C6000000C60000008400000000000000
+      00004284FF000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000C6000000C600000084000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000C6000000C600000084000000
+      00004284FF000000000000000000000000000000000084848400000000000000
+      0000848484008484840084848400848484008484840084848400000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      000084848400848484008484840084848400848484000000C600000084000000
+      840084848400000000000000000000000000000000004284FF00000000000000
+      00004284FF004284FF004284FF004284FF004284FF004284FF00000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      00004284FF004284FF004284FF004284FF004284FF000000C600000084000000
+      84004284FF000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      00000000000000000000000000000000000000000000000000000000C6000000
+      840084848400000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      00000000000000000000000000000000000000000000000000000000C6000000
+      84004284FF000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000084848400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000084848400000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF00000000000000000000000000000000004284FF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00004284FF000000000000000000000000000000000084848400848484008484
+      8400848484008484840084848400848484008484840084848400848484008484
+      8400848484000000000000000000000000000000000084848400848484008484
+      8400848484008484840084848400848484008484840084848400848484008484
+      840084848400000000000000000000000000000000004284FF004284FF004284
+      FF004284FF004284FF004284FF004284FF004284FF004284FF004284FF004284
+      FF004284FF00000000000000000000000000000000004284FF004284FF004284
+      FF004284FF004284FF004284FF004284FF004284FF004284FF004284FF004284
+      FF004284FF000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000084008400840084008400
+      8400840084008400840084008400840084008400840084008400840084008400
+      8400840084000000000000000000000000000000000084008400840084008400
+      8400840084008400840084008400840084008400840084008400840084008400
+      8400840084000000000000000000000000000000000084000000840000008400
+      0000840000008400000084000000840000008400000084000000840000008400
+      0000840000000000000000000000000000000000000084000000840000008400
+      0000840000008400000084000000840000008400000084000000840000008400
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000840084008400840084008400840084008400840084008400000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      0000000000008400840084008400840084008400840084008400000000000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000840000008400000084000000840000008400000084000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      0000000000008400000084000000840000008400000084000000000000000000
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000840084008400840084008400840084008400840084008400000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      00000000000000FFFF0000000000000000000000000084008400000000000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000840000008400000084000000840000008400000084000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      00000000000000FFFF0000000000000000000000000084000000000000000000
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      000000FFFF0000FFFF000000C600000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      000000FFFF0000FFFF000000C600000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000840084008400840084008400840084008400840084008400000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      0000840084000000C6000000C600000084008400840084008400000000000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000840000008400000084000000840000008400000084000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      0000840000000000C6000000C600000084008400000084000000000000000000
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      000000000000000000000000C6000000C6000000840000000000000000000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      000000000000000000000000C6000000C6000000840000000000000000000000
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000840084008400840084008400840084008400840084008400000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      00008400840084008400840084000000C6000000C60000008400000000000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000840000008400000084000000840000008400000084000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      00008400000084000000840000000000C6000000C60000008400000000000000
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000C6000000C600000084000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000C6000000C600000084000000
+      0000840000000000000000000000000000000000000084008400000000000000
+      0000840084008400840084008400840084008400840084008400000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      000084008400840084008400840084008400840084000000C600000084000000
+      8400840084000000000000000000000000000000000084000000000000000000
+      0000840000008400000084000000840000008400000084000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      000084000000840000008400000084000000840000000000C600000084000000
+      8400840000000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      00000000000000000000000000000000000000000000000000000000C6000000
+      8400840084000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      00000000000000000000000000000000000000000000000000000000C6000000
+      8400840000000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084008400000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840084000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000840000000000000000000000000000000000000084008400840084008400
+      8400840084008400840084008400840084008400840084008400840084008400
+      8400840084000000000000000000000000000000000084008400840084008400
+      8400840084008400840084008400840084008400840084008400840084008400
+      8400840084000000000000000000000000000000000084000000840000008400
+      0000840000008400000084000000840000008400000084000000840000008400
+      0000840000000000000000000000000000000000000084000000840000008400
+      0000840000008400000084000000840000008400000084000000840000008400
+      0000840000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      FF000000FF000000FF0000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000004284
+      FF004284FF004284FF0000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000FF00000000008484840000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      FF0000000000000000000000FF000000FF000000FF000000FF000000FF000000
+      FF000000FF000000FF0000000000000000000000000000000000000000000000
+      000000000000000000004284FF00000000008484840000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000004284
+      FF0000000000000000004284FF004284FF004284FF004284FF004284FF004284
+      FF004284FF004284FF0000000000000000000000000000000000000000000000
+      0000000000000000FF000000FF000000000000000000C6C6C600000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      FF000000000000000000000000000000000084848400C6C6C600C6C6C6000000
+      0000000000000000FF0000000000000000000000000000000000000000000000
+      0000000000004284FF004284FF000000000000000000C6C6C600000000000000
+      0000000000000000000000000000000000000000000000000000000000004284
+      FF000000000000000000000000000000000084848400C6C6C600C6C6C6000000
+      0000000000004284FF0000000000000000000000000000000000000000000000
+      00000000FF000000FF000000FF00000000008484840000000000C6C6C6000000
+      0000C6C6C60000000000000000000000000000000000000000000000FF000000
+      FF000000000000000000C6C6C600000000008484840000000000000000000000
+      0000000000000000FF0000000000000000000000000000000000000000000000
+      00004284FF004284FF004284FF00000000008484840000000000C6C6C6000000
+      0000C6C6C60000000000000000000000000000000000000000004284FF004284
+      FF000000000000000000C6C6C600000000008484840000000000000000000000
+      0000000000004284FF0000000000000000000000000000000000000000000000
+      FF000000FF000000FF000000FF00C6C6C600000000000000000084848400C6C6
+      C60000000000C6C6C6000000000000000000000000000000FF000000FF000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000000000FF0000000000000000000000000000000000000000004284
+      FF004284FF004284FF004284FF00C6C6C600000000000000000084848400C6C6
+      C60000000000C6C6C6000000000000000000000000004284FF004284FF000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000004284FF00000000000000000000000000000000000000FF000000
+      FF000000FF000000FF00C6C6C6000000FF000000FF000000FF00000000000000
+      000084848400000000008484840000000000000000000000FF00000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000000000FF00000000000000000000000000000000004284FF004284
+      FF004284FF004284FF00C6C6C6004284FF004284FF004284FF00000000000000
+      000084848400000000008484840000000000000000004284FF00000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000004284FF000000000000000000000000000000FF000000FF000000
+      FF000000FF00C6C6C6000000FF000000FF000000FF000000FF000000FF000000
+      FF0000000000000000008484840000000000000000000000FF00000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000000000FF000000000000000000000000004284FF004284FF004284
+      FF004284FF00C6C6C6004284FF004284FF004284FF004284FF004284FF004284
+      FF0000000000000000008484840000000000000000004284FF00000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000004284FF000000000000000000000000000000FF000000FF000000
+      FF00C6C6C6000000FF000000FF000000FF000000FF000000FF000000FF000000
+      FF000000FF000000FF000000000000000000000000000000FF00000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000000000FF000000000000000000000000004284FF004284FF004284
+      FF00C6C6C6004284FF004284FF004284FF004284FF004284FF004284FF004284
+      FF004284FF004284FF000000000000000000000000004284FF00000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000004284FF000000000000000000000000000000FF000000FF00C6C6
+      C6000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000
+      FF000000FF000000FF000000000000000000000000000000FF00000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000000000FF000000000000000000000000004284FF004284FF00C6C6
+      C6004284FF004284FF004284FF004284FF004284FF004284FF004284FF004284
+      FF004284FF004284FF000000000000000000000000004284FF00000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000004284FF000000000000000000000000000000FF00C6C6C6000000
+      FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000
+      FF000000FF00000000000000000000000000000000000000FF00000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000000000FF000000000000000000000000004284FF00C6C6C6004284
+      FF004284FF004284FF004284FF004284FF004284FF004284FF004284FF004284
+      FF004284FF00000000000000000000000000000000004284FF00000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000004284FF00000000000000000000000000C6C6C6000000FF000000
+      FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000
+      FF0000000000000000000000000000000000000000000000FF00000000000000
+      0000C6C6C600848484008484840000000000000000000000000000FFFF008484
+      84000000000000000000000000000000000000000000C6C6C6004284FF004284
+      FF004284FF004284FF004284FF004284FF004284FF004284FF004284FF004284
+      FF0000000000000000000000000000000000000000004284FF00000000000000
+      0000C6C6C600848484008484840000000000000000000000000000FFFF008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000
+      000000000000000000000000000000000000000000000000FF00000000000000
+      0000848484000000000000000000848484008484840000000000000000008484
+      8400000000000000000000000000000000000000000000000000000000004284
+      FF004284FF004284FF004284FF004284FF004284FF004284FF004284FF000000
+      000000000000000000000000000000000000000000004284FF00000000000000
+      0000848484000000000000000000848484008484840000000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000FF000000FF000000FF000000FF000000FF00000000000000
+      000000000000000000000000000000000000000000000000FF0000000000C6C6
+      C600848484000000000000000000000000000000000084848400848484008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000004284FF004284FF004284FF004284FF004284FF00000000000000
+      000000000000000000000000000000000000000000004284FF0000000000C6C6
+      C600848484000000000000000000000000000000000084848400848484008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000FF000000FF0000000000000000000000
+      0000000000000000000000000000000000000000000084848400C6C6C6008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000004284FF004284FF0000000000000000000000
+      0000000000000000000000000000000000000000000084848400C6C6C6008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000848484000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000848484000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000004284
+      8400428484004284840000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008400
+      8400840084008400840000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000042848400000000008484840000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000004284
+      8400000000000000000042848400428484004284840042848400428484004284
+      8400428484004284840000000000000000000000000000000000000000000000
+      0000000000000000000084008400000000008484840000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008400
+      8400000000000000000084008400840084008400840084008400840084008400
+      8400840084008400840000000000000000000000000000000000000000000000
+      00000000000042848400428484000000000000000000C6C6C600000000000000
+      0000000000000000000000000000000000000000000000000000000000004284
+      84000000000000000000000000000000000084848400C6C6C600C6C6C6000000
+      0000000000004284840000000000000000000000000000000000000000000000
+      00000000000084008400840084000000000000000000C6C6C600000000000000
+      0000000000000000000000000000000000000000000000000000000000008400
+      84000000000000000000000000000000000084848400C6C6C600C6C6C6000000
+      0000000000008400840000000000000000000000000000000000000000000000
+      0000428484004284840042848400000000008484840000000000C6C6C6000000
+      0000C6C6C6000000000000000000000000000000000000000000428484004284
+      84000000000000000000C6C6C600000000008484840000000000000000000000
+      0000000000004284840000000000000000000000000000000000000000000000
+      0000840084008400840084008400000000008484840000000000C6C6C6000000
+      0000C6C6C6000000000000000000000000000000000000000000840084008400
+      84000000000000000000C6C6C600000000008484840000000000000000000000
+      0000000000008400840000000000000000000000000000000000000000004284
+      8400428484004284840042848400C6C6C600000000000000000084848400C6C6
+      C60000000000C6C6C60000000000000000000000000042848400428484000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000004284840000000000000000000000000000000000000000008400
+      8400840084008400840084008400C6C6C600000000000000000084848400C6C6
+      C60000000000C6C6C60000000000000000000000000084008400840084000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000008400840000000000000000000000000000000000428484004284
+      84004284840042848400C6C6C600428484004284840042848400000000000000
+      0000848484000000000084848400000000000000000042848400000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000004284840000000000000000000000000000000000840084008400
+      84008400840084008400C6C6C600840084008400840084008400000000000000
+      0000848484000000000084848400000000000000000084008400000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000008400840000000000000000000000000042848400428484004284
+      840042848400C6C6C60042848400428484004284840042848400428484004284
+      8400000000000000000084848400000000000000000042848400000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000004284840000000000000000000000000084008400840084008400
+      840084008400C6C6C60084008400840084008400840084008400840084008400
+      8400000000000000000084848400000000000000000084008400000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000008400840000000000000000000000000042848400428484004284
+      8400C6C6C6004284840042848400428484004284840042848400428484004284
+      8400428484004284840000000000000000000000000042848400000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000004284840000000000000000000000000084008400840084008400
+      8400C6C6C6008400840084008400840084008400840084008400840084008400
+      8400840084008400840000000000000000000000000084008400000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      840000000000840084000000000000000000000000004284840042848400C6C6
+      C600428484004284840042848400428484004284840042848400428484004284
+      8400428484004284840000000000000000000000000042848400000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      840000000000428484000000000000000000000000008400840084008400C6C6
+      C600840084008400840084008400840084008400840084008400840084008400
+      8400840084008400840000000000000000000000000084008400000000000000
+      00000000000000000000C6C6C60000000000000000000000000000FFFF008484
+      8400000000008400840000000000000000000000000042848400C6C6C6004284
+      8400428484004284840042848400428484004284840042848400428484004284
+      8400428484000000000000000000000000000000000042848400000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      8400000000004284840000000000000000000000000084008400C6C6C6008400
+      8400840084008400840084008400840084008400840084008400840084008400
+      8400840084000000000000000000000000000000000084008400000000000000
+      00000000000000000000C6C6C6000000000000FFFF0000000000000000008484
+      84000000000084008400000000000000000000000000C6C6C600428484004284
+      8400428484004284840042848400428484004284840042848400428484004284
+      8400000000000000000000000000000000000000000042848400000000000000
+      0000C6C6C600848484008484840000000000000000000000000000FFFF008484
+      84000000000000000000000000000000000000000000C6C6C600840084008400
+      8400840084008400840084008400840084008400840084008400840084008400
+      8400000000000000000000000000000000000000000084008400000000000000
+      0000C6C6C600848484008484840000000000000000000000000000FFFF008484
+      8400000000000000000000000000000000000000000000000000000000004284
+      8400428484004284840042848400428484004284840042848400428484000000
+      0000000000000000000000000000000000000000000042848400000000000000
+      0000848484000000000000000000848484008484840000000000000000008484
+      8400000000000000000000000000000000000000000000000000000000008400
+      8400840084008400840084008400840084008400840084008400840084000000
+      0000000000000000000000000000000000000000000084008400000000000000
+      0000848484000000000000000000848484008484840000000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000004284840042848400428484004284840042848400000000000000
+      000000000000000000000000000000000000000000004284840000000000C6C6
+      C600848484000000000000000000000000000000000084848400848484008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000008400840084008400840084008400840084008400000000000000
+      000000000000000000000000000000000000000000008400840000000000C6C6
+      C600848484000000000000000000000000000000000084848400848484008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000428484004284840000000000000000000000
+      0000000000000000000000000000000000000000000084848400C6C6C6008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000840084008400840000000000000000000000
+      0000000000000000000000000000000000000000000084848400C6C6C6008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000848484000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000848484000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000424D3E000000000000003E000000
+      2800000040000000500000000100010000000000800200000000000000000000
+      000000000000000000000000FFFFFF00FFFFE3FFFFFF0000FC7FC001FFFF0000
+      F81FC001F3CF0000F0A7C819E3C70000E0518909C0030000C00819C980010000
+      8005396900000000000139C9000000000000396900000000000139C980010000
+      00033969C0030000000731C3E3C70000800F366FF3CF0000E01F278FFBDF0000
+      F83F8FFFFFFF0000FE7FDFFFFFFF0000C007C007C007C0078003800380038003
+      BFF3BFF3BFF3BFF3B033A033B033A033BFF3A1F3BFF3A1F3B033B033B033B033
+      BFF3B113BFF3B113B033B003B033B003BFF3BC33BFF3BC33B033B033B033B033
+      BFF3BF13BFF3BF13B033B003B033B003BFF3BFC3BFF3BFC3BFF3BFF3BFF3BFF3
+      8007800780078007FFFFFFFFFFFFFFFFC007C007C007C0078003800380038003
+      BFF3BFF3BFF3BFF3B033A033B033A033BFF3A1F3BFF3A1F3B033B033B033B033
+      BFF3B113BFF3B113B033B003B033B003BFF3BC33BFF3BC33B033B033B033B033
+      BFF3BF13BFF3BF13B033B003B033B003BFF3BFC3BFF3BFC3BFF3BFF3BFF3BFF3
+      8007800780078007FFFFFFFFFFFFFFFFFFFFE3FFFFFFE3FFFC7FC001FC7FC001
+      F81FC001F81FC001F0A7C819F0A7C819E0518909E0518909C00819C9C00819C9
+      8005396980053969000139C9000139C90000396900003969000139C9000139C9
+      0003396900033969000731C3000731C3800F366F800F366FE01F278FE01F278F
+      F83F8FFFF83F8FFFFE7FDFFFFE7FDFFFFFFFE3FFFFFFE3FFFC7FC001FC7FC001
+      F81FC001F81FC001F0A7C819F0A7C819E0518909E0518909C00819C9C00819C9
+      8005396980053969000139C9000139C90000396900003969000139C9000139C9
+      0003396900033969000731C3000731C3800F366F800F366FE01F278FE01F278F
+      F83F8FFFF83F8FFFFE7FDFFFFE7FDFFF00000000000000000000000000000000
+      000000000000}
+  end
+  object PMToolbar: TPopupMenu
+    AutoHotkeys = maManual
+    Left = 100
+    Top = 392
+    object PMToolbarTag01: TMenuItem
+      Bitmap.Data = {
+        36050000424D3605000000000000360400002800000010000000100000000100
+        0800000000000001000000000000000000000001000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0DCC000F0CA
+        A600AA3F2A00FF3F2A00005F2A00555F2A00AA5F2A00FF5F2A00007F2A00557F
+        2A00AA7F2A00FF7F2A00009F2A00559F2A00AA9F2A00FF9F2A0000BF2A0055BF
+        2A00AABF2A00FFBF2A0000DF2A0055DF2A00AADF2A00FFDF2A0000FF2A0055FF
+        2A00AAFF2A00FFFF2A000000550055005500AA005500FF005500001F5500551F
+        5500AA1F5500FF1F5500003F5500553F5500AA3F5500FF3F5500005F5500555F
+        5500AA5F5500FF5F5500007F5500557F5500AA7F5500FF7F5500009F5500559F
+        5500AA9F5500FF9F550000BF550055BF5500AABF5500FFBF550000DF550055DF
+        5500AADF5500FFDF550000FF550055FF5500AAFF5500FFFF550000007F005500
+        7F00AA007F00FF007F00001F7F00551F7F00AA1F7F00FF1F7F00003F7F00553F
+        7F00AA3F7F00FF3F7F00005F7F00555F7F00AA5F7F00FF5F7F00007F7F00557F
+        7F00AA7F7F00FF7F7F00009F7F00559F7F00AA9F7F00FF9F7F0000BF7F0055BF
+        7F00AABF7F00FFBF7F0000DF7F0055DF7F00AADF7F00FFDF7F0000FF7F0055FF
+        7F00AAFF7F00FFFF7F000000AA005500AA00AA00AA00FF00AA00001FAA00551F
+        AA00AA1FAA00FF1FAA00003FAA00553FAA00AA3FAA00FF3FAA00005FAA00555F
+        AA00AA5FAA00FF5FAA00007FAA00557FAA00AA7FAA00FF7FAA00009FAA00559F
+        AA00AA9FAA00FF9FAA0000BFAA0055BFAA00AABFAA00FFBFAA0000DFAA0055DF
+        AA00AADFAA00FFDFAA0000FFAA0055FFAA00AAFFAA00FFFFAA000000D4005500
+        D400AA00D400FF00D400001FD400551FD400AA1FD400FF1FD400003FD400553F
+        D400AA3FD400FF3FD400005FD400555FD400AA5FD400FF5FD400007FD400557F
+        D400AA7FD400FF7FD400009FD400559FD400AA9FD400FF9FD40000BFD40055BF
+        D400AABFD400FFBFD40000DFD40055DFD400AADFD400FFDFD40000FFD40055FF
+        D400AAFFD400FFFFD4005500FF00AA00FF00001FFF00551FFF00AA1FFF00FF1F
+        FF00003FFF00553FFF00AA3FFF00FF3FFF00005FFF00555FFF00AA5FFF00FF5F
+        FF00007FFF00557FFF00AA7FFF00FF7FFF00009FFF00559FFF00AA9FFF00FF9F
+        FF0000BFFF0055BFFF00AABFFF00FFBFFF0000DFFF0055DFFF00AADFFF00FFDF
+        FF0055FFFF00AAFFFF00FFCCCC00FFCCFF00FFFF3300FFFF6600FFFF9900FFFF
+        CC00007F0000557F0000AA7F0000FF7F0000009F0000559F0000AA9F0000FF9F
+        000000BF000055BF0000AABF0000FFBF000000DF000055DF0000AADF0000FFDF
+        000055FF0000AAFF000000002A0055002A00AA002A00FF002A00001F2A00551F
+        2A00AA1F2A00FF1F2A00003F2A00553F2A00F0FBFF00A4A0A000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF070707070707FFFFFFFFFFFFFFFF0700
+        000000000007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFF9595959595950007FFFFFFFFFFFFFFFF9595
+        959595950007FFFFFFFFFFFFFFFF9595959595950007FFFFFFFFFFFFFFFF9595
+        9595959507FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Caption = #36196'(&R)'
+      ImageIndex = 0
+      OnClick = PMToolbarTagClick
+    end
+    object PMToolbarTag02: TMenuItem
+      Bitmap.Data = {
+        36050000424D3605000000000000360400002800000010000000100000000100
+        0800000000000001000000000000000000000001000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0DCC000F0CA
+        A600AA3F2A00FF3F2A00005F2A00555F2A00AA5F2A00FF5F2A00007F2A00557F
+        2A00AA7F2A00FF7F2A00009F2A00559F2A00AA9F2A00FF9F2A0000BF2A0055BF
+        2A00AABF2A00FFBF2A0000DF2A0055DF2A00AADF2A00FFDF2A0000FF2A0055FF
+        2A00AAFF2A00FFFF2A000000550055005500AA005500FF005500001F5500551F
+        5500AA1F5500FF1F5500003F5500553F5500AA3F5500FF3F5500005F5500555F
+        5500AA5F5500FF5F5500007F5500557F5500AA7F5500FF7F5500009F5500559F
+        5500AA9F5500FF9F550000BF550055BF5500AABF5500FFBF550000DF550055DF
+        5500AADF5500FFDF550000FF550055FF5500AAFF5500FFFF550000007F005500
+        7F00AA007F00FF007F00001F7F00551F7F00AA1F7F00FF1F7F00003F7F00553F
+        7F00AA3F7F00FF3F7F00005F7F00555F7F00AA5F7F00FF5F7F00007F7F00557F
+        7F00AA7F7F00FF7F7F00009F7F00559F7F00AA9F7F00FF9F7F0000BF7F0055BF
+        7F00AABF7F00FFBF7F0000DF7F0055DF7F00AADF7F00FFDF7F0000FF7F0055FF
+        7F00AAFF7F00FFFF7F000000AA005500AA00AA00AA00FF00AA00001FAA00551F
+        AA00AA1FAA00FF1FAA00003FAA00553FAA00AA3FAA00FF3FAA00005FAA00555F
+        AA00AA5FAA00FF5FAA00007FAA00557FAA00AA7FAA00FF7FAA00009FAA00559F
+        AA00AA9FAA00FF9FAA0000BFAA0055BFAA00AABFAA00FFBFAA0000DFAA0055DF
+        AA00AADFAA00FFDFAA0000FFAA0055FFAA00AAFFAA00FFFFAA000000D4005500
+        D400AA00D400FF00D400001FD400551FD400AA1FD400FF1FD400003FD400553F
+        D400AA3FD400FF3FD400005FD400555FD400AA5FD400FF5FD400007FD400557F
+        D400AA7FD400FF7FD400009FD400559FD400AA9FD400FF9FD40000BFD40055BF
+        D400AABFD400FFBFD40000DFD40055DFD400AADFD400FFDFD40000FFD40055FF
+        D400AAFFD400FFFFD4005500FF00AA00FF00001FFF00551FFF00AA1FFF00FF1F
+        FF00003FFF00553FFF00AA3FFF00FF3FFF00005FFF00555FFF00AA5FFF00FF5F
+        FF00007FFF00557FFF00AA7FFF00FF7FFF00009FFF00559FFF00AA9FFF00FF9F
+        FF0000BFFF0055BFFF00AABFFF00FFBFFF0000DFFF0055DFFF00AADFFF00FFDF
+        FF0055FFFF00AAFFFF00FFCCCC00FFCCFF00FFFF3300FFFF6600FFFF9900FFFF
+        CC00007F0000557F0000AA7F0000FF7F0000009F0000559F0000AA9F0000FF9F
+        000000BF000055BF0000AABF0000FFBF000000DF000055DF0000AADF0000FFDF
+        000055FF0000AAFF000000002A0055002A00AA002A00FF002A00001F2A00551F
+        2A00AA1F2A00FF1F2A00003F2A00553F2A00F0FBFF00A4A0A000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF070707070707FFFFFFFFFFFFFFFF0700
+        000000000007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFFCFCFCFCFCFC0007FFFFFFFFFFFFFFFFFCFC
+        FCFCFCFC0007FFFFFFFFFFFFFFFFFCFCFCFCFCFC0007FFFFFFFFFFFFFFFFFCFC
+        FCFCFCFC07FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Caption = #38738'(&B)'
+      ImageIndex = 1
+      OnClick = PMToolbarTagClick
+    end
+    object PMToolbarTag03: TMenuItem
+      Bitmap.Data = {
+        36050000424D3605000000000000360400002800000010000000100000000100
+        0800000000000001000000000000000000000001000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0DCC000F0CA
+        A600AA3F2A00FF3F2A00005F2A00555F2A00AA5F2A00FF5F2A00007F2A00557F
+        2A00AA7F2A00FF7F2A00009F2A00559F2A00AA9F2A00FF9F2A0000BF2A0055BF
+        2A00AABF2A00FFBF2A0000DF2A0055DF2A00AADF2A00FFDF2A0000FF2A0055FF
+        2A00AAFF2A00FFFF2A000000550055005500AA005500FF005500001F5500551F
+        5500AA1F5500FF1F5500003F5500553F5500AA3F5500FF3F5500005F5500555F
+        5500AA5F5500FF5F5500007F5500557F5500AA7F5500FF7F5500009F5500559F
+        5500AA9F5500FF9F550000BF550055BF5500AABF5500FFBF550000DF550055DF
+        5500AADF5500FFDF550000FF550055FF5500AAFF5500FFFF550000007F005500
+        7F00AA007F00FF007F00001F7F00551F7F00AA1F7F00FF1F7F00003F7F00553F
+        7F00AA3F7F00FF3F7F00005F7F00555F7F00AA5F7F00FF5F7F00007F7F00557F
+        7F00AA7F7F00FF7F7F00009F7F00559F7F00AA9F7F00FF9F7F0000BF7F0055BF
+        7F00AABF7F00FFBF7F0000DF7F0055DF7F00AADF7F00FFDF7F0000FF7F0055FF
+        7F00AAFF7F00FFFF7F000000AA005500AA00AA00AA00FF00AA00001FAA00551F
+        AA00AA1FAA00FF1FAA00003FAA00553FAA00AA3FAA00FF3FAA00005FAA00555F
+        AA00AA5FAA00FF5FAA00007FAA00557FAA00AA7FAA00FF7FAA00009FAA00559F
+        AA00AA9FAA00FF9FAA0000BFAA0055BFAA00AABFAA00FFBFAA0000DFAA0055DF
+        AA00AADFAA00FFDFAA0000FFAA0055FFAA00AAFFAA00FFFFAA000000D4005500
+        D400AA00D400FF00D400001FD400551FD400AA1FD400FF1FD400003FD400553F
+        D400AA3FD400FF3FD400005FD400555FD400AA5FD400FF5FD400007FD400557F
+        D400AA7FD400FF7FD400009FD400559FD400AA9FD400FF9FD40000BFD40055BF
+        D400AABFD400FFBFD40000DFD40055DFD400AADFD400FFDFD40000FFD40055FF
+        D400AAFFD400FFFFD4005500FF00AA00FF00001FFF00551FFF00AA1FFF00FF1F
+        FF00003FFF00553FFF00AA3FFF00FF3FFF00005FFF00555FFF00AA5FFF00FF5F
+        FF00007FFF00557FFF00AA7FFF00FF7FFF00009FFF00559FFF00AA9FFF00FF9F
+        FF0000BFFF0055BFFF00AABFFF00FFBFFF0000DFFF0055DFFF00AADFFF00FFDF
+        FF0055FFFF00AAFFFF00FFCCCC00FFCCFF00FFFF3300FFFF6600FFFF9900FFFF
+        CC00007F0000557F0000AA7F0000FF7F0000009F0000559F0000AA9F0000FF9F
+        000000BF000055BF0000AABF0000FFBF000000DF000055DF0000AADF0000FFDF
+        000055FF0000AAFF000000002A0055002A00AA002A00FF002A00001F2A00551F
+        2A00AA1F2A00FF1F2A00003F2A00553F2A00F0FBFF00A4A0A000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF070707070707FFFFFFFFFFFFFFFF0700
+        000000000007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFE2E2E2E2E2E20007FFFFFFFFFFFFFFFFE2E2
+        E2E2E2E20007FFFFFFFFFFFFFFFFE2E2E2E2E2E20007FFFFFFFFFFFFFFFFE2E2
+        E2E2E2E207FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Caption = #32209'(&G)'
+      ImageIndex = 2
+      OnClick = PMToolbarTagClick
+    end
+    object PMToolbarTag04: TMenuItem
+      Bitmap.Data = {
+        36050000424D3605000000000000360400002800000010000000100000000100
+        0800000000000001000000000000000000000001000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0DCC000F0CA
+        A600AA3F2A00FF3F2A00005F2A00555F2A00AA5F2A00FF5F2A00007F2A00557F
+        2A00AA7F2A00FF7F2A00009F2A00559F2A00AA9F2A00FF9F2A0000BF2A0055BF
+        2A00AABF2A00FFBF2A0000DF2A0055DF2A00AADF2A00FFDF2A0000FF2A0055FF
+        2A00AAFF2A00FFFF2A000000550055005500AA005500FF005500001F5500551F
+        5500AA1F5500FF1F5500003F5500553F5500AA3F5500FF3F5500005F5500555F
+        5500AA5F5500FF5F5500007F5500557F5500AA7F5500FF7F5500009F5500559F
+        5500AA9F5500FF9F550000BF550055BF5500AABF5500FFBF550000DF550055DF
+        5500AADF5500FFDF550000FF550055FF5500AAFF5500FFFF550000007F005500
+        7F00AA007F00FF007F00001F7F00551F7F00AA1F7F00FF1F7F00003F7F00553F
+        7F00AA3F7F00FF3F7F00005F7F00555F7F00AA5F7F00FF5F7F00007F7F00557F
+        7F00AA7F7F00FF7F7F00009F7F00559F7F00AA9F7F00FF9F7F0000BF7F0055BF
+        7F00AABF7F00FFBF7F0000DF7F0055DF7F00AADF7F00FFDF7F0000FF7F0055FF
+        7F00AAFF7F00FFFF7F000000AA005500AA00AA00AA00FF00AA00001FAA00551F
+        AA00AA1FAA00FF1FAA00003FAA00553FAA00AA3FAA00FF3FAA00005FAA00555F
+        AA00AA5FAA00FF5FAA00007FAA00557FAA00AA7FAA00FF7FAA00009FAA00559F
+        AA00AA9FAA00FF9FAA0000BFAA0055BFAA00AABFAA00FFBFAA0000DFAA0055DF
+        AA00AADFAA00FFDFAA0000FFAA0055FFAA00AAFFAA00FFFFAA000000D4005500
+        D400AA00D400FF00D400001FD400551FD400AA1FD400FF1FD400003FD400553F
+        D400AA3FD400FF3FD400005FD400555FD400AA5FD400FF5FD400007FD400557F
+        D400AA7FD400FF7FD400009FD400559FD400AA9FD400FF9FD40000BFD40055BF
+        D400AABFD400FFBFD40000DFD40055DFD400AADFD400FFDFD40000FFD40055FF
+        D400AAFFD400FFFFD4005500FF00AA00FF00001FFF00551FFF00AA1FFF00FF1F
+        FF00003FFF00553FFF00AA3FFF00FF3FFF00005FFF00555FFF00AA5FFF00FF5F
+        FF00007FFF00557FFF00AA7FFF00FF7FFF00009FFF00559FFF00AA9FFF00FF9F
+        FF0000BFFF0055BFFF00AABFFF00FFBFFF0000DFFF0055DFFF00AADFFF00FFDF
+        FF0055FFFF00AAFFFF00FFCCCC00FFCCFF00FFFF3300FFFF6600FFFF9900FFFF
+        CC00007F0000557F0000AA7F0000FF7F0000009F0000559F0000AA9F0000FF9F
+        000000BF000055BF0000AABF0000FFBF000000DF000055DF0000AADF0000FFDF
+        000055FF0000AAFF000000002A0055002A00AA002A00FF002A00001F2A00551F
+        2A00AA1F2A00FF1F2A00003F2A00553F2A00F0FBFF00A4A0A000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF070707070707FFFFFFFFFFFFFFFF0700
+        000000000007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFF6F6F6F6F6F60007FFFFFFFFFFFFFFFFF6F6
+        F6F6F6F60007FFFFFFFFFFFFFFFFCACACACACACA0007FFFFFFFFFFFFFFFFCACA
+        CACACACA0007FFFFFFFFFFFFFFFFCACACACACACA0007FFFFFFFFFFFFFFFFCACA
+        CACACACA07FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Caption = #27225'(&O)'
+      ImageIndex = 3
+      OnClick = PMToolbarTagClick
+    end
+  end
+  object ToolbarImage: TImageList
+    Height = 15
+    Left = 44
+    Top = 392
+    Bitmap = {
+      494C010104000900040010000F00FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      0000000000003600000028000000400000001E0000000100200000000000001E
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000084848400848484008484840084848400848484008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000084848400848484008484840084848400848484008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000084848400848484008484840084848400848484008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000084848400848484008484840084848400848484008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000000000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000000000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000000000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000848484000000000000000000000000000000000000000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00F7FFFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      00005218D6005218D6005218D6005218D6005218D6005218D600000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000FF000000FF000000FF000000FF000000FF000000FF000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      000000BD000000BD000000BD000000BD000000BD000000BD0000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      000000BDFF0000BDFF0000BDFF0000BDFF0000BDFF0000BDFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      00005218D6005218D6005218D6005218D6005218D6005218D600000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000FF000000FF000000FF000000FF000000FF000000FF000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      000000BD000000BD000000BD000000BD000000BD000000BD0000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      000000BDFF0000BDFF0000BDFF0000BDFF0000BDFF0000BDFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      00005218D6005218D6005218D6005218D6005218D6005218D600000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      0000FF000000FF000000FF000000FF000000FF000000FF000000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      000000BD000000BD000000BD000000BD000000BD000000BD0000000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      000000BDFF0000BDFF0000BDFF0000BDFF0000BDFF0000BDFF00000000008484
+      8400000000000000000000000000000000000000000000000000000000000000
+      00005218D6005218D6005218D6005218D6005218D6005218D600848484000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000FF000000FF000000FF000000FF000000FF000000FF000000848484000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000BD000000BD000000BD000000BD000000BD000000BD0000848484000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000BDFF0000BDFF0000BDFF0000BDFF0000BDFF0000BDFF00848484000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000424D3E000000000000003E000000
+      28000000400000001E0000000100010000000000F00000000000000000000000
+      000000000000000000000000FFFFFF0000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000FC0FFC0FFC0FFC0FF00FF00FF00FF00FF00FF00FF00FF00F
+      F00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00F
+      F00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00F
+      F00FF00FF00FF00FF00FF00FF00FF00FF01FF01FF01FF01FFFFFFFFFFFFFFFFF
+      00000000000000000000000000000000000000000000}
+  end
+  object DSReal: TDataSource
+    DataSet = MemReal
+    OnStateChange = DSDraftStateChange
+    Left = 8
+    Top = 34
+  end
+  object MemReal: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemBeforePost
+    Left = 36
+    Top = 34
+    object MemRealTag: TGraphicField
+      FieldName = 'grTag'
+      BlobType = ftGraphic
+    end
+    object MemRealHojCode: TStringField
+      DisplayWidth = 3
+      FieldName = 'strHojCode'
+    end
+    object MemRealName: TStringField
+      DisplayWidth = 40
+      FieldName = 'strName'
+      Size = 60
+    end
+    object MemRealNameSimple: TStringField
+      DisplayWidth = 20
+      FieldName = 'strNameSimple'
+    end
+    object MemRealAssociation: TStringField
+      FieldName = 'strAssociation'
+      Size = 10
+    end
+    object MemRealComment: TStringField
+      FieldName = 'strComment'
+      Size = 60
+    end
+    object MemRealApartData: TSmallintField
+      FieldName = 'ApartData'
+    end
+    object MemRealintApartNo: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intApartNo'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ApartData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemRealstrApart: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strApart'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ApartData'
+      Lookup = True
+    end
+    object MemRealBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemRealExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object MemRealSateiData: TSmallintField
+      FieldName = 'SateiData'
+    end
+    object MemRealintSateiNo: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intSateiNo'
+      LookupDataSet = MemSatei
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'SateiData'
+      Lookup = True
+    end
+    object MemRealstrSatei: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strSatei'
+      LookupDataSet = MemSatei
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'SateiData'
+      Lookup = True
+    end
+    object MemRealSateiCalcData: TSmallintField
+      FieldName = 'SateiCalcData'
+    end
+    object MemRealintSateiCalc: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intSateiCalc'
+      LookupDataSet = MemSateiCalc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'SateiCalcData'
+      Lookup = True
+    end
+    object MemRealstrSateiCalc: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strSateiCalc'
+      LookupDataSet = MemSateiCalc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'SateiCalcData'
+      Lookup = True
+    end
+    object MemRealSateiCalcHiritu: TCurrencyField
+      DisplayWidth = 3
+      FieldName = 'SateiCalcHiritu'
+      DisplayFormat = '##0.00'
+      EditFormat = '##0.00'
+    end
+    object MemRealSateiCalcTeigaku: TCurrencyField
+      FieldName = 'SateiCalcTeigaku'
+      DisplayFormat = '#,###,###,##0'
+      EditFormat = '#,###,###,##0'
+    end
+  end
+  object PMTreeView: TPopupMenu
+    AutoHotkeys = maManual
+    OnPopup = PMTreeViewPopup
+    Left = 72
+    Top = 392
+    object PMTreeViewDelete: TMenuItem
+      Caption = #21066#38500
+      ImageIndex = 0
+      OnClick = BDeleteClick
+    end
+    object CmnTreeViewPopupMenuBreak03: TMenuItem
+      Caption = '-'
+    end
+    object PMTreeViewTagOff: TMenuItem
+      Caption = #12399#12364#12377'(&D)'
+      OnClick = PMTreeViewTagOffClick
+    end
+    object PMTreeViewTagComment: TMenuItem
+      Caption = #20633#32771#20462#27491'(&U)...'
+    end
+    object N1: TMenuItem
+      Caption = '-'
+    end
+    object PMTreeViewTag01: TMenuItem
+      Bitmap.Data = {
+        36030000424D3603000000000000360000002800000010000000100000000100
+        1800000000000003000000000000000000000000000000000000FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF333333
+        3333333333333333333333333333333333333333333333333333333333333333
+        33FFFFFFFFFFFFFFFFFFFFFFFF333333362099352099352199333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFF333333CCCCCC333333FFFFFFFFFFFFFFFFFF333333
+        5A4BB65A4BB6594CB6333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFF333333CCCC
+        CCCCCCCC333333FFFFFFFFFFFF3333337167C87168C87167C8333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFF333333333333333333333333FFFFFFFFFFFF333333
+        8681DB8781DA8781DA333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FB
+        FFF0FBFF333333FFFFFFFFFFFF3333339B99EA9A99EA9A98EA333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFF333333FFFFFFFFFFFF333333
+        A8A9F5A8A9F5A8A9F5333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FB
+        FFF0FBFF333333FFFFFFFFFFFF33333333333333333333333333333333333333
+        3333333333333333333333333333333333333333333333FFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Caption = #36196'(&R)'
+      ImageIndex = 0
+      object PMTreeViewTagItem01: TMenuItem
+        Caption = #20633#32771#28961#12375'(&N)'
+        OnClick = PMTreeViewTagOffClick
+      end
+      object PMTreeViewTagItem01Ex: TMenuItem
+        Caption = #20633#32771#26377#12426'(&O)...'
+      end
+    end
+    object PMTreeViewTag02: TMenuItem
+      Bitmap.Data = {
+        36030000424D3603000000000000360000002800000010000000100000000100
+        1800000000000003000000000000000000000000000000000000FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF333333
+        3333333333333333333333333333333333333333333333333333333333333333
+        33FFFFFFFFFFFFFFFFFFFFFFFF333333C38F4BC38E4BC38E4B333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFF333333CCCCCC333333FFFFFFFFFFFFFFFFFF333333
+        CFA469CFA469D0A469333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFF333333CCCC
+        CCCCCCCC333333FFFFFFFFFFFF333333D7B27ED6B27ED7B27E333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFF333333333333333333333333FFFFFFFFFFFF333333
+        DEBE90DDBE90DDBE90333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FB
+        FFF0FBFF333333FFFFFFFFFFFF333333E4CAA1E4CAA1E4CAA1333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFF333333FFFFFFFFFFFF333333
+        E8D2ACE8D2ACE8D2AC333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FB
+        FFF0FBFF333333FFFFFFFFFFFF33333333333333333333333333333333333333
+        3333333333333333333333333333333333333333333333FFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Caption = #38738'(&B)'
+      ImageIndex = 0
+      object PMTreeViewTagItem02: TMenuItem
+        Caption = #20633#32771#28961#12375'(&N)'
+        OnClick = PMTreeViewTagOffClick
+      end
+      object PMTreeViewTagItem02Ex: TMenuItem
+        Caption = #20633#32771#26377#12426'(&O)...'
+      end
+    end
+    object PMTreeViewTag03: TMenuItem
+      Bitmap.Data = {
+        36030000424D3603000000000000360000002800000010000000100000000100
+        1800000000000003000000000000000000000000000000000000FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF333333
+        3333333333333333333333333333333333333333333333333333333333333333
+        33FFFFFFFFFFFFFFFFFFFFFFFF333333456E1C466E1C466E1C333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFF333333CCCCCC333333FFFFFFFFFFFFFFFFFF333333
+        638B41638B41638B42333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFF333333CCCC
+        CCCCCCCC333333FFFFFFFFFFFF333333769D59769E59769E5A333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFF333333333333333333333333FFFFFFFFFFFF333333
+        87B07087AF7087AF70333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FB
+        FFF0FBFF333333FFFFFFFFFFFF33333397BF8497BF8497BF84333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFF333333FFFFFFFFFFFF333333
+        A2CA92A2CA92A2CA92333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FB
+        FFF0FBFF333333FFFFFFFFFFFF33333333333333333333333333333333333333
+        3333333333333333333333333333333333333333333333FFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Caption = #32209'(&G)'
+      ImageIndex = 0
+      object PMTreeViewTagItem03: TMenuItem
+        Caption = #20633#32771#28961#12375'(&N)'
+        OnClick = PMTreeViewTagOffClick
+      end
+      object PMTreeViewTagItem03Ex: TMenuItem
+        Caption = #20633#32771#26377#12426'(&O)...'
+      end
+    end
+    object PMTreeViewTag04: TMenuItem
+      Bitmap.Data = {
+        36030000424D3603000000000000360000002800000010000000100000000100
+        1800000000000003000000000000000000000000000000000000FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF333333
+        3333333333333333333333333333333333333333333333333333333333333333
+        33FFFFFFFFFFFFFFFFFFFFFFFF333333338EFE328EFD328EFD333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFF333333CCCCCC333333FFFFFFFFFFFFFFFFFF333333
+        5FA9FB5EA9FB5EA9FB333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFF333333CCCC
+        CCCCCCCC333333FFFFFFFFFFFF3333337ABAF97ABAF97ABAFA333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFF333333333333333333333333FFFFFFFFFFFF333333
+        95CAF895CBF895CAF8333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FB
+        FFF0FBFF333333FFFFFFFFFFFF333333A8D6F7A8D6F7A8D6F7333333F0FBFFF0
+        FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFF333333FFFFFFFFFFFF333333
+        A8D6F7A8D6F7A8D6F7333333F0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FBFFF0FB
+        FFF0FBFF333333FFFFFFFFFFFF33333333333333333333333333333333333333
+        3333333333333333333333333333333333333333333333FFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Caption = #27225'(&O)'
+      ImageIndex = 0
+      object PMTreeViewTagItem04: TMenuItem
+        Caption = #20633#32771#28961#12375'(&N)'
+        OnClick = PMTreeViewTagOffClick
+      end
+      object PMTreeViewTagItem04Ex: TMenuItem
+        Caption = #20633#32771#26377#12426'(&O)...'
+      end
+    end
+  end
+  object DSOffset: TDataSource
+    DataSet = MemOffset
+    Left = 10
+    Top = 214
+  end
+  object MemOffset: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 38
+    Top = 214
+    object MemOffsetExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object MemOffsetstrHojCode: TStringField
+      FieldName = 'strHojCode'
+    end
+    object MemOffsetstrHojName: TStringField
+      FieldName = 'strHojName'
+    end
+    object MemOffsetPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemOffsetPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemOffsetPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemOffsetPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemOffsetPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemOffsetPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemOffsetPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemOffsetstrPrjCD: TStringField
+      DisplayWidth = 40
+      FieldName = 'strPrjCD'
+      Size = 40
+    end
+    object MemOffsetnSeqNo: TIntegerField
+      Alignment = taCenter
+      FieldName = 'nSeqNo'
+    end
+    object MemOffsetstrSeqCD: TStringField
+      DisplayWidth = 40
+      FieldName = 'strSeqCD'
+      Size = 40
+    end
+    object MemOffsetnKmkCode: TIntegerField
+      FieldName = 'nKmkCode'
+    end
+    object MemOffsetstrKmkDesc: TStringField
+      FieldName = 'strKmkDesc'
+      Size = 14
+    end
+    object MemOffsetnDivision01: TIntegerField
+      FieldName = 'nDivision01'
+    end
+    object MemOffsetstrSubCode01: TStringField
+      DisplayWidth = 10
+      FieldName = 'strSubCode01'
+      Size = 16
+    end
+    object MemOffsetstrSubDesc01: TStringField
+      DisplayWidth = 14
+      FieldName = 'strSubDesc01'
+      Size = 14
+    end
+    object MemOffsetnDivision02: TIntegerField
+      FieldName = 'nDivision02'
+    end
+    object MemOffsetstrSubCode02: TStringField
+      FieldName = 'strSubCode02'
+      Size = 16
+    end
+    object MemOffsetstrSubDesc02: TStringField
+      FieldName = 'strSubDesc02'
+      Size = 14
+    end
+    object MemOffsetnDivision03: TIntegerField
+      FieldName = 'nDivision03'
+    end
+    object MemOffsetstrSubCode03: TStringField
+      FieldName = 'strSubCode03'
+      Size = 16
+    end
+    object MemOffsetstrSubDesc03: TStringField
+      FieldName = 'strSubDesc03'
+      Size = 14
+    end
+    object MemOffsetnHojPartKbn: TIntegerField
+      FieldName = 'nHojPartKbn'
+    end
+    object MemOffsetnTaxKbn: TIntegerField
+      FieldName = 'nTaxKbn'
+    end
+    object MemOffsetnTaxCode: TIntegerField
+      FieldName = 'nTaxCode'
+    end
+    object MemOffsetnTaxRate: TIntegerField
+      FieldName = 'nTaxRate'
+    end
+    object MemOffsetstrTaxRateDesc: TStringField
+      FieldName = 'strTaxRateDesc'
+      Size = 8
+    end
+    object MemOffsetnOffsetPrice: TCurrencyField
+      FieldName = 'nOffsetPrice'
+      DisplayFormat = '#,##0'
+      EditFormat = '#,##0'
+    end
+    object MemOffsetBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemOffsetPayNCode: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object MemOffsetKmNCode: TFloatField
+      FieldName = 'KmNCode'
+    end
+    object MemOffsetSbNCode: TFloatField
+      FieldName = 'SbNCode'
+    end
+    object MemOffsetBmnNCode: TFloatField
+      FieldName = 'BmnNCode'
+    end
+    object MemOffsetSegNCode: TFloatField
+      FieldName = 'SegNCode'
+    end
+    object MemOffsetHoj1NCode: TFloatField
+      FieldName = 'Hoj1NCode'
+    end
+    object MemOffsetHoj2NCode: TStringField
+      FieldName = 'Hoj2NCode'
+    end
+    object MemOffsetKojNCode: TFloatField
+      FieldName = 'KojNCode'
+    end
+    object MemOffsetKsyNCode: TFloatField
+      FieldName = 'KsyNCode'
+    end
+    object MemOffsetdCKmkNCode: TFloatField
+      FieldName = 'dCKmkNCode'
+    end
+    object MemOffsetdCSubNCode: TFloatField
+      FieldName = 'dCSubNCode'
+    end
+    object MemOffsetdCBmnNCode: TFloatField
+      FieldName = 'dCBmnNCode'
+    end
+    object MemOffsetdCSegNCode1: TFloatField
+      FieldName = 'dCSegNCode1'
+    end
+    object MemOffsetdCSegNCode2: TFloatField
+      FieldName = 'dCSegNCode2'
+    end
+    object MemOffsetdCSegNCode3: TFloatField
+      FieldName = 'dCSegNCode3'
+    end
+    object MemOffsetdCSegNCode4: TFloatField
+      FieldName = 'dCSegNCode4'
+    end
+    object MemOffsetdCSegNCode5: TFloatField
+      FieldName = 'dCSegNCode5'
+    end
+    object MemOffsetdCSegNCode6: TFloatField
+      FieldName = 'dCSegNCode6'
+    end
+    object MemOffsetdCSegNCode7: TFloatField
+      FieldName = 'dCSegNCode7'
+    end
+    object MemOffsetdCSegNCode8: TFloatField
+      FieldName = 'dCSegNCode8'
+    end
+    object MemOffsetdCSegNCode9: TFloatField
+      FieldName = 'dCSegNCode9'
+    end
+    object MemOffsetdCSegNCode10: TFloatField
+      FieldName = 'dCSegNCode10'
+    end
+    object MemOffsetdCBankNCode: TFloatField
+      FieldName = 'dCBankNCode'
+    end
+    object MemOffsetdCCsNCode: TFloatField
+      FieldName = 'dCCsNCode'
+    end
+    object MemOffsetdCEmpNCode: TFloatField
+      FieldName = 'dCEmpNCode'
+    end
+    object MemOffsetdCMulNCode1: TFloatField
+      FieldName = 'dCMulNCode1'
+    end
+    object MemOffsetdCMulNCode2: TFloatField
+      FieldName = 'dCMulNCode2'
+    end
+    object MemOffsetdCMulNCode3: TFloatField
+      FieldName = 'dCMulNCode3'
+    end
+    object MemOffsetdCMulNCode4: TFloatField
+      FieldName = 'dCMulNCode4'
+    end
+    object MemOffsetdCMulNCode5: TFloatField
+      FieldName = 'dCMulNCode5'
+    end
+    object MemOffsetdCPrjNCode1: TFloatField
+      FieldName = 'dCPrjNCode1'
+    end
+    object MemOffsetdCPrjNCode2: TFloatField
+      FieldName = 'dCPrjNCode2'
+    end
+    object MemOffsetdCPrjNCode3: TFloatField
+      FieldName = 'dCPrjNCode3'
+    end
+    object MemOffsetdCPrjNCode4: TFloatField
+      FieldName = 'dCPrjNCode4'
+    end
+    object MemOffsetdCPrjNCode5: TFloatField
+      FieldName = 'dCPrjNCode5'
+    end
+    object MemOffsetdCPrjNCode6: TFloatField
+      FieldName = 'dCPrjNCode6'
+    end
+    object MemOffsetdCPrjNCode7: TFloatField
+      FieldName = 'dCPrjNCode7'
+    end
+    object MemOffsetdCPrjNCode8: TFloatField
+      FieldName = 'dCPrjNCode8'
+    end
+    object MemOffsetdCPrjNCode9: TFloatField
+      FieldName = 'dCPrjNCode9'
+    end
+    object MemOffsetdCPrjNCode10: TFloatField
+      FieldName = 'dCPrjNCode10'
+    end
+    object MemOffsetdCPjSubNCode1: TFloatField
+      FieldName = 'dCPjSubNCode1'
+    end
+    object MemOffsetdCPjSubNCode2: TFloatField
+      FieldName = 'dCPjSubNCode2'
+    end
+    object MemOffsetdCPjSubNCode3: TFloatField
+      FieldName = 'dCPjSubNCode3'
+    end
+    object MemOffsetdCPjSubNCode4: TFloatField
+      FieldName = 'dCPjSubNCode4'
+    end
+    object MemOffsetdCPjSubNCode5: TFloatField
+      FieldName = 'dCPjSubNCode5'
+    end
+    object MemOffsetdCPjSubNCode6: TFloatField
+      FieldName = 'dCPjSubNCode6'
+    end
+    object MemOffsetdCPjSubNCode7: TFloatField
+      FieldName = 'dCPjSubNCode7'
+    end
+    object MemOffsetdCPjSubNCode8: TFloatField
+      FieldName = 'dCPjSubNCode8'
+    end
+    object MemOffsetdCPjSubNCode9: TFloatField
+      FieldName = 'dCPjSubNCode9'
+    end
+    object MemOffsetdCPjSubNCode10: TFloatField
+      FieldName = 'dCPjSubNCode10'
+    end
+    object MemOffsetstrTaxCodePrt: TStringField
+      FieldName = 'strTaxCodePrt'
+    end
+  end
+  object DSTotal: TDataSource
+    DataSet = MemTotal
+    OnStateChange = DSDraftStateChange
+    Left = 95
+    Top = 34
+  end
+  object MemTotal: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemBeforePost
+    Left = 123
+    Top = 34
+    object MemTotalTag: TGraphicField
+      FieldName = 'grTag'
+      BlobType = ftGraphic
+    end
+    object MemTotalHojCode: TStringField
+      DisplayWidth = 3
+      FieldName = 'strHojCode'
+      Size = 10
+    end
+    object MemTotalName: TStringField
+      DisplayWidth = 40
+      FieldName = 'strName'
+      Size = 60
+    end
+    object MemTotalNameSimple: TStringField
+      DisplayWidth = 20
+      FieldName = 'strNameSimple'
+    end
+    object MemTotalAssociation: TStringField
+      FieldName = 'strAssociation'
+      Size = 10
+    end
+    object MemTotalComment: TStringField
+      FieldName = 'strComment'
+      Size = 60
+    end
+    object MemTotalApartData: TSmallintField
+      FieldName = 'ApartData'
+    end
+    object MemTotalintApartNo: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intApartNo'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ApartData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemTotalstrApart: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strApart'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ApartData'
+      Lookup = True
+    end
+    object MemTotalBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemTotalExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object MemTotalSateiData: TSmallintField
+      FieldName = 'SateiData'
+    end
+    object MemTotalintSateiNo: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intSateiNo'
+      LookupDataSet = MemSatei
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'SateiData'
+      Lookup = True
+    end
+    object MemTotalstrSatei: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strSatei'
+      LookupDataSet = MemSatei
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'SateiData'
+      Lookup = True
+    end
+    object MemTotalSateiCalcData: TSmallintField
+      FieldName = 'SateiCalcData'
+    end
+    object MemTotalintSateiCalc: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intSateiCalc'
+      LookupDataSet = MemSateiCalc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'SateiCalcData'
+      Lookup = True
+    end
+    object MemTotalstrSateiCalc: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strSateiCalc'
+      LookupDataSet = MemSateiCalc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'SateiCalcData'
+      Lookup = True
+    end
+    object MemTotalSateiCalcHiritu: TCurrencyField
+      DisplayWidth = 3
+      FieldName = 'SateiCalcHiritu'
+      DisplayFormat = '##0.00'
+      EditFormat = '##0.00'
+    end
+    object MemTotalSateiCalcTeigaku: TCurrencyField
+      FieldName = 'SateiCalcTeigaku'
+      DisplayFormat = '#,###,###,##0'
+      EditFormat = '#,###,###,##0'
+    end
+  end
+  object MemRealTotal: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 16
+    Top = 476
+    object MemRealTotalgrTag: TGraphicField
+      FieldName = 'grTag'
+      BlobType = ftGraphic
+    end
+    object MemRealTotalGCode: TStringField
+      FieldName = 'GCode'
+    end
+    object MemRealTotalstrHojCode: TStringField
+      FieldName = 'strHojCode'
+    end
+    object MemRealTotalstrName: TStringField
+      FieldName = 'strName'
+      Size = 60
+    end
+    object MemRealTotalstrNameSimple: TStringField
+      DisplayWidth = 20
+      FieldName = 'strNameSimple'
+    end
+    object MemRealTotalPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemRealTotalPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemRealTotalPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemRealTotalPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemRealTotalPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemRealTotalPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemRealTotalPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemRealTotalstrAssociation: TStringField
+      FieldName = 'strAssociation'
+      Size = 10
+    end
+    object MemRealTotalApartData: TSmallintField
+      FieldName = 'ApartData'
+    end
+    object MemRealTotalintApartNo: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intApartNo'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ApartData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemRealTotalstrApart: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strApart'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ApartData'
+      Lookup = True
+    end
+    object MemRealTotalLetterData: TSmallintField
+      FieldName = 'LetterData'
+      MaxValue = 3
+    end
+    object MemRealTotalLetterKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'LetterKbn'
+      LookupDataSet = MemLetter
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'LetterData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemRealTotalLetterName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'LetterName'
+      LookupDataSet = MemLetter
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'LetterData'
+      Lookup = True
+    end
+    object MemRealTotalUketoriName: TStringField
+      FieldName = 'UketoriName'
+      Size = 40
+    end
+    object MemRealTotalSateiData: TSmallintField
+      FieldName = 'SateiData'
+    end
+    object MemRealTotalintSateiNo: TIntegerField
+      FieldKind = fkLookup
+      FieldName = 'intSateiNo'
+      LookupDataSet = MemSatei
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'SateiData'
+      Lookup = True
+    end
+    object MemRealTotalstrSatei: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strSatei'
+      LookupDataSet = MemSatei
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'SateiData'
+      Lookup = True
+    end
+    object MemRealTotalSateiCalcData: TSmallintField
+      FieldName = 'SateiCalcData'
+    end
+    object MemRealTotalintSateiCalcKbn: TIntegerField
+      FieldKind = fkLookup
+      FieldName = 'intSateiCalc'
+      LookupDataSet = MemSateiCalc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'SateiCalcData'
+      Lookup = True
+    end
+    object MemRealTotalstrSateiCalc: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strSateiCalc'
+      LookupDataSet = MemSateiCalc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'SateiCalcData'
+      Lookup = True
+    end
+    object MemRealTotalSateiCalcValue: TCurrencyField
+      FieldName = 'SateiCalcValue'
+    end
+    object MemRealTotalstrSateiCalcValueUnit: TStringField
+      FieldName = 'strSateiCalcValueUnit'
+      Size = 2
+    end
+    object MemRealTotalBunkaiPtnData: TSmallintField
+      FieldName = 'BunkaiPtnData'
+    end
+    object MemRealTotalBunkaiPtn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'BunkaiPtn'
+      LookupDataSet = MemBunkaiPtn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'BunkaiPtnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemRealTotalBunkaiPtnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'BunkaiPtnName'
+      LookupDataSet = MemBunkaiPtn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'BunkaiPtnData'
+      Lookup = True
+    end
+    object MemRealTotalPrjHojyoName: TStringField
+      FieldName = 'PrjHojyoName'
+    end
+    object MemRealTotalPjSubHojyoName: TStringField
+      FieldName = 'PjSubHojyoName'
+    end
+    object MemRealTotalEOF: TBooleanField
+      FieldName = 'EOF'
+    end
+  end
+  object MemApart: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 14
+    Top = 308
+    object MemApartKbn: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemApartName: TStringField
+      DisplayWidth = 6
+      FieldName = 'Name'
+      Size = 6
+    end
+  end
+  object DSPayRatio: TDataSource
+    DataSet = MemPayRatio
+    OnStateChange = DSDraftStateChange
+    Left = 9
+    Top = 78
+  end
+  object MemPayRatio: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemPayBeforePost
+    Left = 37
+    Top = 78
+    object MemPayRatioHojCode: TStringField
+      FieldName = 'HojCode'
+    end
+    object MemPayRatioBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemPayRatioSName: TStringField
+      FieldName = 'SName'
+    end
+    object MemPayRatioRenChar: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemPayRatioPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemPayRatioPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemPayRatioPrjGCode: TStringField
+      DisplayWidth = 20
+      FieldName = 'PrjGCode'
+    end
+    object MemPayRatioPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemPayRatioPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemPayRatioPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemPayRatioPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemPayRatioPriPayWayData: TSmallintField
+      FieldName = 'PriPayWayData'
+    end
+    object MemPayRatioPriPayWay: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'PriPayWay'
+      LookupDataSet = MemPriPayWay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'PriPayWayData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioPriPayWayName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'PriPayWayName'
+      LookupDataSet = MemPriPayWay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'PriPayWayData'
+      Lookup = True
+    end
+    object MemPayRatioHou1Data: TSmallintField
+      FieldName = 'Hou1Data'
+    end
+    object MemPayRatioHou1Name: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou1Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou1Data'
+      Lookup = True
+    end
+    object MemPayRatioHou1No: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou1No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou1Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou2No: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou2No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou2Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou3No: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou3No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou3Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou4No: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou4No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou4Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou5No: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou5No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou5Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou1MinKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou1MinKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou1HasuuKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou1HasuuKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou1HasuuHouData: TSmallintField
+      FieldName = 'Hou1HasuuHouData'
+    end
+    object MemPayRatioHou1HasuuHou: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou1HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou1HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou1HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou1HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou1HasuuHouData'
+      Lookup = True
+    end
+    object MemPayRatioHou2Data: TSmallintField
+      FieldName = 'Hou2Data'
+    end
+    object MemPayRatioHou2Name: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou2Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou2Data'
+      Lookup = True
+    end
+    object MemPayRatioHou2MinKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou2MinKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou2HasuuKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou2HasuuKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou2HasuuHouData: TSmallintField
+      FieldName = 'Hou2HasuuHouData'
+    end
+    object MemPayRatioHou2HasuuHou: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou2HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou2HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou2HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou2HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou2HasuuHouData'
+      Lookup = True
+    end
+    object MemPayRatioHou3Data: TSmallintField
+      FieldName = 'Hou3Data'
+    end
+    object MemPayRatioHou3Name: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou3Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou3Data'
+      Lookup = True
+    end
+    object MemPayRatioHou3MinKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou3MinKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou3HasuuKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou3HasuuKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou3HasuuHouData: TSmallintField
+      FieldName = 'Hou3HasuuHouData'
+    end
+    object MemPayRatioHou3HasuuHou: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou3HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou3HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou3HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou3HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou3HasuuHouData'
+      Lookup = True
+    end
+    object MemPayRatioHou4Data: TSmallintField
+      FieldName = 'Hou4Data'
+    end
+    object MemPayRatioHou4Name: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou4Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou4Data'
+      Lookup = True
+    end
+    object MemPayRatioHou4MinKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou4MinKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou4HasuuKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou4HasuuKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou4HasuuHouData: TSmallintField
+      FieldName = 'Hou4HasuuHouData'
+    end
+    object MemPayRatioHou4HasuuHou: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou4HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou4HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou4HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou4HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou4HasuuHouData'
+      Lookup = True
+    end
+    object MemPayRatioHou5Data: TSmallintField
+      FieldName = 'Hou5Data'
+    end
+    object MemPayRatioHou5Name: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou5Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou5Data'
+      Lookup = True
+    end
+    object MemPayRatioHou5MinKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou5MinKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou5HasuuKin: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou5HasuuKin'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemPayRatioHou5HasuuHouData: TSmallintField
+      FieldName = 'Hou5HasuuHouData'
+    end
+    object MemPayRatioHou5HasuuHou: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou5HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou5HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayRatioHou5HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou5HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou5HasuuHouData'
+      Lookup = True
+    end
+    object MemPayRatioHou1StdRitsu: TCurrencyField
+      DisplayWidth = 3
+      FieldName = 'Hou1StdRitsu'
+      DisplayFormat = '##0.00'
+      EditFormat = '##0.00'
+    end
+    object MemPayRatioHou2StdRitsu: TCurrencyField
+      FieldName = 'Hou2StdRitsu'
+      DisplayFormat = '##0.00'
+      EditFormat = '##0.00'
+    end
+    object MemPayRatioHou3StdRitsu: TCurrencyField
+      FieldName = 'Hou3StdRitsu'
+      DisplayFormat = '##0.00'
+      EditFormat = '##0.00'
+    end
+    object MemPayRatioHou4StdRitsu: TCurrencyField
+      FieldName = 'Hou4StdRitsu'
+      DisplayFormat = '##0.00'
+      EditFormat = '##0.00'
+    end
+    object MemPayRatioHou5StdRitsu: TCurrencyField
+      FieldName = 'Hou5StdRitsu'
+      DisplayFormat = '##0.00'
+      EditFormat = '##0.00'
+    end
+    object MemPayRatioExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+  end
+  object MemHou: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 70
+    Top = 308
+    object MemHouKbn: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemHouName: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemHasu: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 98
+    Top = 308
+    object MemHasuKbn: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemHasuName: TStringField
+      DisplayWidth = 20
+      FieldName = 'Name'
+    end
+  end
+  object DSPayFixed: TDataSource
+    DataSet = MemPayFixed
+    OnStateChange = DSDraftStateChange
+    Left = 95
+    Top = 79
+  end
+  object MemPayFixed: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemPayBeforePost
+    Left = 123
+    Top = 79
+    object StringField9: TStringField
+      FieldName = 'HojCode'
+    end
+    object StringField12: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object StringField16: TStringField
+      FieldName = 'SName'
+    end
+    object StringField17: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemPayFixedPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemPayFixedPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemPayFixedPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemPayFixedPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemPayFixedPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemPayFixedPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemPayFixedPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemPayFixedPriPayWayData: TSmallintField
+      DisplayWidth = 10
+      FieldName = 'PriPayWayData'
+    end
+    object MemPayFixedPriPayWay: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'PriPayWay'
+      LookupDataSet = MemPriPayWay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'PriPayWayData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayFixedPriPayWayName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'PriPayWayName'
+      LookupDataSet = MemPriPayWay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'PriPayWayData'
+      Lookup = True
+    end
+    object SmallintField1: TSmallintField
+      FieldName = 'Hou1Data'
+    end
+    object SmallintField3: TSmallintField
+      FieldName = 'Hou2Data'
+    end
+    object SmallintField5: TSmallintField
+      FieldName = 'Hou3Data'
+    end
+    object SmallintField7: TSmallintField
+      FieldName = 'Hou4Data'
+    end
+    object SmallintField9: TSmallintField
+      FieldName = 'Hou5Data'
+    end
+    object IntegerField3: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou1No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou1Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object IntegerField4: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou2No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou2Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object IntegerField5: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou3No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou3Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object IntegerField6: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou4No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou4Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object IntegerField7: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'Hou5No'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou5Data'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField18: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou1Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou1Data'
+      Lookup = True
+    end
+    object StringField20: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou2Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou2Data'
+      Lookup = True
+    end
+    object StringField22: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou3Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou3Data'
+      Lookup = True
+    end
+    object StringField24: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou4Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou4Data'
+      Lookup = True
+    end
+    object StringField26: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou5Name'
+      LookupDataSet = MemHou
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou5Data'
+      Lookup = True
+    end
+    object CurrencyField11: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou1StdRitsu'
+      DisplayFormat = '#,###,###,##0'
+      EditFormat = '#,###,###,##0'
+    end
+    object CurrencyField12: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou2StdRitsu'
+      DisplayFormat = '#,###,###,##0'
+      EditFormat = '#,###,###,##0'
+    end
+    object CurrencyField13: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou3StdRitsu'
+      DisplayFormat = '#,###,###,##0'
+      EditFormat = '#,###,###,##0'
+    end
+    object CurrencyField14: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou4StdRitsu'
+      DisplayFormat = '#,###,###,##0'
+      EditFormat = '#,###,###,##0'
+    end
+    object CurrencyField15: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou5StdRitsu'
+      DisplayFormat = '#,###,###,##0'
+      EditFormat = '#,###,###,##0'
+    end
+    object MemPayFixedExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+  end
+  object DSFuri: TDataSource
+    DataSet = MemFuri
+    OnStateChange = DSDraftStateChange
+    Left = 10
+    Top = 124
+  end
+  object MemFuri: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = CmnMemBeforePost
+    Left = 38
+    Top = 128
+    object MemFuriHojCode: TStringField
+      FieldName = 'HojCode'
+    end
+    object MemFuriBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemFuriSName: TStringField
+      FieldName = 'SName'
+    end
+    object MemFuriRenChar: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemFuriPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemFuriPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemFuriPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemFuriPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemFuriPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemFuriPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemFuriPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemFuriIraiAccNo: TIntegerField
+      FieldName = 'IraiAccNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuriAccInfo: TStringField
+      FieldName = 'AccInfo'
+      Size = 35
+    end
+    object MemFuriBankCode: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'BankCode'
+      DisplayFormat = '0000'
+    end
+    object MemFuriBkBraCode: TIntegerField
+      DisplayWidth = 3
+      FieldName = 'BkBraCode'
+      DisplayFormat = '000'
+    end
+    object MemFuriBankName: TStringField
+      FieldName = 'BankName'
+      Size = 30
+    end
+    object MemFuriBankKanaName: TStringField
+      FieldName = 'BankKanaName'
+      Size = 15
+    end
+    object MemFuriBkBraName: TStringField
+      FieldName = 'BkBraName'
+      Size = 30
+    end
+    object MemFuriBraKanaName: TStringField
+      FieldName = 'BraKanaName'
+      Size = 15
+    end
+    object MemFuriTransKanaName: TStringField
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object MemFuriAccData: TSmallintField
+      FieldName = 'AccData'
+    end
+    object MemFuriAccKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'AccKbn'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AccData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuriAccName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AccName'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AccData'
+      Lookup = True
+    end
+    object MemFuriAccNo: TStringField
+      Alignment = taRightJustify
+      DisplayWidth = 8
+      FieldName = 'AccNo'
+    end
+    object MemFuriChargeData: TSmallintField
+      FieldName = 'ChargeData'
+    end
+    object MemFuriChargeFutan: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeFutan'
+      LookupDataSet = MemCharge
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuriChargeName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeName'
+      LookupDataSet = MemCharge
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeData'
+      Lookup = True
+    end
+    object MemFuriChargeKbnData: TSmallintField
+      FieldName = 'ChargeKbnData'
+    end
+    object MemFuriChargeKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbn'
+      LookupDataSet = MemChargeKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuriChargeKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbnName'
+      LookupDataSet = MemChargeKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeKbnData'
+      Lookup = True
+    end
+    object MemFuriTransKbnData: TSmallintField
+      FieldName = 'TransKbnData'
+    end
+    object MemFuriTransKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'TransKbn'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'TransKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuriTransKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'TransKbnName'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'TransKbnData'
+      Lookup = True
+    end
+    object MemFuriFBSetData: TSmallintField
+      FieldName = 'FBSetData'
+    end
+    object MemFuriFBSet: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'FBSet'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'FBSetData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuriFBSetName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'FBSetName'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'FBSetData'
+      Lookup = True
+    end
+    object MemFuriEDIInfo: TStringField
+      FieldName = 'EDIInfo'
+    end
+    object MemFuriAiteNo1: TStringField
+      FieldName = 'AiteNo1'
+      Size = 10
+    end
+    object MemFuriAiteNo2: TStringField
+      FieldName = 'AiteNo2'
+      Size = 10
+    end
+    object MemFuriAccNCode: TFloatField
+      FieldName = 'AccNCode'
+    end
+    object MemFuriPayNCode: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object MemFuriBankNCode: TFloatField
+      FieldName = 'BankNCode'
+    end
+    object MemFuriBranchNCode: TFloatField
+      FieldName = 'BranchNCode'
+    end
+    object MemFuriAutoKbnData: TSmallintField
+      FieldName = 'AutoKbnData'
+    end
+    object MemFuriAutokbn: TIntegerField
+      DisplayLabel = 'AutoKbn'
+      FieldKind = fkLookup
+      FieldName = 'Autokbn'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object MemFuriAutoKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AutoKbnName'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object MemFuriAccAutoData: TIntegerField
+      FieldName = 'AccAutoData'
+    end
+  end
+  object MemAcc: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 19
+    Top = 433
+    object MemAccA_No: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemAccA_Name: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemCharge: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 43
+    Top = 433
+    object MemChargeF_No: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemChargeF_Name: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemChargeKbn: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 71
+    Top = 433
+    object MemChargeKbnK_No: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemChargeKbnK_Name: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemTrans: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 99
+    Top = 433
+    object MemTransT_No: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemTransT_Name: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemFBSet: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 127
+    Top = 433
+    object MemFBSetS_No: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemFBSetS_Name: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object DSFuriDate: TDataSource
+    DataSet = MemFuriDate
+    OnStateChange = DSDraftStateChange
+    Left = 95
+    Top = 124
+  end
+  object MemFuriDate: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = CmnMemBeforePost
+    Left = 127
+    Top = 124
+    object StringField19: TStringField
+      FieldName = 'HojCode'
+    end
+    object StringField21: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object StringField23: TStringField
+      FieldName = 'SName'
+    end
+    object StringField25: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemFuriDatePayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemFuriDatePrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemFuriDatePrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemFuriDatePrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemFuriDatePjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemFuriDatePjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemFuriDatePjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object IntegerField8: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'IraiAccNo'
+      DisplayFormat = '0000'
+    end
+    object StringField27: TStringField
+      FieldName = 'AccInfo'
+      Size = 35
+    end
+    object MemFuriDateBankCode: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'BankCode'
+      DisplayFormat = '0000'
+    end
+    object MemFuriDateBkBraCode: TIntegerField
+      DisplayWidth = 3
+      FieldName = 'BkBraCode'
+      DisplayFormat = '000'
+    end
+    object StringField30: TStringField
+      FieldName = 'BankName'
+      Size = 30
+    end
+    object StringField31: TStringField
+      FieldName = 'BankKanaName'
+      Size = 15
+    end
+    object StringField32: TStringField
+      FieldName = 'BkBraName'
+      Size = 30
+    end
+    object StringField33: TStringField
+      FieldName = 'BraKanaName'
+      Size = 15
+    end
+    object StringField34: TStringField
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object SmallintField2: TSmallintField
+      FieldName = 'AccData'
+    end
+    object IntegerField9: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'AccKbn'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AccData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField35: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AccName'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AccData'
+      Lookup = True
+    end
+    object MemFuriDateAccNo: TStringField
+      Alignment = taRightJustify
+      DisplayWidth = 8
+      FieldName = 'AccNo'
+    end
+    object SmallintField4: TSmallintField
+      FieldName = 'ChargeData'
+    end
+    object IntegerField11: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeFutan'
+      LookupDataSet = MemCharge
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField36: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeName'
+      LookupDataSet = MemCharge
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeData'
+      Lookup = True
+    end
+    object SmallintField6: TSmallintField
+      FieldName = 'ChargeKbnData'
+    end
+    object IntegerField12: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbn'
+      LookupDataSet = MemChargeKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField37: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbnName'
+      LookupDataSet = MemChargeKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeKbnData'
+      Lookup = True
+    end
+    object SmallintField8: TSmallintField
+      FieldName = 'TransKbnData'
+    end
+    object IntegerField13: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'TransKbn'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'TransKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField38: TStringField
+      FieldKind = fkLookup
+      FieldName = 'TransKbnName'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'TransKbnData'
+      Lookup = True
+    end
+    object SmallintField10: TSmallintField
+      FieldName = 'FBSetData'
+    end
+    object IntegerField14: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'FBSet'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'FBSetData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField39: TStringField
+      FieldKind = fkLookup
+      FieldName = 'FBSetName'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'FBSetData'
+      Lookup = True
+    end
+    object StringField40: TStringField
+      FieldName = 'EDIInfo'
+    end
+    object StringField41: TStringField
+      FieldName = 'AiteNo1'
+      Size = 10
+    end
+    object StringField42: TStringField
+      FieldName = 'AiteNo2'
+      Size = 10
+    end
+    object MemFuriDateSite: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Site'
+    end
+    object MemFuriDatePayNCode: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object MemFuriDateAccNCode: TFloatField
+      FieldName = 'AccNCode'
+    end
+    object MemFuriDateBankNCode: TFloatField
+      FieldName = 'BankNCode'
+    end
+    object MemFuriDateBranchNCode: TFloatField
+      FieldName = 'BranchNCode'
+    end
+  end
+  object DSDraft: TDataSource
+    DataSet = MemDraft
+    OnStateChange = DSDraftStateChange
+    Left = 10
+    Top = 169
+  end
+  object MemDraft: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = CmnMemBeforePost
+    Left = 38
+    Top = 169
+    object MemDraftHojCode: TStringField
+      FieldName = 'HojCode'
+    end
+    object MemDraftBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemDraftSName: TStringField
+      FieldName = 'SName'
+    end
+    object MemDraftRenChar: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemDraftPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemDraftPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemDraftPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemDraftPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemDraftPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemDraftPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemDraftPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemDraftIraiAccNo: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'IraiAccNo'
+      DisplayFormat = '0000'
+    end
+    object MemDraftAccInfo: TStringField
+      FieldName = 'AccInfo'
+      Size = 35
+    end
+    object MemDraftBankCode: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'BankCode'
+      DisplayFormat = '0000'
+    end
+    object MemDraftSite: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'Site'
+      DisplayFormat = '###0'
+      MaxValue = 9999
+    end
+    object MemDraftBunkatu: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Bunkatu'
+      DisplayFormat = '#0'
+      MaxValue = 99
+    end
+    object MemDraftYusoData: TSmallintField
+      DisplayWidth = 2
+      FieldName = 'YusoData'
+    end
+    object MemDraftYusoKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'YusoKbn'
+      LookupDataSet = MemYusoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'YusoData'
+      DisplayFormat = '#0'
+      MaxValue = 2
+      Lookup = True
+    end
+    object MemDraftYusoKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'YusoKbnName'
+      LookupDataSet = MemYusoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'YusoData'
+      Lookup = True
+    end
+    object MemDraftYusoFutanData: TSmallintField
+      FieldName = 'YusoFutanData'
+    end
+    object MemDraftYusoFutan: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'YusoFutan'
+      LookupDataSet = MemYusoFutan
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'YusoFutanData'
+      DisplayFormat = '#0'
+      MaxValue = 2
+      Lookup = True
+    end
+    object MemDraftYusoFutanName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'YusoFutanName'
+      LookupDataSet = MemYusoFutan
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'YusoFutanData'
+      Lookup = True
+    end
+    object MemDraftPayNCode: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object MemDraftAccNCode: TFloatField
+      FieldName = 'AccNCode'
+    end
+    object MemDraftERKbnData: TSmallintField
+      FieldName = 'ERKbnData'
+    end
+    object MemDraftERKbn: TIntegerField
+      FieldKind = fkLookup
+      FieldName = 'ERKbn'
+      LookupDataSet = MemERKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ERKbnData'
+      DisplayFormat = '#0'
+      MaxValue = 2
+      Lookup = True
+    end
+    object MemDraftERKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ERKbnName'
+      LookupDataSet = MemERKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ERKbnData'
+      Lookup = True
+    end
+    object MemDraftBankNCode: TCurrencyField
+      FieldName = 'BankNCode'
+    end
+    object MemDraftBranchNCode: TCurrencyField
+      FieldName = 'BranchNCode'
+    end
+    object MemDraftBkBraCode: TIntegerField
+      FieldName = 'BkBraCode'
+      DisplayFormat = '000'
+    end
+    object MemDraftBankName: TStringField
+      DisplayWidth = 30
+      FieldName = 'BankName'
+      Size = 30
+    end
+    object MemDraftBankKanaName: TStringField
+      DisplayWidth = 15
+      FieldName = 'BankKanaName'
+      Size = 15
+    end
+    object MemDraftBkBraName: TStringField
+      DisplayWidth = 30
+      FieldName = 'BkBraName'
+      Size = 30
+    end
+    object MemDraftBraKanaName: TStringField
+      DisplayWidth = 15
+      FieldName = 'BraKanaName'
+      Size = 15
+    end
+    object MemDraftTransKanaName: TStringField
+      DisplayWidth = 30
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object MemDraftAccData: TSmallintField
+      FieldName = 'AccData'
+    end
+    object MemDraftAccKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'AccKbn'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AccData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemDraftAccName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AccName'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AccData'
+      Lookup = True
+    end
+    object MemDraftAccNo: TStringField
+      Alignment = taRightJustify
+      DisplayWidth = 8
+      FieldName = 'AccNo'
+    end
+    object MemDraftChargeData: TSmallintField
+      FieldName = 'ChargeData'
+    end
+    object MemDraftChargeFutan: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeFutan'
+      LookupDataSet = MemCharge2
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemDraftChargeName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeName'
+      LookupDataSet = MemCharge2
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeData'
+      Lookup = True
+    end
+    object MemDraftChargeKbnData: TSmallintField
+      FieldName = 'ChargeKbnData'
+    end
+    object MemDraftChargeKbn: TIntegerField
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbn'
+      LookupDataSet = MemChargeKbn2
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemDraftChargeKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbnName'
+      LookupDataSet = MemChargeKbn2
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeKbnData'
+      Lookup = True
+    end
+    object MemDraftVFree1: TStringField
+      FieldName = 'VFree1'
+      Size = 40
+    end
+    object MemDraftVFree2: TStringField
+      FieldName = 'VFree2'
+      Size = 40
+    end
+    object MemDraftVFree3: TStringField
+      FieldName = 'VFree3'
+      Size = 40
+    end
+    object MemDraftVFree4: TStringField
+      FieldName = 'VFree4'
+      Size = 40
+    end
+    object MemDraftVFree5: TStringField
+      FieldName = 'VFree5'
+      Size = 40
+    end
+    object MemDraftLayoutInfo: TStringField
+      FieldName = 'LayoutInfo'
+      Size = 512
+    end
+  end
+  object MemYusoKbn: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 126
+    Top = 308
+    object MemYusoKbnKbn: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemYusoKbnName: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemYusoFutan: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 15
+    Top = 351
+    object IntegerField10: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object StringField28: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object DSCheck: TDataSource
+    DataSet = MemCheck
+    OnStateChange = DSDraftStateChange
+    Left = 95
+    Top = 169
+  end
+  object MemCheck: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = CmnMemBeforePost
+    Left = 123
+    Top = 169
+    object StringField29: TStringField
+      FieldName = 'HojCode'
+    end
+    object StringField43: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object StringField44: TStringField
+      FieldName = 'SName'
+    end
+    object StringField45: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemCheckPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemCheckPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemCheckPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemCheckPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemCheckPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemCheckPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemCheckPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object IntegerField15: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'IraiAccNo'
+      DisplayFormat = '0000'
+    end
+    object StringField46: TStringField
+      FieldName = 'AccInfo'
+      Size = 35
+    end
+    object IntegerField16: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'BankCode'
+      DisplayFormat = '0000'
+    end
+    object SmallintField11: TSmallintField
+      DisplayWidth = 2
+      FieldName = 'YusoData'
+    end
+    object IntegerField19: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'YusoKbn'
+      LookupDataSet = MemYusoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'YusoData'
+      DisplayFormat = '#0'
+      MaxValue = 2
+      Lookup = True
+    end
+    object StringField47: TStringField
+      FieldKind = fkLookup
+      FieldName = 'YusoKbnName'
+      LookupDataSet = MemYusoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'YusoData'
+      Lookup = True
+    end
+    object SmallintField12: TSmallintField
+      FieldName = 'YusoFutanData'
+    end
+    object IntegerField20: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'YusoFutan'
+      LookupDataSet = MemYusoFutan
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'YusoFutanData'
+      DisplayFormat = '#0'
+      MaxValue = 2
+      Lookup = True
+    end
+    object StringField48: TStringField
+      FieldKind = fkLookup
+      FieldName = 'YusoFutanName'
+      LookupDataSet = MemYusoFutan
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'YusoFutanData'
+      Lookup = True
+    end
+    object MemCheckPayNCode: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object MemCheckAccNCode: TFloatField
+      FieldName = 'AccNCode'
+    end
+  end
+  object DSOther: TDataSource
+    DataSet = MemOther
+    OnStateChange = DSDraftStateChange
+    Left = 96
+    Top = 214
+  end
+  object MemOther: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemOtherBeforePost
+    Left = 124
+    Top = 214
+    object StringField49: TStringField
+      FieldName = 'HojCode'
+    end
+    object StringField50: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object StringField51: TStringField
+      FieldName = 'SName'
+    end
+    object StringField52: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemOtherZipCode1: TIntegerField
+      DisplayWidth = 3
+      FieldName = 'ZipCode1'
+      DisplayFormat = '000'
+    end
+    object MemOtherZipCode2: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'ZipCode2'
+      DisplayFormat = '0000'
+    end
+    object MemOtherAddress1: TStringField
+      FieldName = 'Address1'
+      Size = 60
+    end
+    object MemOtherAddress2: TStringField
+      FieldName = 'Address2'
+      Size = 60
+    end
+    object MemOtherTelNo: TStringField
+      FieldName = 'TelNo'
+    end
+    object MemOtherSectionName: TStringField
+      FieldName = 'SectionName'
+      Size = 40
+    end
+    object MemOtherPersonName: TStringField
+      FieldName = 'PersonName'
+      Size = 16
+    end
+    object MemOtherTitleData: TSmallintField
+      FieldName = 'TitleData'
+    end
+    object MemOtherTitleKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'TitleKbn'
+      LookupDataSet = MemTitle
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'TitleData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemOtherTitleName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'TitleName'
+      LookupDataSet = MemTitle
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'TitleData'
+      Lookup = True
+    end
+    object MemOtherLetterData: TSmallintField
+      FieldName = 'LetterData'
+    end
+    object MemOtherLetterKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'LetterKbn'
+      LookupDataSet = MemLetter
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'LetterData'
+      DisplayFormat = '#0'
+      MaxValue = 2
+      Lookup = True
+    end
+    object MemOtherLetterName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'LetterName'
+      LookupDataSet = MemLetter
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'LetterData'
+      Lookup = True
+    end
+    object MemOtherUketoriName: TStringField
+      FieldName = 'UketoriName'
+      Size = 40
+    end
+    object MemOtherChangeCode: TStringField
+      FieldName = 'ChangeCode'
+    end
+    object MemOtherSimpleName: TStringField
+      FieldName = 'SimpleName'
+      Size = 14
+    end
+    object MemOtherSumKbn: TIntegerField
+      FieldName = 'SumKbn'
+    end
+    object MemOtherExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object MemOtherExCngNCode: TFloatField
+      FieldName = 'ExCngNCode'
+    end
+  end
+  object MemTitle: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 43
+    Top = 351
+    object IntegerField25: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object StringField56: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemLetter: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 71
+    Top = 351
+    object IntegerField26: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object StringField57: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object DSNayose: TDataSource
+    DataSet = MemNayose
+    OnStateChange = DSNayoseStateChange
+    Left = 12
+    Top = 259
+  end
+  object MemNayose: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemNayoseBeforePost
+    Left = 44
+    Top = 259
+    object MemNayoseHojCode: TStringField
+      FieldName = 'HojCode'
+    end
+    object MemNayoseBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemNayoseSName: TStringField
+      FieldName = 'SName'
+    end
+    object MemNayoseOyaHojCD: TStringField
+      FieldName = 'OyaHojCD'
+    end
+    object MemNayoseOyaBaseHojCD: TStringField
+      FieldName = 'OyaBaseHojCD'
+    end
+    object MemNayoseOyaName: TStringField
+      FieldName = 'OyaName'
+    end
+    object MemNayosePayNCode: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object MemNayoseOyaNCode: TFloatField
+      FieldName = 'OyaNCode'
+    end
+  end
+  object PMNayoseTree: TPopupMenu
+    AutoHotkeys = maManual
+    OnPopup = PMNayoseTreePopup
+    Left = 128
+    Top = 392
+    object PMNayoseTreeErase: TMenuItem
+      Caption = #21517#23492#12379#24773#22577#12363#12425#22806#12377
+      OnClick = PMNayoseTreeEraseClick
+    end
+  end
+  object MemPayMethods: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 72
+    Top = 476
+    object MemPayMethodsGCode: TStringField
+      DisplayWidth = 10
+      FieldName = 'GCode'
+    end
+    object MemPayMethodsSimpleName: TStringField
+      DisplayWidth = 20
+      FieldName = 'SimpleName'
+    end
+    object MemPayMethodsPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemPayMethodsPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemPayMethodsPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemPayMethodsPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemPayMethodsPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemPayMethodsPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemPayMethodsPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemPayMethodsPriPayWayData: TSmallintField
+      FieldName = 'PriPayWayData'
+    end
+    object MemPayMethodsPriPayWay: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'PriPayWay'
+      LookupDataSet = MemPriPayWay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'PriPayWayData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayMethodsPriPayWayName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'PriPayWayName'
+      LookupDataSet = MemPriPayWay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'PriPayWayData'
+      Lookup = True
+    end
+    object MemPayMethodsBunkaiName: TStringField
+      FieldName = 'BunkaiName'
+    end
+    object MemPayMethodsHouhouNo1: TIntegerField
+      FieldName = 'HouhouNo1'
+    end
+    object MemPayMethodsHouhouNo2: TIntegerField
+      FieldName = 'HouhouNo2'
+    end
+    object MemPayMethodsHouhouNo3: TIntegerField
+      FieldName = 'HouhouNo3'
+    end
+    object MemPayMethodsHouhouNo4: TIntegerField
+      FieldName = 'HouhouNo4'
+    end
+    object MemPayMethodsHouhouNo5: TIntegerField
+      FieldName = 'HouhouNo5'
+    end
+    object MemPayMethodsHouhouName1: TStringField
+      FieldName = 'HouhouName1'
+    end
+    object MemPayMethodsHouhouName2: TStringField
+      FieldName = 'HouhouName2'
+    end
+    object MemPayMethodsHouhouName3: TStringField
+      FieldName = 'HouhouName3'
+    end
+    object MemPayMethodsHouhouName4: TStringField
+      FieldName = 'HouhouName4'
+    end
+    object MemPayMethodsHouhouName5: TStringField
+      FieldName = 'HouhouName5'
+    end
+    object MemPayMethodsHasuuHou1: TStringField
+      FieldName = 'HasuuHou1'
+    end
+    object MemPayMethodsHasuuHou2: TStringField
+      FieldName = 'HasuuHou2'
+    end
+    object MemPayMethodsHasuuHou3: TStringField
+      FieldName = 'HasuuHou3'
+    end
+    object MemPayMethodsHasuuHou4: TStringField
+      FieldName = 'HasuuHou4'
+    end
+    object MemPayMethodsHasuuHou5: TStringField
+      FieldName = 'HasuuHou5'
+    end
+    object MemPayMethodsStdRitu1: TCurrencyField
+      FieldName = 'StdRitu1'
+    end
+    object MemPayMethodsStdRitu2: TCurrencyField
+      FieldName = 'StdRitu2'
+    end
+    object MemPayMethodsStdRitu3: TCurrencyField
+      FieldName = 'StdRitu3'
+    end
+    object MemPayMethodsStdRitu4: TCurrencyField
+      FieldName = 'StdRitu4'
+    end
+    object MemPayMethodsStdRitu5: TCurrencyField
+      FieldName = 'StdRitu5'
+    end
+    object MemPayMethodsMinKin1: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'MinKin1'
+    end
+    object MemPayMethodsMinKin2: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'MinKin2'
+    end
+    object MemPayMethodsMinKin3: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'MinKin3'
+    end
+    object MemPayMethodsMinKin4: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'MinKin4'
+    end
+    object MemPayMethodsMinKin5: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'MinKin5'
+    end
+    object MemPayMethodsHasuuKin1: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'HasuuKin1'
+    end
+    object MemPayMethodsHasuuKin2: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'HasuuKin2'
+    end
+    object MemPayMethodsHasuuKin3: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'HasuuKin3'
+    end
+    object MemPayMethodsHasuuKin4: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'HasuuKin4'
+    end
+    object MemPayMethodsHasuuKin5: TCurrencyField
+      DisplayWidth = 15
+      FieldName = 'HasuuKin5'
+    end
+    object MemPayMethodsPriPayWayNo1: TIntegerField
+      FieldName = 'PriPayWayNo1'
+    end
+    object MemPayMethodsPriPayWayNo2: TIntegerField
+      FieldName = 'PriPayWayNo2'
+    end
+    object MemPayMethodsPriPayWayNo3: TIntegerField
+      FieldName = 'PriPayWayNo3'
+    end
+    object MemPayMethodsPriPayWayNo4: TIntegerField
+      FieldName = 'PriPayWayNo4'
+    end
+    object MemPayMethodsPriPayWayNo5: TIntegerField
+      FieldName = 'PriPayWayNo5'
+    end
+    object MemPayMethodsPriPayWayBaseKingaku1: TCurrencyField
+      FieldName = 'PriPayWayBaseKingaku1'
+    end
+    object MemPayMethodsPriPayWayBaseKingaku2: TCurrencyField
+      FieldName = 'PriPayWayBaseKingaku2'
+    end
+    object MemPayMethodsPriPayWayBaseKingaku3: TCurrencyField
+      FieldName = 'PriPayWayBaseKingaku3'
+    end
+    object MemPayMethodsPriPayWayBaseKingaku4: TCurrencyField
+      FieldName = 'PriPayWayBaseKingaku4'
+    end
+    object MemPayMethodsPriPayWayBaseKingaku5: TCurrencyField
+      FieldName = 'PriPayWayBaseKingaku5'
+    end
+    object MemPayMethodsstrPriPayWayBaseKinUnit1: TStringField
+      FieldName = 'strPriPayWayBaseKinUnit1'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWayBaseKinUnit2: TStringField
+      FieldName = 'strPriPayWayBaseKinUnit2'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWayBaseKinUnit3: TStringField
+      FieldName = 'strPriPayWayBaseKinUnit3'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWayBaseKinUnit4: TStringField
+      FieldName = 'strPriPayWayBaseKinUnit4'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWayBaseKinUnit5: TStringField
+      FieldName = 'strPriPayWayBaseKinUnit5'
+      Size = 2
+    end
+    object MemPayMethodsPriPayWayBaseHiritu1: TCurrencyField
+      FieldName = 'PriPayWayBaseHiritu1'
+    end
+    object MemPayMethodsPriPayWayBaseHiritu2: TCurrencyField
+      FieldName = 'PriPayWayBaseHiritu2'
+    end
+    object MemPayMethodsPriPayWayBaseHiritu3: TCurrencyField
+      FieldName = 'PriPayWayBaseHiritu3'
+    end
+    object MemPayMethodsPriPayWayBaseHiritu4: TCurrencyField
+      FieldName = 'PriPayWayBaseHiritu4'
+    end
+    object MemPayMethodsPriPayWayBaseHiritu5: TCurrencyField
+      FieldName = 'PriPayWayBaseHiritu5'
+    end
+    object MemPayMethodsstrPriPayWayBaseHirituUnit1: TStringField
+      FieldName = 'strPriPayWayBaseHirituUnit1'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWayBaseHirituUnit2: TStringField
+      FieldName = 'strPriPayWayBaseHirituUnit2'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWayBaseHirituUnit3: TStringField
+      FieldName = 'strPriPayWayBaseHirituUnit3'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWayBaseHirituUnit4: TStringField
+      FieldName = 'strPriPayWayBaseHirituUnit4'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWayBaseHirituUnit5: TStringField
+      FieldName = 'strPriPayWayBaseHirituUnit5'
+      Size = 2
+    end
+    object MemPayMethodsPriPayWayHasuuKin1: TCurrencyField
+      FieldName = 'PriPayWayHasuuKin1'
+    end
+    object MemPayMethodsPriPayWayHasuuKin2: TCurrencyField
+      FieldName = 'PriPayWayHasuuKin2'
+    end
+    object MemPayMethodsPriPayWayHasuuKin3: TCurrencyField
+      FieldName = 'PriPayWayHasuuKin3'
+    end
+    object MemPayMethodsPriPayWayHasuuKin4: TCurrencyField
+      FieldName = 'PriPayWayHasuuKin4'
+    end
+    object MemPayMethodsPriPayWayHasuuKin5: TCurrencyField
+      FieldName = 'PriPayWayHasuuKin5'
+    end
+    object MemPayMethodsPriPayWayHasuuDesc1: TStringField
+      FieldName = 'PriPayWayHasuuDesc1'
+    end
+    object MemPayMethodsPriPayWayHasuuDesc2: TStringField
+      FieldName = 'PriPayWayHasuuDesc2'
+    end
+    object MemPayMethodsPriPayWayHasuuDesc3: TStringField
+      FieldName = 'PriPayWayHasuuDesc3'
+    end
+    object MemPayMethodsPriPayWayHasuuDesc4: TStringField
+      FieldName = 'PriPayWayHasuuDesc4'
+    end
+    object MemPayMethodsPriPayWayHasuuDesc5: TStringField
+      FieldName = 'PriPayWayHasuuDesc5'
+    end
+    object MemPayMethodsPriPayWaySite1: TIntegerField
+      FieldName = 'PriPayWaySite1'
+    end
+    object MemPayMethodsPriPayWaySite2: TIntegerField
+      FieldName = 'PriPayWaySite2'
+    end
+    object MemPayMethodsPriPayWaySite3: TIntegerField
+      FieldName = 'PriPayWaySite3'
+    end
+    object MemPayMethodsPriPayWaySite4: TIntegerField
+      FieldName = 'PriPayWaySite4'
+    end
+    object MemPayMethodsPriPayWaySite5: TIntegerField
+      FieldName = 'PriPayWaySite5'
+    end
+    object MemPayMethodsstrPriPayWaySiteUnit1: TStringField
+      FieldName = 'strPriPayWaySiteUnit1'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWaySiteUnit2: TStringField
+      FieldName = 'strPriPayWaySiteUnit2'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWaySiteUnit3: TStringField
+      FieldName = 'strPriPayWaySiteUnit3'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWaySiteUnit4: TStringField
+      FieldName = 'strPriPayWaySiteUnit4'
+      Size = 2
+    end
+    object MemPayMethodsstrPriPayWaySiteUnit5: TStringField
+      FieldName = 'strPriPayWaySiteUnit5'
+      Size = 2
+    end
+    object MemPayMethodsPrjHojyoName: TStringField
+      FieldName = 'PrjHojyoName'
+    end
+    object MemPayMethodsPjSubHojyoName: TStringField
+      FieldName = 'PjSubHojyoName'
+    end
+    object MemPayMethodsEOF: TBooleanField
+      FieldName = 'EOF'
+    end
+  end
+  object MemPrintOther: TdxMemData
+    Active = True
+    Indexes = <>
+    SortOptions = []
+    Left = 157
+    Top = 476
+    object StringField1: TStringField
+      FieldName = 'GCode'
+    end
+    object StringField2: TStringField
+      FieldName = 'SimpleName'
+    end
+    object MemPrintOtherZipCode1: TIntegerField
+      FieldName = 'ZipCode1'
+    end
+    object MemPrintOtherZipCode2: TIntegerField
+      FieldName = 'ZipCode2'
+    end
+    object MemPrintOtherAddress1: TStringField
+      FieldName = 'Address1'
+      Size = 60
+    end
+    object MemPrintOtherAddress2: TStringField
+      FieldName = 'Address2'
+      Size = 60
+    end
+    object MemPrintOtherTelNo: TStringField
+      FieldName = 'TelNo'
+    end
+    object MemPrintOtherSectionName: TStringField
+      FieldName = 'SectionName'
+      Size = 40
+    end
+    object MemPrintOtherPersonName: TStringField
+      FieldName = 'PersonName'
+    end
+    object MemPrintOtherTitleName: TStringField
+      FieldName = 'TitleName'
+    end
+    object MemPrintOtherLetterName: TStringField
+      FieldName = 'LetterName'
+    end
+    object MemPrintOtherUketoriName: TStringField
+      FieldName = 'UketoriName'
+      Size = 40
+    end
+    object MemPrintOtherChangeCode: TStringField
+      FieldName = 'ChangeCode'
+    end
+    object MemPrintOtherChangeName: TStringField
+      FieldName = 'ChangeName'
+    end
+  end
+  object MemPrintOffset: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 128
+    Top = 476
+    object StringField3: TStringField
+      FieldName = 'GCode'
+    end
+    object StringField5: TStringField
+      DisplayWidth = 20
+      FieldName = 'SimpleName'
+    end
+    object MemPrintOffsetPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemPrintOffsetPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemPrintOffsetPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemPrintOffsetPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemPrintOffsetPrjAttr: TIntegerField
+      FieldName = 'PrjAttr'
+    end
+    object MemPrintOffsetPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemPrintOffsetPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemPrintOffsetPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemPrintOffsetPjSubAttr: TIntegerField
+      FieldName = 'PjSubAttr'
+    end
+    object MemPrintOffsetSousaiNo: TIntegerField
+      FieldName = 'SousaiNo'
+    end
+    object MemPrintOffsetKmCD: TIntegerField
+      FieldName = 'KmCD'
+    end
+    object MemPrintOffsetKmCDName: TStringField
+      FieldName = 'KmCDName'
+    end
+    object MemPrintOffsetHojCD01: TStringField
+      FieldName = 'HojCD01'
+    end
+    object MemPrintOffsetHojCDName01: TStringField
+      FieldName = 'HojCDName01'
+    end
+    object MemPrintOffsetHojCD02: TStringField
+      FieldName = 'HojCD02'
+    end
+    object MemPrintOffsetHojCDName02: TStringField
+      FieldName = 'HojCDName02'
+    end
+    object MemPrintOffsetHojCD03: TStringField
+      FieldName = 'HojCD03'
+    end
+    object MemPrintOffsetHojCDName03: TStringField
+      FieldName = 'HojCDName03'
+    end
+    object MemPrintOffsetTaxCD: TIntegerField
+      FieldName = 'TaxCD'
+    end
+    object MemPrintOffsetTaxRate: TStringField
+      FieldName = 'TaxRate'
+    end
+    object MemPrintOffsetSousaiKin: TCurrencyField
+      FieldName = 'SousaiKin'
+    end
+    object MemPrintOffsetHojCDAttr01: TIntegerField
+      FieldName = 'HojCDAttr01'
+    end
+    object MemPrintOffsetHojCDAttr02: TIntegerField
+      FieldName = 'HojCDAttr02'
+    end
+    object MemPrintOffsetHojCDAttr03: TIntegerField
+      FieldName = 'HojCDAttr03'
+    end
+    object MemPrintOffsetPrjHojyoName: TStringField
+      FieldName = 'PrjHojyoName'
+    end
+    object MemPrintOffsetPjSubHojyoName: TStringField
+      FieldName = 'PjSubHojyoName'
+    end
+    object MemPrintOffsetEOF: TBooleanField
+      FieldName = 'EOF'
+    end
+    object MemPrintOffsetTaxCodePrt: TStringField
+      FieldName = 'TaxCodePrt'
+    end
+    object MemPrintOffsetTaxCodeMark: TStringField
+      FieldName = 'TaxCodeMark'
+    end
+    object MemPrintOffsetTaxRatePrt: TStringField
+      FieldName = 'TaxRatePrt'
+    end
+    object MemPrintOffsetTaxRateDesc: TStringField
+      FieldName = 'TaxRateDesc'
+    end
+  end
+  object MemDraftCheck: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 100
+    Top = 476
+    object StringField4: TStringField
+      FieldName = 'GCode'
+    end
+    object StringField6: TStringField
+      DisplayWidth = 20
+      FieldName = 'SimpleName'
+    end
+    object MemDraftCheckPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemDraftCheckPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemDraftCheckPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemDraftCheckPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemDraftCheckPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemDraftCheckPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemDraftCheckPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemDraftCheckIraiAccNo: TIntegerField
+      FieldName = 'IraiAccNo'
+    end
+    object MemDraftCheckIraiAccName: TStringField
+      FieldName = 'IraiAccName'
+    end
+    object MemDraftCheckAccName: TStringField
+      FieldName = 'AccName'
+    end
+    object MemDraftCheckAccNo: TStringField
+      FieldName = 'AccNo'
+    end
+    object MemDraftCheckTegYusoName: TStringField
+      FieldName = 'TegYusoName'
+    end
+    object MemDraftCheckTegYusoFutanName: TStringField
+      FieldName = 'TegYusoFutanName'
+    end
+    object MemDraftCheckSite: TIntegerField
+      FieldName = 'Site'
+    end
+    object MemDraftCheckTegBunkatuMax: TIntegerField
+      FieldName = 'TegBunkatuMax'
+    end
+    object MemDraftCheckPrjHojyoName: TStringField
+      FieldName = 'PrjHojyoName'
+    end
+    object MemDraftCheckPjSubHojyoName: TStringField
+      FieldName = 'PjSubHojyoName'
+    end
+    object MemDraftCheckEOF: TBooleanField
+      FieldName = 'EOF'
+    end
+    object MemDraftCheckERKbnName: TStringField
+      FieldName = 'ERKbnName'
+    end
+    object MemDraftCheckBankCode: TIntegerField
+      FieldName = 'BankCode'
+    end
+    object MemDraftCheckBkBraCode: TIntegerField
+      FieldName = 'BkBraCode'
+    end
+    object MemDraftCheckBankName: TStringField
+      FieldName = 'BankName'
+      Size = 30
+    end
+    object MemDraftCheckBankKanaName: TStringField
+      FieldName = 'BankKanaName'
+    end
+    object MemDraftCheckBkBraName: TStringField
+      FieldName = 'BkBraName'
+      Size = 30
+    end
+    object MemDraftCheckBraKanaName: TStringField
+      FieldName = 'BraKanaName'
+    end
+    object MemDraftCheckTransKanaName: TStringField
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object MemDraftCheckHuriAccKbnName: TStringField
+      FieldName = 'HuriAccKbnName'
+    end
+    object MemDraftCheckHuriAccKbnNo: TStringField
+      FieldName = 'HuriAccKbnNo'
+    end
+    object MemDraftCheckChargeFutanName: TStringField
+      FieldName = 'ChargeFutanName'
+    end
+    object MemDraftCheckChargeKbnName: TStringField
+      FieldName = 'ChargeKbnName'
+    end
+    object MemDraftCheckVFree1: TStringField
+      FieldName = 'VFree1'
+      Size = 60
+    end
+    object MemDraftCheckVFree2: TStringField
+      FieldName = 'VFree2'
+      Size = 60
+    end
+    object MemDraftCheckVFree3: TStringField
+      FieldName = 'VFree3'
+      Size = 60
+    end
+    object MemDraftCheckVFree4: TStringField
+      FieldName = 'VFree4'
+      Size = 60
+    end
+    object MemDraftCheckVFree5: TStringField
+      FieldName = 'VFree5'
+      Size = 60
+    end
+  end
+  object MemFurikomi: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 44
+    Top = 476
+    object MemFurikomiGCode: TStringField
+      FieldName = 'GCode'
+    end
+    object MemFurikomiSimpleName: TStringField
+      FieldName = 'SimpleName'
+    end
+    object MemFurikomiPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemFurikomiPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemFurikomiPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemFurikomiPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemFurikomiPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemFurikomiPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemFurikomiPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemFurikomiIraiAccNo: TIntegerField
+      FieldName = 'IraiAccNo'
+    end
+    object MemFurikomiIraiAccName: TStringField
+      FieldName = 'IraiAccName'
+    end
+    object MemFurikomiShiAccKbnName: TStringField
+      FieldName = 'ShiAccKbnName'
+    end
+    object MemFurikomiShiAccNo: TStringField
+      FieldName = 'ShiAccNo'
+    end
+    object MemFurikomiBankCode: TIntegerField
+      DisplayWidth = 20
+      FieldName = 'BankCode'
+    end
+    object MemFurikomiBkBraCode: TIntegerField
+      FieldName = 'BkBraCode'
+    end
+    object MemFurikomiBankName: TStringField
+      DisplayWidth = 30
+      FieldName = 'BankName'
+      Size = 30
+    end
+    object MemFurikomiBkBraName: TStringField
+      DisplayWidth = 30
+      FieldName = 'BkBraName'
+      Size = 30
+    end
+    object MemFurikomiBankKanaName: TStringField
+      FieldName = 'BankKanaName'
+      Size = 15
+    end
+    object MemFurikomiBraKanaName: TStringField
+      FieldName = 'BraKanaName'
+      Size = 15
+    end
+    object MemFurikomiTransKanaName: TStringField
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object MemFurikomiHuriAccKbnName: TStringField
+      FieldName = 'HuriAccKbnName'
+    end
+    object MemFurikomiChargeFutanName: TStringField
+      FieldName = 'ChargeFutanName'
+    end
+    object MemFurikomiChargeKbnName: TStringField
+      FieldName = 'ChargeKbnName'
+    end
+    object MemFurikomiTransKbn: TStringField
+      FieldName = 'TransKbn'
+    end
+    object MemFurikomiFBSetName: TStringField
+      FieldName = 'FBSetName'
+    end
+    object MemFurikomiEdiInfo: TStringField
+      FieldName = 'EdiInfo'
+    end
+    object MemFurikomiHuriAccKbnNo: TStringField
+      FieldName = 'HuriAccKbnNo'
+    end
+    object MemFurikomiAiteNo1: TStringField
+      FieldName = 'AiteNo1'
+    end
+    object MemFurikomiAiteNo2: TStringField
+      FieldName = 'AiteNo2'
+    end
+    object MemFurikomiSite: TIntegerField
+      FieldName = 'Site'
+    end
+    object MemFurikomiAutoKbnData: TStringField
+      FieldName = 'AutoKbnData'
+      Size = 6
+    end
+    object MemFurikomiAccAutoData: TIntegerField
+      FieldName = 'AccAutoData'
+    end
+    object MemFurikomiPrjHojyoName: TStringField
+      FieldName = 'PrjHojyoName'
+    end
+    object MemFurikomiPjSubHojyoName: TStringField
+      FieldName = 'PjSubHojyoName'
+    end
+    object MemFurikomiEOF: TBooleanField
+      FieldName = 'EOF'
+    end
+  end
+  object aclExec: TActionList
+    Left = 156
+    Top = 392
+    object FreeF1: TAction
+      Category = 'Function'
+      Caption = 'F1'
+      OnExecute = FreeF1Execute
+    end
+    object FreeF8: TAction
+      Category = 'Function'
+      Caption = 'F8'
+      OnExecute = FreeF8Execute
+    end
+    object FreeF6: TAction
+      Category = 'Function'
+      Caption = 'F6'
+      OnExecute = FreeF6Execute
+    end
+  end
+  object MemKihon: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemKihonBeforePost
+    Left = 42
+    Top = 308
+    object MemKihonExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object MemKihoniSumKbn: TIntegerField
+      FieldName = 'intSumKbn'
+    end
+    object MemKihonstrHojCode: TStringField
+      DisplayWidth = 3
+      FieldName = 'strHojCode'
+      Size = 16
+    end
+    object MemKihonstrNameSimple: TStringField
+      DisplayWidth = 20
+      FieldName = 'strNameSimple'
+    end
+    object MemKihonPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemKihonstrAssociation: TStringField
+      FieldName = 'strAssociation'
+      Size = 10
+    end
+    object SmallintField13: TSmallintField
+      FieldName = 'ApartData'
+    end
+    object IntegerField1: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intApartNo'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ApartData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField55: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strApart'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ApartData'
+      Lookup = True
+    end
+    object MemKihonLetterData: TSmallintField
+      FieldName = 'LetterData'
+      MaxValue = 3
+    end
+    object MemKihonLetterKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'LetterKbn'
+      LookupDataSet = MemLetter
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'LetterData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemKihonLetterName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'LetterName'
+      LookupDataSet = MemLetter
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'LetterData'
+      Lookup = True
+    end
+    object MemKihonUketoriName: TStringField
+      FieldName = 'UketoriName'
+      Size = 40
+    end
+    object MemKihonSateiData: TSmallintField
+      FieldName = 'SateiData'
+    end
+    object MemKihonintSateiNo: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intSateiNo'
+      LookupDataSet = MemSatei
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'SateiData'
+      Lookup = True
+    end
+    object MemKihonstrSatei: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strSatei'
+      LookupDataSet = MemSatei
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'SateiData'
+      Lookup = True
+    end
+    object MemKihonSateiCalcData: TSmallintField
+      FieldName = 'SateiCalcData'
+    end
+    object MemKihonintSateiCalc: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intSateiCalc'
+      LookupDataSet = MemSateiCalc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'SateiCalcData'
+      Lookup = True
+    end
+    object MemKihonstrSateiCalcName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strSateiCalc'
+      LookupDataSet = MemSateiCalc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'SateiCalcData'
+      Lookup = True
+    end
+    object MemKihonSateiCalcHiritu: TCurrencyField
+      DisplayWidth = 3
+      FieldName = 'SateiCalcHiritu'
+      DisplayFormat = '##0.00'
+      EditFormat = '##0.00'
+    end
+    object MemKihonSateiCalcTeigaku: TCurrencyField
+      FieldName = 'SateiCalcTeigaku'
+      DisplayFormat = '#,###,###,##0'
+      EditFormat = '#,###,###,##0'
+    end
+    object MemKihonBunkaiPtnData: TSmallintField
+      FieldName = 'BunkaiPtnData'
+    end
+    object MemKihonBunkaiPtn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'BunkaiPtn'
+      LookupDataSet = MemBunkaiPtn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'BunkaiPtnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemKihonBunkaiPtnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'BunkaiPtnName'
+      LookupDataSet = MemBunkaiPtn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'BunkaiPtnData'
+      Lookup = True
+    end
+    object MemKihonGensenUseKbn: TIntegerField
+      FieldName = 'GensenUseKbn'
+    end
+  end
+  object DSKihon: TDataSource
+    DataSet = MemKihon
+    OnStateChange = DSDraftStateChange
+    Left = 162
+    Top = 520
+  end
+  object MemSatei: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 99
+    Top = 351
+    object MemSateiNo: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemSateiName: TStringField
+      DisplayWidth = 20
+      FieldName = 'Name'
+    end
+  end
+  object MemAutoKbn: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 155
+    Top = 433
+    object MemAutoKbnAutoKbn: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemAutoKbnAutoKbnName: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemBunkaiPtn: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 127
+    Top = 351
+    object MemBunkaiPtnBunkaiPtn: TIntegerField
+      DisplayLabel = 'BunakiPtn'
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemBunkaiPtnBunkaiPtnName: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemPriPayWay: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 155
+    Top = 351
+    object MemPripayWayPriPayWay: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemPriPayWayPriPayWayName: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemPayWay: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemPayWayBeforePost
+    Left = 124
+    Top = 259
+    object MemPayWayExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object MemPayWayintSumKbn: TIntegerField
+      FieldName = 'intSumKbn'
+    end
+    object MemPayWayBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemPayWaystrHojCode: TStringField
+      FieldName = 'strHojCode'
+      Size = 16
+    end
+    object MemPayWaystrNameSimple: TStringField
+      FieldName = 'strNameSimple'
+    end
+    object MemPayWaystrAssociation: TStringField
+      FieldName = 'strAssociation'
+    end
+    object MemPayWayPayPtnNo: TFloatField
+      FieldName = 'PayPtnNo'
+    end
+    object MemPayWayPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemPayWayPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemPayWayPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemPayWayiPartKbn: TIntegerField
+      FieldName = 'iPartKbn'
+    end
+    object MemPayWayPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemPayWayPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemPayWayPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemPayWayApartData: TSmallintField
+      FieldName = 'ApartData'
+    end
+    object MemPayWayintApartNo: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intApartNo'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ApartData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemPayWaystrApart: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strApart'
+      LookupDataSet = MemApart
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ApartData'
+      Lookup = True
+    end
+    object MemPayWayPriPayWay: TIntegerField
+      FieldName = 'PriPayWay'
+    end
+    object MemPayWayUketoriName: TStringField
+      FieldName = 'UketoriName'
+      Size = 40
+    end
+    object MemPayWaybDisableEditor: TBooleanField
+      FieldName = 'bDisableEditor'
+    end
+  end
+  object DSPayWay: TDataSource
+    DataSet = MemPayWay
+    OnStateChange = DSDraftStateChange
+    Left = 96
+    Top = 259
+  end
+  object MemShousai: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemShousaiBeforePost
+    Left = 43
+    Top = 517
+    object StringField8: TStringField
+      FieldName = 'HojCode'
+    end
+    object StringField11: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object StringField13: TStringField
+      FieldName = 'SName'
+    end
+    object StringField14: TStringField
+      FieldName = 'RenChar'
+    end
+    object FloatField3: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object IntegerField2: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object FloatField1: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object StringField15: TStringField
+      DisplayWidth = 20
+      FieldName = 'PrjGCode'
+    end
+    object StringField54: TStringField
+      FieldName = 'PrjName'
+    end
+    object FloatField2: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object StringField58: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object StringField59: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemShousaiHou1BaseKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou1BaseKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou1BaseHiritu: TCurrencyField
+      FieldName = 'Hou1BaseHiritu'
+      DisplayFormat = '##0.00'
+    end
+    object MemShousaiHou1HasuuKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou1HasuuKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou1HasuuHouData: TSmallintField
+      FieldName = 'Hou1HasuuHouData'
+    end
+    object MemShousaiHou1HasuuHou: TIntegerField
+      FieldKind = fkLookup
+      FieldName = 'Hou1HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou1HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemShousaiHou1HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou1HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou1HasuuHouData'
+      Lookup = True
+    end
+    object MemShousaiHou1Site: TIntegerField
+      DisplayWidth = 10
+      FieldName = 'Hou1Site'
+    end
+    object MemShousaiHou2BaseKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou2BaseKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou2BaseHiritu: TCurrencyField
+      FieldName = 'Hou2BaseHiritu'
+      DisplayFormat = '##0.00'
+    end
+    object MemShousaiHou2HasuuKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou2HasuuKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou2HasuuHouData: TSmallintField
+      FieldName = 'Hou2HasuuHouData'
+    end
+    object MemShousaiHou2HasuuHou: TIntegerField
+      FieldKind = fkLookup
+      FieldName = 'Hou2HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou2HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemShousaiHou2HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou2HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou2HasuuHouData'
+      Lookup = True
+    end
+    object MemShousaiHou2Site: TIntegerField
+      DisplayWidth = 10
+      FieldName = 'Hou2Site'
+    end
+    object MemShousaiHou3BaseKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou3BaseKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou3BaseHiritu: TCurrencyField
+      FieldName = 'Hou3BaseHiritu'
+      DisplayFormat = '##0.00'
+    end
+    object MemShousaiHou3HasuuKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou3HasuuKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou3HasuuHouData: TSmallintField
+      FieldName = 'Hou3HasuuHouData'
+    end
+    object MemShousaiHou3HasuuHou: TIntegerField
+      FieldKind = fkLookup
+      FieldName = 'Hou3HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou3HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemShousaiHou3HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou3HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou3HasuuHouData'
+      Lookup = True
+    end
+    object MemShousaiHou3Site: TIntegerField
+      DisplayWidth = 10
+      FieldName = 'Hou3Site'
+    end
+    object MemShousaiHou4BaseKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou4BaseKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou4BaseHiritu: TCurrencyField
+      FieldName = 'Hou4BaseHiritu'
+      DisplayFormat = '##0.00'
+    end
+    object MemShousaiHou4HasuuKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou4HasuuKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou4HasuuHouData: TSmallintField
+      FieldName = 'Hou4HasuuHouData'
+    end
+    object MemShousaiHou4HasuuHou: TIntegerField
+      FieldKind = fkLookup
+      FieldName = 'Hou4HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou4HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemShousaiHou4HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou4HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou4HasuuHouData'
+      Lookup = True
+    end
+    object MemShousaiHou4Site: TIntegerField
+      DisplayWidth = 10
+      FieldName = 'Hou4Site'
+    end
+    object MemShousaiHou5BaseKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou5BaseKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou5BaseHiritu: TCurrencyField
+      FieldName = 'Hou5BaseHiritu'
+      DisplayFormat = '##0.00'
+    end
+    object MemShousaiHou5HasuuKingaku: TCurrencyField
+      DisplayWidth = 14
+      FieldName = 'Hou5HasuuKingaku'
+      DisplayFormat = '#,###,###,##0'
+    end
+    object MemShousaiHou5HasuuHouData: TSmallintField
+      FieldName = 'Hou5HasuuHouData'
+    end
+    object MemShousaiHou5HasuuHou: TIntegerField
+      FieldKind = fkLookup
+      FieldName = 'Hou5HasuuHou'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'Hou5HasuuHouData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemShousaiHou5HasuuHouN: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Hou5HasuuHouN'
+      LookupDataSet = MemHasu
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'Hou5HasuuHouData'
+      Lookup = True
+    end
+    object MemShousaiHou5Site: TIntegerField
+      DisplayWidth = 10
+      FieldName = 'Hou5Site'
+    end
+    object MemShousaiAccNCode: TFloatField
+      FieldName = 'AccNCode'
+    end
+    object MemShousaiUketoriName: TStringField
+      FieldName = 'UketoriName'
+      Size = 40
+    end
+    object MemShousaiTegYusouKbn: TIntegerField
+      FieldName = 'TegYusouKbn'
+    end
+    object MemShousaiTegYusouFutan: TIntegerField
+      FieldName = 'TegYusouFutan'
+    end
+    object MemShousaiTegBunkatuMax: TIntegerField
+      FieldName = 'TegBunkatuMax'
+    end
+    object MemShousaiPriPayWay: TIntegerField
+      FieldName = 'PriPayWay'
+    end
+    object MemShousaiPriPayWayName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'PriPayWayName'
+      LookupDataSet = MemPriPayWay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'PriPayWay'
+      Lookup = True
+    end
+    object MemShousaiBkBraNCode: TFloatField
+      FieldName = 'BkBraNCode'
+    end
+    object MemShousaiTransKanaName: TStringField
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object MemShousaiAcckbn: TIntegerField
+      FieldName = 'Acckbn'
+    end
+    object MemShousaiAccNo: TStringField
+      FieldName = 'AccNo'
+      Size = 12
+    end
+    object MemShousaiChargeFutan: TIntegerField
+      FieldName = 'ChargeFutan'
+    end
+    object MemShousaiChargeKbn: TIntegerField
+      FieldName = 'ChargeKbn'
+    end
+    object MemShousaiTransKbn: TIntegerField
+      FieldName = 'TransKbn'
+    end
+    object MemShousaiFBSet: TIntegerField
+      FieldName = 'FBSet'
+    end
+    object MemShousaiEdiInfo: TStringField
+      FieldName = 'EdiInfo'
+    end
+    object MemShousaiAiteNo1: TStringField
+      FieldName = 'AiteNo1'
+      Size = 10
+    end
+    object MemShousaiAiteNo2: TStringField
+      FieldName = 'AiteNo2'
+      Size = 10
+    end
+    object MemShousaiAccAutoKbn: TIntegerField
+      FieldName = 'AccAutoKbn'
+    end
+    object MemShousaiAccAutoData: TIntegerField
+      FieldName = 'AccAutoData'
+    end
+  end
+  object DSShousai: TDataSource
+    DataSet = MemShousai
+    OnStateChange = DSDraftStateChange
+    Left = 15
+    Top = 517
+  end
+  object MemSateiCalc: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 154
+    Top = 308
+    object IntegerField17: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object StringField60: TStringField
+      DisplayWidth = 20
+      FieldName = 'Name'
+    end
+  end
+  object SPMsHist: TFDStoredProc
+    StoredProcName = 'MP_MSHIST_SETINFO'
+    Left = 100
+    Top = 517
+    ParamData = <
+      item
+        Name = '@pSyoriKbn'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Name = '@pMSHistKbn'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Name = '@pTanNCode'
+        DataType = ftCurrency
+        ParamType = ptInput
+      end
+      item
+        Name = '@pTanSimpleName'
+        DataType = ftString
+        ParamType = ptInput
+      end
+      item
+        Name = '@pSysCode'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Name = '@pOptCode'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Name = '@pPrgCode'
+        DataType = ftInteger
+        ParamType = ptInput
+      end>
+  end
+  object SPMsHistParent: TFDStoredProc
+    StoredProcName = 'MP_MSHIST_SETINFO'
+    Left = 128
+    Top = 517
+    ParamData = <
+      item
+        Name = '@pSyoriKbn'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Name = '@pMSHistKbn'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Name = '@pTanNCode'
+        DataType = ftCurrency
+        ParamType = ptInput
+      end
+      item
+        Name = '@pTanSimpleName'
+        DataType = ftString
+        ParamType = ptInput
+      end
+      item
+        Name = '@pSysCode'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Name = '@pOptCode'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Name = '@pPrgCode'
+        DataType = ftInteger
+        ParamType = ptInput
+      end>
+  end
+  object MemERKbn: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 187
+    Top = 475
+    object IntegerField18: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object StringField61: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemCharge2: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 215
+    Top = 477
+    object IntegerField21: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object StringField62: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemKihonG: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = MemKihonGBeforePost
+    Left = 472
+    object MemKihonGExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object MemKihonGintSumKbn: TIntegerField
+      FieldName = 'intSumKbn'
+    end
+    object MemKihonGstrHojCode: TStringField
+      FieldName = 'strHojCode'
+    end
+    object MemKihonGstrNameSimple: TStringField
+      DisplayWidth = 20
+      FieldName = 'strNameSimple'
+    end
+    object MemKihonGstrAssociation: TStringField
+      DisplayWidth = 10
+      FieldName = 'strAssociation'
+    end
+    object MemKihonGGaiData: TSmallintField
+      FieldName = 'GaiData'
+    end
+    object MemKihonGintGaiNo: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intGaiNo'
+      LookupDataSet = MemGai
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'GaiData'
+      Lookup = True
+    end
+    object MemKihonGstrGaiKbn: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strGaiKbn'
+      LookupDataSet = MemGai
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'GaiData'
+      Lookup = True
+    end
+    object MemKihonGGaiPayData: TSmallintField
+      FieldName = 'GaiPayData'
+    end
+    object MemKihonGintGaiPay: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intGaiPay'
+      LookupDataSet = MemGaiPay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'GaiPayData'
+      Lookup = True
+    end
+    object MemKihonGstrGaiPayName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strGaiPay'
+      LookupDataSet = MemGaiPay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'GaiPayData'
+      Lookup = True
+    end
+  end
+  object MemFuri_GD: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = CmnMemBeforePost
+    Left = 624
+    object MemFuri_GDHojCode: TStringField
+      FieldName = 'HojCode'
+    end
+    object MemFuri_GDBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemFuri_GDSName: TStringField
+      FieldName = 'SName'
+    end
+    object MemFuri_GDRenChar: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemFuri_GDPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemFuri_GDPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemFuri_GDPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemFuri_GDPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemFuri_GDPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemFuri_GDPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemFuri_GDPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemFuri_GDIraiAccNo: TIntegerField
+      FieldName = 'IraiAccNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GDIraiFeeAccNo: TIntegerField
+      FieldName = 'IraiFeeAccNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GDAccInfo: TStringField
+      FieldName = 'AccInfo'
+      Size = 35
+    end
+    object MemFuri_GDFeeAccInfo: TStringField
+      DisplayWidth = 35
+      FieldName = 'FeeAccInfo'
+      Size = 35
+    end
+    object MemFuri_GDBankCode: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'BankCode'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GDBkBraCode: TIntegerField
+      DisplayWidth = 3
+      FieldName = 'BkBraCode'
+      DisplayFormat = '000'
+    end
+    object MemFuri_GDBankName: TStringField
+      FieldName = 'BankName'
+      Size = 30
+    end
+    object MemFuri_GDBankKanaName: TStringField
+      FieldName = 'BankKanaName'
+      Size = 15
+    end
+    object MemFuri_GDBkBraName: TStringField
+      FieldName = 'BkBraName'
+      Size = 30
+    end
+    object MemFuri_GDBraKanaName: TStringField
+      FieldName = 'BraKanaName'
+      Size = 15
+    end
+    object MemFuri_GDTransKanaName: TStringField
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object MemFuri_GDAccData: TSmallintField
+      FieldName = 'AccData'
+    end
+    object MemFuri_GDAccKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'AccKbn'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AccData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GDAccName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AccName'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AccData'
+      Lookup = True
+    end
+    object MemFuri_GDAccNo: TStringField
+      Alignment = taRightJustify
+      DisplayWidth = 8
+      FieldName = 'AccNo'
+    end
+    object MemFuri_GDChargeFutan: TIntegerField
+      DisplayWidth = 1
+      FieldKind = fkLookup
+      FieldName = 'ChargeFutan'
+      LookupDataSet = MemChargeG
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GDChargeName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeName'
+      LookupDataSet = MemChargeG
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeData'
+      Lookup = True
+    end
+    object MemFuri_GDChargeData: TSmallintField
+      DisplayWidth = 1
+      FieldName = 'ChargeData'
+    end
+    object MemFuri_GDChargeKbn: TIntegerField
+      DisplayWidth = 1
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbn'
+      LookupDataSet = MemChargeKbnG
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GDChargeKbnData: TSmallintField
+      DisplayWidth = 1
+      FieldName = 'ChargeKbnData'
+    end
+    object MemFuri_GDChargeKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbnName'
+      LookupDataSet = MemChargeKbnG
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeKbnData'
+      Lookup = True
+    end
+    object MemFuri_GDTransKbnData: TSmallintField
+      FieldName = 'TransKbnData'
+    end
+    object MemFuri_GDTransKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'TransKbn'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'TransKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GDTransKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'TransKbnName'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'TransKbnData'
+      Lookup = True
+    end
+    object MemFuri_GDFBSetData: TSmallintField
+      FieldName = 'FBSetData'
+    end
+    object MemFuri_GDFBSet: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'FBSet'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'FBSetData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GDFBSetName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'FBSetName'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'FBSetData'
+      Lookup = True
+    end
+    object MemFuri_GDEDiInfo: TStringField
+      FieldName = 'EDiInfo'
+    end
+    object MemFuri_GDAiteNo1: TStringField
+      FieldName = 'AiteNo1'
+      Size = 10
+    end
+    object MemFuri_GDAiteNo2: TStringField
+      FieldName = 'AiteNo2'
+      Size = 10
+    end
+    object MemFuri_GDAccNCode: TFloatField
+      FieldName = 'AccNCode'
+    end
+    object MemFuri_GDFeeAccNCode: TFloatField
+      FieldName = 'FeeAccNCode'
+    end
+    object MemFuri_GDPayNCode: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object MemFuri_GDBankNCode: TFloatField
+      FieldName = 'BankNCode'
+    end
+    object MemFuri_GDBranchNCode: TFloatField
+      FieldName = 'BranchNCode'
+    end
+    object MemFuri_GDAutoKbnData: TSmallintField
+      FieldName = 'AutoKbnData'
+    end
+    object MemFuri_GDAutokbn: TIntegerField
+      DisplayLabel = 'AutoKbn'
+      FieldKind = fkLookup
+      FieldName = 'Autokbn'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object MemFuri_GDAutoKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AutoKbnName'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object MemFuri_GDAccAutoData: TIntegerField
+      FieldName = 'AccAutoData'
+    end
+    object MemFuri_GDSendNo: TIntegerField
+      FieldName = 'SendNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GDSendPos: TStringField
+      FieldName = 'SendPos'
+      Size = 22
+    end
+    object MemFuri_GDSendLNo: TStringField
+      FieldName = 'SendLNo'
+    end
+    object MemFuri_GDSendDate: TDateTimeField
+      FieldName = 'SendDate'
+    end
+  end
+  object DSFuri_GD: TDataSource
+    DataSet = MemFuri_GD
+    OnStateChange = DSDraftStateChange
+    Left = 597
+  end
+  object DSFuri_GT: TDataSource
+    DataSet = MemFuri_GT
+    OnStateChange = DSDraftStateChange
+    Left = 677
+  end
+  object MemFuri_GT: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = CmnMemBeforePost
+    Left = 705
+    object MemFuri_GTHojCode: TStringField
+      FieldName = 'HojCode'
+    end
+    object MemFuri_GTBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemFuri_GTSName: TStringField
+      FieldName = 'SName'
+    end
+    object MemFuri_GTRenChar: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemFuri_GTPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemFuri_GTPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemFuri_GTPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemFuri_GTPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemFuri_GTPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemFuri_GTPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemFuri_GTPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemFuri_GTIraiAccNo: TIntegerField
+      FieldName = 'IraiAccNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GTAccInfo: TStringField
+      FieldName = 'AccInfo'
+      Size = 35
+    end
+    object MemFuri_GTBankCode: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'BankCode'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GTBkBraCode: TIntegerField
+      DisplayWidth = 3
+      FieldName = 'BkBraCode'
+      DisplayFormat = '000'
+    end
+    object MemFuri_GTBankName: TStringField
+      FieldName = 'BankName'
+      Size = 30
+    end
+    object MemFuri_GTBankKanaName: TStringField
+      FieldName = 'BankKanaName'
+      Size = 15
+    end
+    object MemFuri_GTBkBraName: TStringField
+      FieldName = 'BkBraName'
+      Size = 30
+    end
+    object MemFuri_GTBraKanaName: TStringField
+      FieldName = 'BraKanaName'
+      Size = 15
+    end
+    object MemFuri_GTTransKanaName: TStringField
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object MemFuri_GTAccData: TSmallintField
+      FieldName = 'AccData'
+    end
+    object MemFuri_GTAccKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'AccKbn'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AccData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GTAccName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AccName'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AccData'
+      Lookup = True
+    end
+    object MemFuri_GTAccNo: TStringField
+      Alignment = taRightJustify
+      DisplayWidth = 8
+      FieldName = 'AccNo'
+    end
+    object MemFuri_GTChargeData: TSmallintField
+      FieldName = 'ChargeData'
+    end
+    object MemFuri_GTChargeFutan: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeFutan'
+      LookupDataSet = MemCharge
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GTChargeName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeName'
+      LookupDataSet = MemCharge
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeData'
+      Lookup = True
+    end
+    object MemFuri_GTChargeKbnData: TSmallintField
+      FieldName = 'ChargeKbnData'
+    end
+    object MemFuri_GTChargeKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbn'
+      LookupDataSet = MemChargeKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GTChargeKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbnName'
+      LookupDataSet = MemChargeKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeKbnData'
+      Lookup = True
+    end
+    object MemFuri_GTTransKbnData: TSmallintField
+      FieldName = 'TransKbnData'
+    end
+    object MemFuri_GTTransKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'TransKbn'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'TransKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GTTransKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'TransKbnName'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'TransKbnData'
+      Lookup = True
+    end
+    object MemFuri_GTFBSetData: TSmallintField
+      FieldName = 'FBSetData'
+    end
+    object MemFuri_GTFBSet: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'FBSet'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'FBSetData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GTFBSetName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'FBSetName'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'FBSetData'
+      Lookup = True
+    end
+    object MemFuri_GTEDIInfo: TStringField
+      FieldName = 'EDIInfo'
+    end
+    object MemFuri_GTAiteNo1: TStringField
+      FieldName = 'AiteNo1'
+      Size = 10
+    end
+    object MemFuri_GTAiteNo2: TStringField
+      FieldName = 'AiteNo2'
+      Size = 10
+    end
+    object MemFuri_GTAccNCode: TFloatField
+      FieldName = 'AccNCode'
+    end
+    object MemFuri_GTPayNCode: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object MemFuri_GTBankNCode: TFloatField
+      FieldName = 'BankNCode'
+    end
+    object MemFuri_GTBranchNCode: TFloatField
+      FieldName = 'BranchNCode'
+    end
+    object MemFuri_GTAutoKbnData: TSmallintField
+      FieldName = 'AutoKbnData'
+    end
+    object MemFuri_GTAutokbn: TIntegerField
+      DisplayLabel = 'AutoKbn'
+      FieldKind = fkLookup
+      FieldName = 'Autokbn'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object MemFuri_GTAutoKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AutoKbnName'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object MemFuri_GTAccAutoData: TIntegerField
+      FieldName = 'AccAutoData'
+    end
+    object MemFuri_GTGaikakbn: TIntegerField
+      FieldName = 'Gaikakbn'
+    end
+    object MemFuri_GTGaiPayKbn: TIntegerField
+      FieldName = 'GaiPayKbn'
+    end
+  end
+  object MemFuri_GK: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    BeforePost = CmnMemBeforePost
+    Left = 760
+    Top = 65535
+    object MemFuri_GKHojCode: TStringField
+      FieldName = 'HojCode'
+    end
+    object MemFuri_GKBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemFuri_GKSName: TStringField
+      FieldName = 'SName'
+    end
+    object MemFuri_GKRenChar: TStringField
+      FieldName = 'RenChar'
+    end
+    object MemFuri_GKPayPtnNo: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemFuri_GKPrjNCode: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object MemFuri_GKPrjGCode: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object MemFuri_GKPrjName: TStringField
+      FieldName = 'PrjName'
+    end
+    object MemFuri_GKPjSubNCode: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object MemFuri_GKPjSubGCode: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object MemFuri_GKPjSubName: TStringField
+      FieldName = 'PjSubName'
+    end
+    object MemFuri_GKIraiAccNo: TIntegerField
+      FieldName = 'IraiAccNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GKIraiFeeAccNo: TIntegerField
+      DisplayWidth = 10
+      FieldName = 'IraiFeeAccNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GKAccInfo: TStringField
+      FieldName = 'AccInfo'
+      Size = 35
+    end
+    object MemFuri_GKFeeAccInfo: TStringField
+      DisplayWidth = 35
+      FieldName = 'FeeAccInfo'
+      Size = 35
+    end
+    object MemFuri_GKBankCode: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'BankCode'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GKBkBraCode: TIntegerField
+      DisplayWidth = 3
+      FieldName = 'BkBraCode'
+      DisplayFormat = '000'
+    end
+    object MemFuri_GKBankName: TStringField
+      FieldName = 'BankName'
+      Size = 30
+    end
+    object MemFuri_GKBankKanaName: TStringField
+      FieldName = 'BankKanaName'
+      Size = 15
+    end
+    object MemFuri_GKBkBraName: TStringField
+      FieldName = 'BkBraName'
+      Size = 30
+    end
+    object MemFuri_GKBraKanaName: TStringField
+      FieldName = 'BraKanaName'
+      Size = 15
+    end
+    object MemFuri_GKTransKanaName: TStringField
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object MemFuri_GKAccData: TSmallintField
+      FieldName = 'AccData'
+    end
+    object MemFuri_GKAccKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'AccKbn'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AccData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GKAccName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AccName'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AccData'
+      Lookup = True
+    end
+    object MemFuri_GKAccNo: TStringField
+      Alignment = taRightJustify
+      DisplayWidth = 8
+      FieldName = 'AccNo'
+    end
+    object MemFuri_GKChargeData: TSmallintField
+      FieldName = 'ChargeData'
+    end
+    object MemFuri_GKChargeFutan: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeFutan'
+      LookupDataSet = MemCharge
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GKChargeName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeName'
+      LookupDataSet = MemCharge
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeData'
+      Lookup = True
+    end
+    object MemFuri_GKChargeKbnData: TSmallintField
+      FieldName = 'ChargeKbnData'
+    end
+    object MemFuri_GKChargeKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbn'
+      LookupDataSet = MemChargeKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GKChargeKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbnName'
+      LookupDataSet = MemChargeKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeKbnData'
+      Lookup = True
+    end
+    object MemFuri_GKTransKbnData: TSmallintField
+      FieldName = 'TransKbnData'
+    end
+    object MemFuri_GKTransKbn: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'TransKbn'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'TransKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GKTransKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'TransKbnName'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'TransKbnData'
+      Lookup = True
+    end
+    object MemFuri_GKFBSetData: TSmallintField
+      FieldName = 'FBSetData'
+    end
+    object MemFuri_GKFBSet: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'FBSet'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'FBSetData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object MemFuri_GKFBSetName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'FBSetName'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'FBSetData'
+      Lookup = True
+    end
+    object MemFuri_GKEDiInfo: TStringField
+      FieldName = 'EDIInfo'
+    end
+    object MemFuri_GKAiteNo1: TStringField
+      FieldName = 'AiteNo1'
+      Size = 10
+    end
+    object MemFuri_GKAiteNo2: TStringField
+      FieldName = 'AiteNo2'
+      Size = 10
+    end
+    object MemFuri_GKAccNCode: TFloatField
+      FieldName = 'AccNCode'
+    end
+    object MemFuri_GKPayNCode: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object MemFuri_GKBankNCode: TFloatField
+      FieldName = 'BankNCode'
+    end
+    object MemFuri_GKBranchNCode: TFloatField
+      FieldName = 'BranchNCode'
+    end
+    object MemFuri_GKAutoKbnData: TSmallintField
+      FieldName = 'AutoKbnData'
+    end
+    object MemFuri_GKAutokbn: TIntegerField
+      DisplayLabel = 'AutoKbn'
+      FieldKind = fkLookup
+      FieldName = 'Autokbn'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object MemFuri_GKAutoKbnName: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AutoKbnName'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object MemFuri_GKAccAutoData: TIntegerField
+      FieldName = 'AccAutoData'
+    end
+    object MemFuri_GKSendNo: TIntegerField
+      FieldName = 'SendNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GKSendPos: TStringField
+      FieldName = 'SendPos'
+      Size = 22
+    end
+    object MemFuri_GKSendLNo: TStringField
+      FieldName = 'SendLNo'
+    end
+    object MemFuri_GKSendDate: TDateTimeField
+      FieldName = 'SendDate'
+    end
+  end
+  object DSFuri_GK: TDataSource
+    DataSet = MemFuri_GK
+    OnStateChange = DSDraftStateChange
+    Left = 732
+    Top = 65535
+  end
+  object DSKhnsetG: TDataSource
+    DataSet = MemKhnset_G
+    Left = 789
+  end
+  object MemKhnset_G: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 817
+    Top = 65535
+    object FloatField5: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object StringField72: TStringField
+      FieldName = 'strHojCode'
+    end
+    object StringField73: TStringField
+      FieldName = 'strHojName'
+    end
+    object IntegerField32: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object MemKhnset_GItemID: TStringField
+      FieldName = 'ItemID'
+    end
+    object MemKhnset_GIDName: TStringField
+      FieldName = 'IDName'
+    end
+    object MemKhnset_GMaxDigit: TIntegerField
+      FieldName = 'MaxDigit'
+      MaxValue = 999
+    end
+    object MemKhnset_GRemarks: TStringField
+      DisplayWidth = 60
+      FieldName = 'Remarks'
+      Size = 60
+    end
+    object MemKhnset_GItemValue: TStringField
+      Tag = 2
+      DisplayWidth = 256
+      FieldName = 'ItemValue'
+      Size = 256
+    end
+    object MemKhnset_GBaseHojCode: TStringField
+      FieldName = 'BaseHojCode'
+    end
+  end
+  object DSKihonG: TDataSource
+    DataSet = MemKihonG
+    Left = 440
+  end
+  object MemGai: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 496
+    object MemGaiNo: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemGaiName: TStringField
+      DisplayWidth = 20
+      FieldName = 'Name'
+    end
+  end
+  object MemGaiPay: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 523
+    Top = 65533
+    object IntegerField30: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object StringField71: TStringField
+      DisplayWidth = 20
+      FieldName = 'Name'
+    end
+  end
+  object MemKihonGP: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 844
+    object MemKihonGPExNCode: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object MemKihonGPintSumKbn: TIntegerField
+      FieldName = 'intSumKbn'
+    end
+    object MemKihonGPstrHojCode: TStringField
+      FieldName = 'strHojCode'
+    end
+    object MemKihonGPstrNameSimple: TStringField
+      DisplayWidth = 20
+      FieldName = 'strNameSimple'
+    end
+    object MemKihonGPstrAssociation: TStringField
+      DisplayWidth = 10
+      FieldName = 'strAssociation'
+    end
+    object MemKihonGPGaiData: TSmallintField
+      FieldName = 'GaiData'
+    end
+    object MemKihonGPintGaiNo: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intGaiNo'
+      LookupDataSet = MemGai
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'GaiData'
+      Lookup = True
+    end
+    object MemKihonGPstrGaiKbn: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strGaiKbn'
+      LookupDataSet = MemGai
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'GaiData'
+      Lookup = True
+    end
+    object MemKihonGPGaiPayData: TSmallintField
+      FieldName = 'GaiPayData'
+    end
+    object MemKihonGPintGaiPay: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'intGaiPay'
+      LookupDataSet = MemGaiPay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'GaiPayData'
+      Lookup = True
+    end
+    object MemKihonGPstrGaiPay: TStringField
+      FieldKind = fkLookup
+      FieldName = 'strGaiPay'
+      LookupDataSet = MemGaiPay
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'GaiPayData'
+      Lookup = True
+    end
+    object MemKihonGPEOF: TBooleanField
+      FieldName = 'EOF'
+      Visible = False
+    end
+  end
+  object MemKhnset_GP: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 901
+    Top = 65535
+    object FloatField13: TFloatField
+      FieldName = 'ExNCode'
+    end
+    object StringField95: TStringField
+      FieldName = 'strHojCode'
+    end
+    object StringField96: TStringField
+      FieldName = 'strHojName'
+    end
+    object IntegerField42: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object StringField97: TStringField
+      DisplayWidth = 3
+      FieldName = 'ItemID'
+    end
+    object StringField98: TStringField
+      FieldName = 'IDName'
+    end
+    object IntegerField43: TIntegerField
+      DisplayWidth = 3
+      FieldName = 'MaxDigit'
+      MaxValue = 999
+    end
+    object StringField99: TStringField
+      DisplayWidth = 60
+      FieldName = 'Remarks'
+      Size = 60
+    end
+    object StringField100: TStringField
+      DisplayWidth = 256
+      FieldName = 'ItemValue'
+      Size = 256
+    end
+    object StringField101: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object MemKhnset_GPEOF: TBooleanField
+      FieldName = 'EOF'
+      Visible = False
+    end
+  end
+  object MemFuri_GP: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 872
+    object StringField65: TStringField
+      FieldName = 'HojCode'
+    end
+    object StringField66: TStringField
+      FieldName = 'BaseHojCode'
+    end
+    object StringField67: TStringField
+      FieldName = 'SName'
+    end
+    object StringField68: TStringField
+      FieldName = 'RenChar'
+    end
+    object IntegerField27: TIntegerField
+      FieldName = 'PayPtnNo'
+    end
+    object FloatField6: TFloatField
+      FieldName = 'PrjNCode'
+    end
+    object StringField69: TStringField
+      FieldName = 'PrjGCode'
+    end
+    object StringField70: TStringField
+      FieldName = 'PrjName'
+    end
+    object FloatField7: TFloatField
+      FieldName = 'PjSubNCode'
+    end
+    object StringField74: TStringField
+      FieldName = 'PjSubGCode'
+    end
+    object StringField75: TStringField
+      FieldName = 'PjSubName'
+    end
+    object IntegerField28: TIntegerField
+      FieldName = 'IraiAccNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GPiraiAccName: TStringField
+      FieldName = 'iraiAccName'
+    end
+    object MemFuri_GPShiAccKbnName: TStringField
+      FieldName = 'ShiAccKbnName'
+    end
+    object MemFuri_GPShiAccNo: TStringField
+      FieldName = 'ShiAccNo'
+    end
+    object IntegerField29: TIntegerField
+      FieldName = 'IraiFeeAccNo'
+      DisplayFormat = '0000'
+    end
+    object MemFuri_GPIraiFeeAccName: TStringField
+      FieldName = 'IraiFeeAccName'
+    end
+    object MemFuri_GPShiFeeAccKbnName: TStringField
+      FieldName = 'ShiFeeAccKbnName'
+    end
+    object MemFuri_GPShiFeeAccNo: TStringField
+      FieldName = 'ShiFeeAccNo'
+    end
+    object StringField76: TStringField
+      FieldName = 'AccInfo'
+      Size = 35
+    end
+    object StringField77: TStringField
+      DisplayWidth = 35
+      FieldName = 'FeeAccInfo'
+      Size = 35
+    end
+    object IntegerField31: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'BankCode'
+      DisplayFormat = '0000'
+    end
+    object IntegerField33: TIntegerField
+      DisplayWidth = 3
+      FieldName = 'BkBraCode'
+      DisplayFormat = '000'
+    end
+    object StringField78: TStringField
+      FieldName = 'BankName'
+      Size = 30
+    end
+    object StringField79: TStringField
+      FieldName = 'BankKanaName'
+      Size = 15
+    end
+    object StringField80: TStringField
+      FieldName = 'BkBraName'
+      Size = 30
+    end
+    object StringField81: TStringField
+      FieldName = 'BraKanaName'
+      Size = 15
+    end
+    object StringField82: TStringField
+      FieldName = 'TransKanaName'
+      Size = 30
+    end
+    object SmallintField16: TSmallintField
+      FieldName = 'AccData'
+    end
+    object IntegerField34: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'AccKbn'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AccData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField83: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AccName'
+      LookupDataSet = MemAcc
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AccData'
+      Lookup = True
+    end
+    object StringField84: TStringField
+      Alignment = taRightJustify
+      DisplayWidth = 8
+      FieldName = 'AccNo'
+    end
+    object SmallintField17: TSmallintField
+      FieldName = 'ChargeData'
+    end
+    object IntegerField35: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeFutan'
+      LookupDataSet = MemChargeG
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField85: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeName'
+      LookupDataSet = MemChargeG
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeData'
+      Lookup = True
+    end
+    object SmallintField18: TSmallintField
+      FieldName = 'ChargeKbnData'
+    end
+    object IntegerField36: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbn'
+      LookupDataSet = MemChargeKbnG
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'ChargeKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField86: TStringField
+      FieldKind = fkLookup
+      FieldName = 'ChargeKbnName'
+      LookupDataSet = MemChargeKbnG
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'ChargeKbnData'
+      Lookup = True
+    end
+    object SmallintField19: TSmallintField
+      FieldName = 'TransKbnData'
+    end
+    object IntegerField37: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'TransKbn'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'TransKbnData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField87: TStringField
+      FieldKind = fkLookup
+      FieldName = 'TransKbnName'
+      LookupDataSet = MemTrans
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'TransKbnData'
+      Lookup = True
+    end
+    object SmallintField20: TSmallintField
+      FieldName = 'FBSetData'
+    end
+    object IntegerField38: TIntegerField
+      DisplayWidth = 2
+      FieldKind = fkLookup
+      FieldName = 'FBSet'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'FBSetData'
+      DisplayFormat = '#0'
+      Lookup = True
+    end
+    object StringField88: TStringField
+      FieldKind = fkLookup
+      FieldName = 'FBSetName'
+      LookupDataSet = MemFBSet
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'FBSetData'
+      Lookup = True
+    end
+    object StringField89: TStringField
+      FieldName = 'EDiInfo'
+    end
+    object StringField90: TStringField
+      FieldName = 'AiteNo1'
+      Size = 10
+    end
+    object StringField91: TStringField
+      FieldName = 'AiteNo2'
+      Size = 10
+    end
+    object FloatField8: TFloatField
+      FieldName = 'AccNCode'
+    end
+    object FloatField9: TFloatField
+      FieldName = 'FeeAccNCode'
+    end
+    object FloatField10: TFloatField
+      FieldName = 'PayNCode'
+    end
+    object FloatField11: TFloatField
+      FieldName = 'BankNCode'
+    end
+    object FloatField12: TFloatField
+      FieldName = 'BranchNCode'
+    end
+    object SmallintField21: TSmallintField
+      FieldName = 'AutoKbnData'
+    end
+    object IntegerField39: TIntegerField
+      DisplayLabel = 'AutoKbn'
+      FieldKind = fkLookup
+      FieldName = 'Autokbn'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Kbn'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object StringField92: TStringField
+      FieldKind = fkLookup
+      FieldName = 'AutoKbnName'
+      LookupDataSet = MemAutoKbn
+      LookupKeyFields = 'Kbn'
+      LookupResultField = 'Name'
+      KeyFields = 'AutoKbnData'
+      Lookup = True
+    end
+    object IntegerField40: TIntegerField
+      FieldName = 'AccAutoData'
+    end
+    object IntegerField41: TIntegerField
+      DisplayWidth = 4
+      FieldName = 'SendNo'
+      DisplayFormat = '0000'
+    end
+    object StringField93: TStringField
+      DisplayWidth = 22
+      FieldName = 'SendPos'
+      Size = 22
+    end
+    object StringField94: TStringField
+      FieldName = 'SendLNo'
+    end
+    object MemFuri_GPSendDate: TDateTimeField
+      FieldName = 'SendDate'
+      DisplayFormat = 'g ee/mm/dd'
+    end
+    object MemFuri_GPSendDate_S: TStringField
+      FieldName = 'SendDate_S'
+    end
+    object MemFuri_GPEOF: TBooleanField
+      FieldName = 'EOF'
+      Visible = False
+    end
+  end
+  object MemChargeG: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 571
+    Top = 65533
+    object MemChargeFG_No: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemChargeFG_Name: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemChargeKbnG: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 547
+    Top = 65533
+    object MemChargeKbnGK_No: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemChargeKbnGK_Name: TStringField
+      FieldName = 'Name'
+    end
+  end
+  object MemChargeKbn2: TdxMemData
+    Indexes = <>
+    SortOptions = []
+    Left = 243
+    Top = 477
+    object MemChargeKbnK2_No: TIntegerField
+      DisplayWidth = 2
+      FieldName = 'Kbn'
+    end
+    object MemChargeKbnK2_Name: TStringField
+      FieldName = 'Name'
+    end
+  end
+end

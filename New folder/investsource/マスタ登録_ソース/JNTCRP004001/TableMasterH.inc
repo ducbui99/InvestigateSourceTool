@@ -1,0 +1,317 @@
+﻿//******************************************************************************
+//  System      : Galileopt
+//  Program     : 
+//  ProgramID   : 
+//
+//  修正履歴
+//  <ﾏｰｸ>   <修正者>    <修正日>        <修正内容>
+//  <   >   小川(LEAD)  2010/09/01      新規作成
+//
+//******************************************************************************
+
+{$IFNDEF __TableMasterH_INC__}
+{$DEFINE __TableMasterH_INC__}
+
+    // HojyoTree
+    THojyoTree = Class
+    private
+        FMasterKbn       : Integer;
+        FPatternNo       : Integer;
+        FSumNCode        : Extended;
+        FEntNo           : Integer;
+        FBasedNCode      : Extended;
+        FAddKbn          : Integer;
+        FUpdDateTM       : TDateTime;
+        FInsDateTM       : TDateTime;
+        FUpdTantoNCode   : Extended;
+    public
+        property MasterKbn       : Integer read FMasterKbn write FMasterKbn;
+        property PatternNo       : Integer read FPatternNo write FPatternNo;
+        property SumNCode        : Extended read FSumNCode write FSumNCode;
+        property EntNo           : Integer read FEntNo write FEntNo;
+        property BasedNCode      : Extended read FBasedNCode write FBasedNCode;
+        property AddKbn          : Integer read FAddKbn write FAddKbn;
+        property UpdDateTM       : TDateTime read FUpdDateTM write FUpdDateTM;
+        property InsDateTM       : TDateTime read FInsDateTM write FInsDateTM;
+        property UpdTantoNCode   : Extended read FUpdTantoNCode write FUpdTantoNCode;
+    end;
+
+    // KbnInfo
+    TKbnInfo = Class
+    private
+        FiKbn : array[0..40] of integer;
+        FUpdDateTM : TDateTime;
+        FInsDateTM : TDateTime;
+        FUpdTantoNCode : Extended;
+        procedure SetKbn(index:integer;Value : integer);
+        function GetKbn(index:integer):integer;
+    public
+      property RecKbn : Integer index 0 read GetKbn write SetKbn;
+      property GnPuKbn1 : Integer index 1 read GetKbn write SetKbn;
+      property GnPuKbn2 : Integer index 2 read GetKbn write SetKbn;
+      property GnPuKbn3 : Integer index 3 read GetKbn write SetKbn;
+      property GnPuKbn4 : Integer index 4 read GetKbn write SetKbn;
+      property GnPuKbn5 : Integer index 5 read GetKbn write SetKbn;
+      property GnPuKbn6 : Integer index 6 read GetKbn write SetKbn;
+      property GnPuKbn7 : Integer index 7 read GetKbn write SetKbn;
+      property GnPuKbn8 : Integer index 8 read GetKbn write SetKbn;
+      property GnPuKbn9 : Integer index 9 read GetKbn write SetKbn;
+      property GnPuKbn10 : Integer index 10 read GetKbn write SetKbn;
+      property GnPuKbn11 : Integer index 11 read GetKbn write SetKbn;
+      property GnPuKbn12 : Integer index 12 read GetKbn write SetKbn;
+      property GnPuKbn13 : Integer index 13 read GetKbn write SetKbn;
+      property GnPuKbn14 : Integer index 14 read GetKbn write SetKbn;
+      property GnPuKbn15 : Integer index 15 read GetKbn write SetKbn;
+      property GnPuKbn16 : Integer index 16 read GetKbn write SetKbn;
+      property GnPuKbn17 : Integer index 17 read GetKbn write SetKbn;
+      property GnPuKbn18 : Integer index 18 read GetKbn write SetKbn;
+      property GnPuKbn19 : Integer index 19 read GetKbn write SetKbn;
+      property GnPuKbn20 : Integer index 20 read GetKbn write SetKbn;
+      property GnPuKbn21 : Integer index 21 read GetKbn write SetKbn;
+      property GnPuKbn22 : Integer index 22 read GetKbn write SetKbn;
+      property GnPuKbn23 : Integer index 23 read GetKbn write SetKbn;
+      property GnPuKbn24 : Integer index 24 read GetKbn write SetKbn;
+      property GnPuKbn25 : Integer index 25 read GetKbn write SetKbn;
+      property GnPuKbn26 : Integer index 26 read GetKbn write SetKbn;
+      property GnPuKbn27 : Integer index 27 read GetKbn write SetKbn;
+      property GnPuKbn28 : Integer index 28 read GetKbn write SetKbn;
+      property GnPuKbn29 : Integer index 29 read GetKbn write SetKbn;
+      property GnPuKbn30 : Integer index 30 read GetKbn write SetKbn;
+      property GnPuKbn31 : Integer index 31 read GetKbn write SetKbn;
+      property GnPuKbn32 : Integer index 32 read GetKbn write SetKbn;
+      property GnPuKbn33 : Integer index 33 read GetKbn write SetKbn;
+      property GnPuKbn34 : Integer index 34 read GetKbn write SetKbn;
+      property GnPuKbn35 : Integer index 35 read GetKbn write SetKbn;
+      property GnPuKbn36 : Integer index 36 read GetKbn write SetKbn;
+      property GnPuKbn37 : Integer index 37 read GetKbn write SetKbn;
+      property GnPuKbn38 : Integer index 38 read GetKbn write SetKbn;
+      property GnPuKbn39 : Integer index 39 read GetKbn write SetKbn;
+      property GnPuKbn40 : Integer index 40 read GetKbn write SetKbn;
+      property UpdDateTM : TDateTime read FUpdDateTM write FUpdDateTM;
+      property InsDateTM : TDateTime read FInsDateTM write FInsDateTM;
+      property UpdTantoNCode : Extended read FUpdTantoNCode write FUpdTantoNCode;
+    end;
+
+    // MTokui
+    TMTokui = Class
+    private
+        FNCode : Extended;
+        FGCode : String;
+        FTStartDate : TDate;
+        FTEndDate : TDate;
+        FSyokuchiKbn : Integer;
+        FSumKbn : Integer;
+        FRDelKbn : Integer;
+        FHcode : String;
+        FHojyoKbn1 : Integer;
+        FHojyoKbn2 : Integer;
+        FNYKRootKbn : Integer;
+        FPayRootKbn : Integer;
+        FRenso : String;
+        FFkana : String;
+        FNm : String;
+        FNmk : String;
+        FPostNo1 : Integer;
+        FPostNo2 : Integer;
+        FBarcode : String;
+        FAds1 : String;
+        FAds2 : String;
+        FTel1 : String;
+        FTel2 : String;
+        FFax1 : String;
+        FSectionName : String;
+        FDHyoNm1 : String;
+        FDHyoNm2 : String;
+        FTnNCode : Extended;
+        FBmNCode : Extended;
+        FGyoNCode : Extended;
+        FKeisyoKbn : String;
+        FREndKaisu : Integer;
+        FRCloseDay1 : Integer;
+        FRCloseDay2 : Integer;
+        FRCloseDay3 : Integer;
+        FRcvDay1 : Integer;
+        FRcvDay2 : Integer;
+        FRcvDay3 : Integer;
+        FRcvMonth1 : Integer;
+        FRcvMonth2 : Integer;
+        FRcvMonth3 : Integer;
+        FRHolidayKbn1 : Integer;
+        FRHolidayKbn2 : Integer;
+        FRHolidayKbn3 : Integer;
+        FPEndKaisu : Integer;
+        FPCloseDay1 : Integer;
+        FPCloseDay2 : Integer;
+        FPCloseDay3 : Integer;
+        FPayDay1 : Integer;
+        FPayDay2 : Integer;
+        FPayDay3 : Integer;
+        FPayMonth1 : Integer;
+        FPayMonth2 : Integer;
+        FPayMonth3 : Integer;
+        FPHolidayKbn1 : Integer;
+        FPHolidayKbn2 : Integer;
+        FPHolidayKbn3 : Integer;
+        FYsGKin : Extended;
+        FTemplateKbn : Integer;
+        FHPAddress : String;
+        FMailAddress : String;
+        FShihonKin : Extended;
+        FNensyo : Extended;
+        FSyainSu : Extended;
+        FSegNCode1 : Extended;
+        FSegNCode2 : Extended;
+        FSegNCode3 : Extended;
+        FSegNCode4 : Extended;
+        FSegNCode5 : Extended;
+        FSegNCode6 : Extended;
+        FSegNCode7 : Extended;
+        FSegNCode8 : Extended;
+        FSegNCode9 : Extended;
+        FSegNCode10 : Extended;
+        FVFree1 : String;
+        FVFree2 : String;
+        FVFree3 : String;
+        FVFree4 : String;
+        FVFree5 : String;
+        FVFree6 : String;
+        FVFree7 : String;
+        FVFree8 : String;
+        FVFree9 : String;
+        FVFree10 : String;
+        FNFree1 : Extended;
+        FNFree2 : Extended;
+        FNFree3 : Extended;
+        FNFree4 : Extended;
+        FNFree5 : Extended;
+        FNFree6 : Extended;
+        FNFree7 : Extended;
+        FNFree8 : Extended;
+        FNFree9 : Extended;
+        FNFree10 : Extended;
+        FDFree1 : TDateTime;
+        FDFree2 : TDateTime;
+        FDFree3 : TDateTime;
+        FUpdDateTM : TDateTime;
+        FInsDateTM : TDateTime;
+        FUpdTantoNCode : Extended;
+        FSisanHojyoKbn1 : Integer;
+        FSisanHojyoKbn2 : Integer;
+        FSisanHojyoKbn3 : Integer;
+        FNCode2 : Extended;
+        FLongNameLC1 : String;
+        FSimpleNameLC1 : String;
+        FCountryKbn : Integer;
+        FCurrencyNCode : Extended;
+    public
+        property NCode : Extended read FNCode write FNCode;
+        property GCode : String read FGCode write FGCode;
+        property TStartDate : TDate read FTStartDate write FTStartDate;
+        property TEndDate : TDate read FTEndDate write FTEndDate;
+        property SyokuchiKbn : Integer read FSyokuchiKbn write FSyokuchiKbn;
+        property SumKbn : Integer read FSumKbn write FSumKbn;
+        property RDelKbn : Integer read FRDelKbn write FRDelKbn;
+        property Hcode : String read FHcode write FHcode;
+        property HojyoKbn1 : Integer read FHojyoKbn1 write FHojyoKbn1;
+        property HojyoKbn2 : Integer read FHojyoKbn2 write FHojyoKbn2;
+        property NYKRootKbn : Integer read FNYKRootKbn write FNYKRootKbn;
+        property PayRootKbn : Integer read FPayRootKbn write FPayRootKbn;
+        property Renso : String read FRenso write FRenso;
+        property Fkana : String read FFkana write FFkana;
+        property Nm : String read FNm write FNm;
+        property Nmk : String read FNmk write FNmk;
+        property PostNo1 : Integer read FPostNo1 write FPostNo1;
+        property PostNo2 : Integer read FPostNo2 write FPostNo2;
+        property Barcode : String read FBarcode write FBarcode;
+        property Ads1 : String read FAds1 write FAds1;
+        property Ads2 : String read FAds2 write FAds2;
+        property Tel1 : String read FTel1 write FTel1;
+        property Tel2 : String read FTel2 write FTel2;
+        property Fax1 : String read FFax1 write FFax1;
+        property SectionName : String read FSectionName write FSectionName;
+        property DHyoNm1 : String read FDHyoNm1 write FDHyoNm1;
+        property DHyoNm2 : String read FDHyoNm2 write FDHyoNm2;
+        property TnNCode : Extended read FTnNCode write FTnNCode;
+        property BmNCode : Extended read FBmNCode write FBmNCode;
+        property GyoNCode : Extended read FGyoNCode write FGyoNCode;
+        property KeisyoKbn : String read FKeisyoKbn write FKeisyoKbn;
+        property REndKaisu : Integer read FREndKaisu write FREndKaisu;
+        property RCloseDay1 : Integer read FRCloseDay1 write FRCloseDay1;
+        property RCloseDay2 : Integer read FRCloseDay2 write FRCloseDay2;
+        property RCloseDay3 : Integer read FRCloseDay3 write FRCloseDay3;
+        property RcvDay1 : Integer read FRcvDay1 write FRcvDay1;
+        property RcvDay2 : Integer read FRcvDay2 write FRcvDay2;
+        property RcvDay3 : Integer read FRcvDay3 write FRcvDay3;
+        property RcvMonth1 : Integer read FRcvMonth1 write FRcvMonth1;
+        property RcvMonth2 : Integer read FRcvMonth2 write FRcvMonth2;
+        property RcvMonth3 : Integer read FRcvMonth3 write FRcvMonth3;
+        property RHolidayKbn1 : Integer read FRHolidayKbn1 write FRHolidayKbn1;
+        property RHolidayKbn2 : Integer read FRHolidayKbn2 write FRHolidayKbn2;
+        property RHolidayKbn3 : Integer read FRHolidayKbn3 write FRHolidayKbn3;
+        property PEndKaisu : Integer read FPEndKaisu write FPEndKaisu;
+        property PCloseDay1 : Integer read FPCloseDay1 write FPCloseDay1;
+        property PCloseDay2 : Integer read FPCloseDay2 write FPCloseDay2;
+        property PCloseDay3 : Integer read FPCloseDay3 write FPCloseDay3;
+        property PayDay1 : Integer read FPayDay1 write FPayDay1;
+        property PayDay2 : Integer read FPayDay2 write FPayDay2;
+        property PayDay3 : Integer read FPayDay3 write FPayDay3;
+        property PayMonth1 : Integer read FPayMonth1 write FPayMonth1;
+        property PayMonth2 : Integer read FPayMonth2 write FPayMonth2;
+        property PayMonth3 : Integer read FPayMonth3 write FPayMonth3;
+        property PHolidayKbn1 : Integer read FPHolidayKbn1 write FPHolidayKbn1;
+        property PHolidayKbn2 : Integer read FPHolidayKbn2 write FPHolidayKbn2;
+        property PHolidayKbn3 : Integer read FPHolidayKbn3 write FPHolidayKbn3;
+        property YsGKin : Extended read FYsGKin write FYsGKin;
+        property TemplateKbn : Integer read FTemplateKbn write FTemplateKbn;
+        property HPAddress : String read FHPAddress write FHPAddress;
+        property MailAddress : String read FMailAddress write FMailAddress;
+        property ShihonKin : Extended read FShihonKin write FShihonKin;
+        property Nensyo : Extended read FNensyo write FNensyo;
+        property SyainSu : Extended read FSyainSu write FSyainSu;
+        property SegNCode1 : Extended read FSegNCode1 write FSegNCode1;
+        property SegNCode2 : Extended read FSegNCode2 write FSegNCode2;
+        property SegNCode3 : Extended read FSegNCode3 write FSegNCode3;
+        property SegNCode4 : Extended read FSegNCode4 write FSegNCode4;
+        property SegNCode5 : Extended read FSegNCode5 write FSegNCode5;
+        property SegNCode6 : Extended read FSegNCode6 write FSegNCode6;
+        property SegNCode7 : Extended read FSegNCode7 write FSegNCode7;
+        property SegNCode8 : Extended read FSegNCode8 write FSegNCode8;
+        property SegNCode9 : Extended read FSegNCode9 write FSegNCode9;
+        property SegNCode10 : Extended read FSegNCode10 write FSegNCode10;
+        property VFree1 : String read FVFree1 write FVFree1;
+        property VFree2 : String read FVFree2 write FVFree2;
+        property VFree3 : String read FVFree3 write FVFree3;
+        property VFree4 : String read FVFree4 write FVFree4;
+        property VFree5 : String read FVFree5 write FVFree5;
+        property VFree6 : String read FVFree6 write FVFree6;
+        property VFree7 : String read FVFree7 write FVFree7;
+        property VFree8 : String read FVFree8 write FVFree8;
+        property VFree9 : String read FVFree9 write FVFree9;
+        property VFree10 : String read FVFree10 write FVFree10;
+        property NFree1 : Extended read FNFree1 write FNFree1;
+        property NFree2 : Extended read FNFree2 write FNFree2;
+        property NFree3 : Extended read FNFree3 write FNFree3;
+        property NFree4 : Extended read FNFree4 write FNFree4;
+        property NFree5 : Extended read FNFree5 write FNFree5;
+        property NFree6 : Extended read FNFree6 write FNFree6;
+        property NFree7 : Extended read FNFree7 write FNFree7;
+        property NFree8 : Extended read FNFree8 write FNFree8;
+        property NFree9 : Extended read FNFree9 write FNFree9;
+        property NFree10 : Extended read FNFree10 write FNFree10;
+        property DFree1 : TDateTime read FDFree1 write FDFree1;
+        property DFree2 : TDateTime read FDFree2 write FDFree2;
+        property DFree3 : TDateTime read FDFree3 write FDFree3;
+        property UpdDateTM : TDateTime read FUpdDateTM write FUpdDateTM;
+        property InsDateTM : TDateTime read FInsDateTM write FInsDateTM;
+        property UpdTantoNCode : Extended read FUpdTantoNCode write FUpdTantoNCode;
+        property SisanHojyoKbn1 : Integer read FSisanHojyoKbn1 write FSisanHojyoKbn1;
+        property SisanHojyoKbn2 : Integer read FSisanHojyoKbn2 write FSisanHojyoKbn2;
+        property SisanHojyoKbn3 : Integer read FSisanHojyoKbn3 write FSisanHojyoKbn3;
+        property NCode2 : Extended read FNCode2 write FNCode2;
+        property LongNameLC1 : String read FLongNameLC1 write FLongNameLC1;
+        property SimpleNameLC1 : String read FSimpleNameLC1 write FSimpleNameLC1;
+        property CountryKbn : Integer read FCountryKbn write FCountryKbn;
+        property CurrencyNCode : Extended read FCurrencyNCode write FCurrencyNCode;
+    end;
+
+{$ENDIF}	// __TableMasterH_INC__

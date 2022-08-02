@@ -1,0 +1,30 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = JNTCRP002003.bpl MLManager.bpl JNTSysManager.bpl \
+  MLAppContainerProj.ocx
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+JNTCRP002003.bpl: JNTCRP002003.dpk
+  $(DCC)
+
+MLManager.bpl: ..\..\デバッグ用プロジェクト\MLManager\MLManager.dpk
+  $(DCC)
+
+JNTSysManager.bpl: ..\..\デバッグ用プロジェクト\JNTSysManager\JNTSysManager.dpk
+  $(DCC)
+
+MLAppContainerProj.ocx: ..\..\デバッグ用プロジェクト\MLAppContainer\MLAppContainerProj.dpr
+  $(DCC)
+
+
